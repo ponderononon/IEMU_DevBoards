@@ -3430,7 +3430,7 @@
 	)
 	(text "Connector, Lid-Sensor, LEDs & Buttons"
 		(exclude_from_sim no)
-		(at 58.928 25.146 0)
+		(at 78.74 24.892 0)
 		(effects
 			(font
 				(size 3.81 3.81)
