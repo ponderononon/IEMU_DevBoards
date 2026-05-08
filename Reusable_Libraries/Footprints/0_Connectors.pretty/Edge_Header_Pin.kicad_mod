@@ -1,0 +1,98 @@
+(footprint "Edge_Header_Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.55 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e5885c7b-91d2-495e-a100-46b3424d24cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Edge_Header_Pin"
+		(at -0.15 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "561ca877-18cd-4f2a-9e66-8f1e23f4814c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26907afa-9d69-4412-8896-ebbe156c1cf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0abb7891-9332-458e-a402-f36cc81c87ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69771e40-6dac-47a0-86cc-11ddc6b31f15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0.1 -0.862 180)
+		(size 1.27 1.27)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0254)
+		(uuid "530efee9-ff78-43c1-8925-15e14ca28019")
+	)
+	(pad "1" smd roundrect
+		(at 0.1 0)
+		(size 1.626 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0.01)
+		(chamfer top_left top_right)
+		(solder_mask_margin 0.05)
+		(uuid "13b48461-ff07-43c7-bcc3-266c71561cc9")
+	)
+	(pad "1" thru_hole circle
+		(at 0.1 0.408 270)
+		(size 0.95 0.95)
+		(drill 0.85)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0254)
+		(uuid "dae215e3-a73e-4e21-b921-e5a00b2dfb00")
+	)
+	(embedded_fonts no)
+)

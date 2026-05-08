@@ -1,0 +1,135 @@
+(footprint "NANOT160BP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.05 -3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "33beb9d4-2820-45dd-be21-52f31469609d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NANOT160BP"
+		(at 0 4.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b190d851-abf6-49b2-ad36-5c64cb47c330")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7cfa3ee-124a-497a-a0b7-8234ca6b1aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8833958-e873-49db-9854-471e00277335")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 0.35)
+		(end 1.85 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "82bcb9a6-8fef-4d7c-8837-d3175ef8077f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c602478-f698-494e-913d-b0b4d2dc3753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole custom
+		(at -1.05 -0.45)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_rect
+				(start -0.15 0.25)
+				(end 0.15 0.7)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "e0d6707d-16d4-40f3-9c37-ab8194bbe147")
+	)
+	(pad "2" thru_hole custom
+		(at 1.05 -0.45)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_rect
+				(start -0.15 0.25)
+				(end 0.15 0.7)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "577b6742-8a04-485c-a234-594fcdd13505")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Reusable_Libraries/3D/NANOT160BP.stp"
+		(offset
+			(xyz 0 -0.4 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
+		)
+	)
+)
