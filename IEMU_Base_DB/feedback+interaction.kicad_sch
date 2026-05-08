@@ -3575,7 +3575,7 @@
 		(uuid "368c83ba-81d3-4c97-af9a-746c67af119d")
 	)
 	(junction
-		(at 82.55 133.35)
+		(at 77.47 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "478ae2cc-0944-4e31-b389-f1412c366a13")
@@ -3593,7 +3593,7 @@
 		(uuid "6046df34-ecfd-41e1-b33f-77f5997dd7f5")
 	)
 	(junction
-		(at 53.34 123.19)
+		(at 48.26 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90bd1506-642e-4e46-9604-f7d59e11a5ad")
@@ -3702,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 133.35) (xy 82.55 123.19)
+			(xy 77.47 135.89) (xy 77.47 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 123.19) (xy 64.77 123.19)
+			(xy 48.26 125.73) (xy 59.69 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3822,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 123.19) (xy 53.34 130.81)
+			(xy 48.26 125.73) (xy 48.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4072,7 +4072,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 123.19) (xy 82.55 123.19)
+			(xy 67.31 125.73) (xy 77.47 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4092,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 133.35) (xy 82.55 135.89)
+			(xy 77.47 135.89) (xy 77.47 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4262,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 120.65) (xy 53.34 123.19)
+			(xy 48.26 123.19) (xy 48.26 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4282,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 135.89) (xy 55.88 135.89)
+			(xy 48.26 138.43) (xy 50.8 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4312,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 133.35) (xy 82.55 133.35)
+			(xy 76.2 135.89) (xy 77.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4372,7 +4372,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 130.81) (xy 53.34 130.81)
+			(xy 50.8 133.35) (xy 48.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4494,7 +4494,7 @@
 	)
 	(hierarchical_label "LID_SENSE"
 		(shape output)
-		(at 53.34 135.89 180)
+		(at 48.26 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6517,7 @@
 	)
 	(symbol
 		(lib_id "0_Power:+1V8_MCU")
-		(at 53.34 120.65 0)
+		(at 48.26 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6525,7 +6525,7 @@
 		(dnp no)
 		(uuid "69dcb894-5bdd-4f7c-b545-f66965b5c094")
 		(property "Reference" "#PWR0518"
-			(at 53.34 124.46 0)
+			(at 48.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +6534,7 @@
 			)
 		)
 		(property "Value" "+1V8_MCU"
-			(at 53.34 116.332 0)
+			(at 48.26 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 120.65 0)
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 120.65 0)
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8_MCU\"; It is the rail that sources the nRF54 Module and only the Module to be observed for power consumption."
-			(at 53.34 120.65 0)
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9243,7 @@
 	)
 	(symbol
 		(lib_id "0_Sensors:DRV5032FADBZ")
-		(at 55.88 130.81 0)
+		(at 50.8 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9251,7 +9251,7 @@
 		(dnp no)
 		(uuid "ddbab19c-fd0a-4c98-986d-fb435263cac4")
 		(property "Reference" "U402"
-			(at 63.754 127.508 0)
+			(at 58.674 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +9259,7 @@
 			)
 		)
 		(property "Value" "DRV5032FADBZR"
-			(at 68.58 139.954 0)
+			(at 63.5 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +9267,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 77.47 225.73 0)
+			(at 72.39 228.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9277,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/drv5032.pdf?ts=1778245888707"
-			(at 77.47 325.73 0)
+			(at 72.39 328.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9287,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1.65V~5.5V 1.6uA 20Hz Omnipolar Push-pull ±4.8mT ±5Gs SOT-23 Hall Switches ROHS"
-			(at 69.85 146.05 0)
+			(at 64.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9296,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 77.47 825.73 0)
+			(at 72.39 828.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9306,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DRV5032FADBZR"
-			(at 77.47 925.73 0)
+			(at 72.39 928.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +9316,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Texas-Instruments/DRV5032FADBZR?qs=5aG0NVq1C4zjj73eV9%2F%252BUQ%3D%3D"
-			(at 77.47 725.73 0)
+			(at 72.39 728.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9326,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/DRV5032FADBZR/7400094"
-			(at 77.47 625.73 0)
+			(at 72.39 628.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9336,7 @@
 			)
 		)
 		(property "LCSC" "C140921"
-			(at 77.47 525.73 0)
+			(at 72.39 528.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +9734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 135.89 0)
+		(at 77.47 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9743,7 +9743,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0b9b779-a538-48a8-8f93-8be9c06492af")
 		(property "Reference" "#PWR0517"
-			(at 82.55 142.24 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +9752,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 139.7 0)
+			(at 77.47 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +9761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 135.89 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +9770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 135.89 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +9779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 135.89 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +10037,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:C_100nF_0402")
-		(at 68.58 123.19 90)
+		(at 63.5 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10045,7 +10045,7 @@
 		(dnp no)
 		(uuid "f94998f4-1cf0-4a29-977d-bba88dc61248")
 		(property "Reference" "C403"
-			(at 71.374 119.634 90)
+			(at 66.294 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10053,7 +10053,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 72.644 124.968 90)
+			(at 67.564 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +10061,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 84.836 117.348 0)
+			(at 79.756 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +10070,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1525.pdf"
-			(at 91.694 121.412 0)
+			(at 86.614 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10079,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 81.534 120.65 0)
+			(at 76.454 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10088,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 86.36 122.936 0)
+			(at 81.28 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +10097,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
-			(at 101.854 121.666 0)
+			(at 96.774 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10106,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D"
-			(at 94.996 118.11 0)
+			(at 89.916 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10115,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
-			(at 97.028 117.602 0)
+			(at 91.948 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +10124,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 74.676 118.618 0)
+			(at 69.596 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)

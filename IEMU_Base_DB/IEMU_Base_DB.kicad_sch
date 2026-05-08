@@ -4493,7 +4493,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu+peripherals.kicad_sch"
+		(property "Sheetfile" "mcu+sd.kicad_sch"
 			(at 121.92 135.382 0)
 			(effects
 				(font
