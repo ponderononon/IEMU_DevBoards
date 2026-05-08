@@ -508,7 +508,7 @@
 		(uuid "623f0382-8371-422f-a668-c45b6d26a32f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/NPM1304-QEAA-R7.step"
+	(model "${SHARED_LIB_ROOT}/3D/NPM1304-QEAA-R7.step"
 		(offset
 			(xyz 0 0 0)
 		)

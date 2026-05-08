@@ -489,7 +489,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/453-00001C.stp"
+	(model "${SHARED_LIB_ROOT}/3D/453-00001C.stp"
 		(offset
 			(xyz 0 0 0)
 		)

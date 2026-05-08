@@ -364,7 +364,7 @@
 		(uuid "17e9416e-531f-45ec-a6db-3c7501054340")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/SJ3-35083C-TR.step"
+	(model "${SHARED_LIB_ROOT}/3D/SJ3-35083C-TR.step"
 		(offset
 			(xyz 0 7.5 2.5)
 		)

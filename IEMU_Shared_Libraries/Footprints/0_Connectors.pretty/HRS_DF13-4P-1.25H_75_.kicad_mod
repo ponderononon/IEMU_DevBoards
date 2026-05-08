@@ -279,7 +279,7 @@
 		(uuid "a30a7493-2f02-4fba-8e73-0f91f4528cbd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/DF13-4P-1.25H_75_.step"
+	(model "${SHARED_LIB_ROOT}/3D/DF13-4P-1.25H_75_.step"
 		(offset
 			(xyz 10.6 1.8 -22.5)
 		)

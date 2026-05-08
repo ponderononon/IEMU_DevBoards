@@ -211,7 +211,7 @@
 		(uuid "ce5931af-ac66-4f69-a158-fb1eb59bdc65")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/MMC5603NJ.stp"
+	(model "${SHARED_LIB_ROOT}/3D/MMC5603NJ.stp"
 		(offset
 			(xyz 0 0 0)
 		)

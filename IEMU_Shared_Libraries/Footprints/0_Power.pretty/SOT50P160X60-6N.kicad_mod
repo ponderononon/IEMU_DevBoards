@@ -301,7 +301,7 @@
 		(uuid "f4680c9b-98f2-424c-99b0-0273988d7e63")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/USBLC6-2P6.step"
+	(model "${SHARED_LIB_ROOT}/3D/USBLC6-2P6.step"
 		(offset
 			(xyz 0 0 0)
 		)

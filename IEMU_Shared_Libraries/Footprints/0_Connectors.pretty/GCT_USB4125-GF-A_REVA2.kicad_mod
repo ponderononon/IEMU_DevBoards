@@ -627,7 +627,7 @@
 		(uuid "019e5e55-c6e4-4333-b61a-14dd6134baac")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/USB4125-GF-A_REVA2.step"
+	(model "${SHARED_LIB_ROOT}/3D/USB4125-GF-A_REVA2.step"
 		(offset
 			(xyz 0 0 0)
 		)

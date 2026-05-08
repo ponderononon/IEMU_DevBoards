@@ -427,7 +427,7 @@
 		(uuid "1a13c7d5-5b0e-4163-b36d-b9c5e4ba80cd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/TMUX1204DQAR.step"
+	(model "${SHARED_LIB_ROOT}/3D/TMUX1204DQAR.step"
 		(offset
 			(xyz 0 0 0)
 		)

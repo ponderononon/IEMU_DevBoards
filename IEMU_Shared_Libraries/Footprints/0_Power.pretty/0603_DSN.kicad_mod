@@ -163,7 +163,7 @@
 		(uuid "8d0cbe00-9381-456d-a5fd-b778db036995")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/NSR20F40NXT5G.STEP"
+	(model "${SHARED_LIB_ROOT}/3D/NSR20F40NXT5G.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

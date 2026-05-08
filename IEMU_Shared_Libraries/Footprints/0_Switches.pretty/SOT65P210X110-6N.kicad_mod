@@ -221,7 +221,7 @@
 		(uuid "c3483e32-f0af-4995-95b1-175e82d158f7")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/SN74LVC1T45DCKRG4.step"
+	(model "${SHARED_LIB_ROOT}/3D/SN74LVC1T45DCKRG4.step"
 		(offset
 			(xyz 0 0 0)
 		)

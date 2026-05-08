@@ -309,7 +309,7 @@
 		(uuid "5626eb1a-ce15-4152-b55c-ea806754ee6d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/EMIF06-MSD02N16.stp"
+	(model "${SHARED_LIB_ROOT}/3D/EMIF06-MSD02N16.stp"
 		(offset
 			(xyz 0 0.2 0)
 		)

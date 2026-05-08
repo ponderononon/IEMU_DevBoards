@@ -416,7 +416,7 @@
 		(uuid "eb1baca1-67a5-4abd-beb0-0bb028bc81ed")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/VZ43FM1B8230001L.step"
+	(model "${SHARED_LIB_ROOT}/3D/VZ43FM1B8230001L.step"
 		(offset
 			(xyz 0 0 0)
 		)

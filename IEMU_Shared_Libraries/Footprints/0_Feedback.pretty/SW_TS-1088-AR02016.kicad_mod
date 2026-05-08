@@ -205,7 +205,7 @@
 		(uuid "521e8d58-f0e5-4f78-83a4-6e0f130c6261")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/TS-1088-AR02016.step"
+	(model "${SHARED_LIB_ROOT}/3D/TS-1088-AR02016.step"
 		(offset
 			(xyz 0 0 0)
 		)

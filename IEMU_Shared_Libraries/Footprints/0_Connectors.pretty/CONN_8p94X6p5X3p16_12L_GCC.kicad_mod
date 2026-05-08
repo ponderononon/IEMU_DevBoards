@@ -349,7 +349,7 @@
 		(uuid "d59f34f7-d84c-4321-b9bb-4b7dfbabc286")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/USB4215-03-A.stp"
+	(model "${SHARED_LIB_ROOT}/3D/USB4215-03-A.stp"
 		(offset
 			(xyz 0 -3.3 1.6)
 		)

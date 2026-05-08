@@ -581,7 +581,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/503398-1892.step"
+	(model "${SHARED_LIB_ROOT}/3D/503398-1892.step"
 		(offset
 			(xyz -3.25 -7 1.5)
 		)

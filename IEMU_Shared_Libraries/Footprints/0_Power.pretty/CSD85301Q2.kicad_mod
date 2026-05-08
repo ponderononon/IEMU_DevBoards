@@ -255,7 +255,7 @@
 		(uuid "67d3fff8-76b8-4605-a7fb-2484dd91c713")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/CSD85301Q2.STEP"
+	(model "${SHARED_LIB_ROOT}/3D/CSD85301Q2.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

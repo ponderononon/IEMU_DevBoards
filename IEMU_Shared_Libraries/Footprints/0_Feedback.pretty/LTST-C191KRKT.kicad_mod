@@ -198,7 +198,7 @@
 		(uuid "3282907b-5bb3-4bd5-8be3-8325b915e4c3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/LTST-C191KRKT.step"
+	(model "${SHARED_LIB_ROOT}/3D/LTST-C191KRKT.step"
 		(offset
 			(xyz 0 0 0)
 		)

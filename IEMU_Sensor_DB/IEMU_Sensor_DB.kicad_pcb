@@ -604,7 +604,7 @@
 			(uuid "b18acee6-3cdb-44c5-9f06-0b3e97dde7b4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/USBLC6-2P6.step"
+		(model "${SHARED_LIB_ROOT}/3D/USBLC6-2P6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1011,7 +1011,7 @@
 			(uuid "5e72ab47-f8eb-4442-82a6-a433164c7270")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/MMC5603NJ.stp"
+		(model "${SHARED_LIB_ROOT}/3D/MMC5603NJ.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2032,7 +2032,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/453-00001C.stp"
+		(model "${SHARED_LIB_ROOT}/3D/453-00001C.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2392,7 +2392,7 @@
 			(uuid "7958be85-973a-491d-b3b7-e53039ec4220")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/CSD85301Q2.STEP"
+		(model "${SHARED_LIB_ROOT}/3D/CSD85301Q2.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3295,7 +3295,7 @@
 			(uuid "f266685e-4ab3-4a19-a3be-450b84dc4dc5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/VZ43FM1B8230001L.step"
+		(model "${SHARED_LIB_ROOT}/3D/VZ43FM1B8230001L.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3983,7 +3983,7 @@
 			(uuid "1225c510-4be3-472f-a122-892e463de634")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/NPM1304-QEAA-R7.step"
+		(model "${SHARED_LIB_ROOT}/3D/NPM1304-QEAA-R7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4667,7 +4667,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/503398-1892.step"
+		(model "${SHARED_LIB_ROOT}/3D/503398-1892.step"
 			(offset
 				(xyz -3.25 -7 1.5)
 			)
@@ -5372,7 +5372,7 @@
 			(uuid "23b3849d-1f58-4a4d-bf76-a1f05f1b3e26")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../Reusable_Libraries/3D/USB4215-03-A.stp"
+		(model "${SHARED_LIB_ROOT}/3D/USB4215-03-A.stp"
 			(offset
 				(xyz 0 -3.3 1.6)
 			)

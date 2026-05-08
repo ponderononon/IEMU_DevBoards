@@ -121,7 +121,7 @@
 		(uuid "577b6742-8a04-485c-a234-594fcdd13505")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Reusable_Libraries/3D/NANOT160BP.stp"
+	(model "${SHARED_LIB_ROOT}/3D/NANOT160BP.stp"
 		(offset
 			(xyz 0 -0.4 -0.5)
 		)
