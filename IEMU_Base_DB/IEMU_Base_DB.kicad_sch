@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(bezier
 		(pts
-			(xy 71.12 61.976) (xy 66.04 61.976) (xy 66.04 61.976) (xy 59.69 61.976)
+			(xy 69.85 56.896) (xy 64.77 56.896) (xy 64.77 56.896) (xy 58.42 56.896)
 		)
 		(stroke
 			(width 0)
@@ -25,8 +25,8 @@
 		(uuid 16d95356-2366-4248-8646-8b62d484afa9)
 	)
 	(rectangle
-		(start 26.67 120.65)
-		(end 59.69 139.7)
+		(start 25.4 115.57)
+		(end 58.42 134.62)
 		(stroke
 			(width 0)
 			(type solid)
@@ -38,8 +38,8 @@
 		(uuid 1cb4657c-2653-4642-bccd-a0f5aeb21549)
 	)
 	(rectangle
-		(start 203.454 96.52)
-		(end 217.17 139.7)
+		(start 208.534 91.44)
+		(end 222.25 134.62)
 		(stroke
 			(width 0)
 			(type solid)
@@ -51,8 +51,8 @@
 		(uuid 2f2e2162-6896-49f7-b221-3eda33c000bf)
 	)
 	(rectangle
-		(start 26.416 81.534)
-		(end 59.69 96.774)
+		(start 25.146 76.454)
+		(end 58.42 91.694)
 		(stroke
 			(width 0)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid 4918539c-7cd1-4f4e-89d2-01a9293016ad)
 	)
 	(rectangle
-		(start 176.53 58.42)
-		(end 203.2 75.184)
+		(start 181.61 53.34)
+		(end 208.28 70.104)
 		(stroke
 			(width 0)
 			(type solid)
@@ -78,7 +78,7 @@
 	)
 	(bezier
 		(pts
-			(xy 71.12 129.54) (xy 66.04 129.54) (xy 66.04 129.54) (xy 59.69 129.54)
+			(xy 69.85 124.46) (xy 64.77 124.46) (xy 64.77 124.46) (xy 58.42 124.46)
 		)
 		(stroke
 			(width 0)
@@ -91,7 +91,7 @@
 	)
 	(bezier
 		(pts
-			(xy 176.53 83.82) (xy 158.75 83.82) (xy 163.83 83.82) (xy 158.75 83.82)
+			(xy 181.61 78.74) (xy 163.83 78.74) (xy 168.91 78.74) (xy 163.83 78.74)
 		)
 		(stroke
 			(width 0)
@@ -104,7 +104,7 @@
 	)
 	(bezier
 		(pts
-			(xy 71.12 72.136) (xy 66.04 72.136) (xy 66.04 72.136) (xy 59.69 72.136)
+			(xy 69.85 67.056) (xy 64.77 67.056) (xy 64.77 67.056) (xy 58.42 67.056)
 		)
 		(stroke
 			(width 0)
@@ -116,8 +116,8 @@
 		(uuid 9599db8d-3470-452d-a9c8-50dfedbbf11f)
 	)
 	(rectangle
-		(start 26.67 58.166)
-		(end 59.69 65.786)
+		(start 25.4 53.086)
+		(end 58.42 60.706)
 		(stroke
 			(width 0)
 			(type solid)
@@ -129,8 +129,8 @@
 		(uuid baf8da6f-5981-499b-8cfd-557523437567)
 	)
 	(rectangle
-		(start 176.53 76.2)
-		(end 203.2 92.964)
+		(start 181.61 71.12)
+		(end 208.28 87.884)
 		(stroke
 			(width 0)
 			(type solid)
@@ -143,7 +143,7 @@
 	)
 	(bezier
 		(pts
-			(xy 176.53 67.31) (xy 158.75 67.31) (xy 163.83 67.31) (xy 158.75 67.31)
+			(xy 181.61 62.23) (xy 163.83 62.23) (xy 168.91 62.23) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
@@ -155,8 +155,8 @@
 		(uuid dc0d0fea-0dbb-4e9e-b8bd-f67062dea58d)
 	)
 	(rectangle
-		(start 26.67 68.326)
-		(end 59.69 78.74)
+		(start 25.4 63.246)
+		(end 58.42 73.66)
 		(stroke
 			(width 0)
 			(type solid)
@@ -169,7 +169,7 @@
 	)
 	(bezier
 		(pts
-			(xy 71.12 88.9) (xy 66.04 88.9) (xy 66.04 88.9) (xy 59.69 88.9)
+			(xy 69.85 83.82) (xy 64.77 83.82) (xy 64.77 83.82) (xy 58.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -182,7 +182,7 @@
 	)
 	(text "(Rechargable with Protection Circuit\nsupplying board and charging sensors)"
 		(exclude_from_sim no)
-		(at 42.926 75.692 0)
+		(at 41.656 70.612 0)
 		(effects
 			(font
 				(size 1 1)
@@ -193,7 +193,7 @@
 	)
 	(text "SWD"
 		(exclude_from_sim no)
-		(at 167.894 66.294 0)
+		(at 172.974 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -203,7 +203,7 @@
 	)
 	(text "Current Monitor"
 		(exclude_from_sim no)
-		(at 43.18 85.344 0)
+		(at 41.91 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -213,7 +213,7 @@
 	)
 	(text "(3.5mm Audio-Jack that can be connected \nto BNC (Qualisys) or RCA (Vicon) \nto send a short 5V signal either way \nto synchronize the IEMU System \nwith the MoCap system)"
 		(exclude_from_sim no)
-		(at 43.434 132.842 0)
+		(at 42.164 127.762 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -237,7 +237,7 @@
 	)
 	(text "USB-C "
 		(exclude_from_sim no)
-		(at 44.45 60.96 0)
+		(at 43.18 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -259,7 +259,7 @@
 	)
 	(text "microSD-Card"
 		(exclude_from_sim no)
-		(at 189.992 84.328 0)
+		(at 195.072 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -269,7 +269,7 @@
 	)
 	(text "(For Power)"
 		(exclude_from_sim no)
-		(at 43.942 63.754 0)
+		(at 42.672 58.674 0)
 		(effects
 			(font
 				(size 1 1)
@@ -280,7 +280,7 @@
 	)
 	(text "LiPo Battery"
 		(exclude_from_sim no)
-		(at 43.688 71.628 0)
+		(at 42.418 66.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -290,7 +290,7 @@
 	)
 	(text "SWD-Interface"
 		(exclude_from_sim no)
-		(at 189.992 67.564 0)
+		(at 195.072 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -300,7 +300,7 @@
 	)
 	(text "Measuring 1V8 line to MCU \nto detect BLE-transmit-current-spikes,\nfor synchronizing BLE \nbetween sensor and central"
 		(exclude_from_sim no)
-		(at 42.926 91.948 0)
+		(at 41.656 86.868 0)
 		(effects
 			(font
 				(size 1 1)
@@ -311,7 +311,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 241.3 52.07 0)
+		(at 240.03 46.99 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -324,7 +324,7 @@
 	)
 	(text "4 Charging\nDocks\nFor Sensors"
 		(exclude_from_sim no)
-		(at 210.312 117.856 0)
+		(at 215.392 112.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -334,7 +334,7 @@
 	)
 	(text "SDIO"
 		(exclude_from_sim no)
-		(at 167.386 82.296 0)
+		(at 172.466 77.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -344,7 +344,7 @@
 	)
 	(text "Overview"
 		(exclude_from_sim no)
-		(at 26.67 49.53 0)
+		(at 25.4 44.45 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -357,7 +357,7 @@
 	)
 	(text "5V Trigger for MoCap System"
 		(exclude_from_sim no)
-		(at 43.688 125.222 0)
+		(at 42.418 120.142 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -367,7 +367,7 @@
 	)
 	(text "BASE - IEMU Development Board - Open-source Inertial Sensor for Biomechanics"
 		(exclude_from_sim no)
-		(at 143.51 23.622 0)
+		(at 144.018 27.432 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -379,47 +379,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 85.09) (xy 116.84 85.09)
+			(xy 101.6 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "017bdd10-b511-4c5e-b63d-1e70a0f15b24")
+		(uuid "0aaa99b1-0e56-4ed5-a6c1-4e38b9edf9b9")
 	)
 	(wire
 		(pts
-			(xy 100.33 129.54) (xy 116.84 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0986c841-0afa-414e-8383-14f1b93a6957")
-	)
-	(wire
-		(pts
-			(xy 100.33 132.08) (xy 116.84 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b6e8e15-9dbe-456e-861a-dbef6c4514c1")
-	)
-	(wire
-		(pts
-			(xy 100.33 88.9) (xy 116.84 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124d42fc-90c5-4f8b-b94d-a138f4334659")
-	)
-	(wire
-		(pts
-			(xy 158.75 100.33) (xy 176.53 100.33)
+			(xy 163.83 95.25) (xy 181.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -429,17 +399,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 64.77) (xy 116.84 64.77)
+			(xy 101.6 59.69) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "238f6aa4-edd0-42e8-82b0-1539351491a0")
+		(uuid "18041785-d651-4977-bfa5-37acb278b024")
 	)
 	(wire
 		(pts
-			(xy 158.75 123.19) (xy 176.53 123.19)
+			(xy 163.83 118.11) (xy 181.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -449,17 +419,47 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 62.23) (xy 116.84 62.23)
+			(xy 101.6 119.38) (xy 109.22 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3961c9d4-3f1f-4e37-85d0-63368d38210f")
+		(uuid "2f42cf77-fc15-4ddd-9cce-fda6a9fdb30d")
 	)
 	(wire
 		(pts
-			(xy 158.75 120.65) (xy 176.53 120.65)
+			(xy 101.6 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300f6538-e41e-4406-a32e-2999a3f2c9ab")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d30242-b787-4f11-9fbc-9429fbddd5fa")
+	)
+	(wire
+		(pts
+			(xy 101.6 123.19) (xy 121.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489fcccd-55f6-455a-8679-d738bbb46967")
+	)
+	(wire
+		(pts
+			(xy 163.83 115.57) (xy 181.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 106.68) (xy 102.87 124.46)
+			(xy 109.22 101.6) (xy 109.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +479,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 132.08) (xy 176.53 132.08)
+			(xy 101.6 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cdd3ee-e4fe-417e-acd7-fd03bf7dbe01")
+	)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666d81c5-e4ce-4d73-beaa-7692756d416c")
+	)
+	(wire
+		(pts
+			(xy 163.83 127) (xy 181.61 127)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 176.53 109.22)
+			(xy 163.83 104.14) (xy 181.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -499,17 +519,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 106.68) (xy 102.87 106.68)
+			(xy 101.6 80.01) (xy 121.92 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c1a7793-f26a-4621-8f4e-58ddd4164b95")
+		(uuid "8392260c-8c74-48ea-8e58-bedd6f35f3a6")
 	)
 	(wire
 		(pts
-			(xy 158.75 118.11) (xy 176.53 118.11)
+			(xy 163.83 113.03) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 129.54) (xy 176.53 129.54)
+			(xy 163.83 124.46) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 134.62) (xy 176.53 134.62)
+			(xy 163.83 129.54) (xy 181.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +559,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 127) (xy 176.53 127)
+			(xy 163.83 121.92) (xy 181.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -549,17 +569,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 124.46) (xy 100.33 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d84074e5-86b1-46da-8693-d4415532be3b")
-	)
-	(wire
-		(pts
-			(xy 158.75 111.76) (xy 176.53 111.76)
+			(xy 163.83 106.68) (xy 181.61 106.68)
 		)
 		(stroke
 			(width 0)
@@ -569,7 +579,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 104.14) (xy 176.53 104.14)
+			(xy 163.83 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -579,7 +589,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 176.53 115.57)
+			(xy 163.83 110.49) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -589,23 +599,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 106.68) (xy 176.53 106.68)
+			(xy 101.6 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9a0725-5171-4212-ac08-ce1dc1c4b9f3")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb721168-4c6b-4e13-8d2f-9369a594b4c1")
-	)
-	(wire
-		(pts
-			(xy 100.33 134.62) (xy 116.84 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec4f52c-7318-4bb2-81d9-8bd4658e9f71")
 	)
 	(image
 		(at 152.6482 162.3296)
@@ -3031,7 +3041,7 @@
 		(cells
 			(table_cell "TP101"
 				(exclude_from_sim no)
-				(at 241.808 56.134 0)
+				(at 240.538 51.054 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3048,7 +3058,7 @@
 			)
 			(table_cell "+VBUS_IN"
 				(exclude_from_sim no)
-				(at 249.428 56.134 0)
+				(at 248.158 51.054 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3065,7 +3075,7 @@
 			)
 			(table_cell "TP102"
 				(exclude_from_sim no)
-				(at 241.808 58.674 0)
+				(at 240.538 53.594 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3082,7 +3092,7 @@
 			)
 			(table_cell "+VBAT"
 				(exclude_from_sim no)
-				(at 249.428 58.674 0)
+				(at 248.158 53.594 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3099,7 +3109,7 @@
 			)
 			(table_cell "TP103\n"
 				(exclude_from_sim no)
-				(at 241.808 61.214 0)
+				(at 240.538 56.134 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3116,7 +3126,7 @@
 			)
 			(table_cell "-VBAT"
 				(exclude_from_sim no)
-				(at 249.428 61.214 0)
+				(at 248.158 56.134 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3133,7 +3143,7 @@
 			)
 			(table_cell "TP104"
 				(exclude_from_sim no)
-				(at 241.808 63.754 0)
+				(at 240.538 58.674 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3150,7 +3160,7 @@
 			)
 			(table_cell "+VSYS"
 				(exclude_from_sim no)
-				(at 249.428 63.754 0)
+				(at 248.158 58.674 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3167,7 +3177,7 @@
 			)
 			(table_cell "TP105"
 				(exclude_from_sim no)
-				(at 241.808 66.294 0)
+				(at 240.538 61.214 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3184,7 +3194,7 @@
 			)
 			(table_cell "+1V8_MCU"
 				(exclude_from_sim no)
-				(at 249.428 66.294 0)
+				(at 248.158 61.214 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3201,7 +3211,7 @@
 			)
 			(table_cell "TP106"
 				(exclude_from_sim no)
-				(at 241.808 68.834 0)
+				(at 240.538 63.754 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3218,7 +3228,7 @@
 			)
 			(table_cell "+3V0"
 				(exclude_from_sim no)
-				(at 249.428 68.834 0)
+				(at 248.158 63.754 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3235,7 +3245,7 @@
 			)
 			(table_cell "TP107"
 				(exclude_from_sim no)
-				(at 241.808 71.374 0)
+				(at 240.538 66.294 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3252,7 +3262,7 @@
 			)
 			(table_cell "+5V0"
 				(exclude_from_sim no)
-				(at 249.428 71.374 0)
+				(at 248.158 66.294 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3269,7 +3279,7 @@
 			)
 			(table_cell "TP108"
 				(exclude_from_sim no)
-				(at 241.808 73.914 0)
+				(at 240.538 68.834 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3286,7 +3296,7 @@
 			)
 			(table_cell "BOOST_EN"
 				(exclude_from_sim no)
-				(at 249.428 73.914 0)
+				(at 248.158 68.834 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3303,7 +3313,7 @@
 			)
 			(table_cell "TP109"
 				(exclude_from_sim no)
-				(at 241.808 76.454 0)
+				(at 240.538 71.374 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3320,7 +3330,7 @@
 			)
 			(table_cell "MCU_CURR_MON_COMP"
 				(exclude_from_sim no)
-				(at 249.428 76.454 0)
+				(at 248.158 71.374 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3337,7 +3347,7 @@
 			)
 			(table_cell "TP110"
 				(exclude_from_sim no)
-				(at 241.808 78.994 0)
+				(at 240.538 73.914 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3354,7 +3364,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 249.428 78.994 0)
+				(at 248.158 73.914 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3371,7 +3381,7 @@
 			)
 			(table_cell "TP111"
 				(exclude_from_sim no)
-				(at 241.808 81.534 0)
+				(at 240.538 76.454 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3388,7 +3398,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 249.428 81.534 0)
+				(at 248.158 76.454 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3405,7 +3415,7 @@
 			)
 			(table_cell "TP112"
 				(exclude_from_sim no)
-				(at 241.808 84.074 0)
+				(at 240.538 78.994 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3422,7 +3432,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 249.428 84.074 0)
+				(at 248.158 78.994 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3439,7 +3449,7 @@
 			)
 			(table_cell "TP201"
 				(exclude_from_sim no)
-				(at 241.808 86.614 0)
+				(at 240.538 81.534 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3456,7 +3466,7 @@
 			)
 			(table_cell "CHG_DOCK_EN_1"
 				(exclude_from_sim no)
-				(at 249.428 86.614 0)
+				(at 248.158 81.534 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3473,7 +3483,7 @@
 			)
 			(table_cell "TP202"
 				(exclude_from_sim no)
-				(at 241.808 89.154 0)
+				(at 240.538 84.074 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3490,7 +3500,7 @@
 			)
 			(table_cell "CHG_DOCK_5V_VOUT_1"
 				(exclude_from_sim no)
-				(at 249.428 89.154 0)
+				(at 248.158 84.074 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3507,7 +3517,7 @@
 			)
 			(table_cell "TP203"
 				(exclude_from_sim no)
-				(at 241.808 91.694 0)
+				(at 240.538 86.614 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3524,7 +3534,7 @@
 			)
 			(table_cell "CHG_DOCK_DET_1"
 				(exclude_from_sim no)
-				(at 249.428 91.694 0)
+				(at 248.158 86.614 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3541,7 +3551,7 @@
 			)
 			(table_cell "TP204"
 				(exclude_from_sim no)
-				(at 241.808 94.234 0)
+				(at 240.538 89.154 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3558,7 +3568,7 @@
 			)
 			(table_cell "CHG_DOCK_UART_RX_1"
 				(exclude_from_sim no)
-				(at 249.428 94.234 0)
+				(at 248.158 89.154 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3575,7 +3585,7 @@
 			)
 			(table_cell "TP205"
 				(exclude_from_sim no)
-				(at 241.808 96.774 0)
+				(at 240.538 91.694 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3592,7 +3602,7 @@
 			)
 			(table_cell "CHG_DOCK_EN_2"
 				(exclude_from_sim no)
-				(at 249.428 96.774 0)
+				(at 248.158 91.694 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3609,7 +3619,7 @@
 			)
 			(table_cell "TP206"
 				(exclude_from_sim no)
-				(at 241.808 99.314 0)
+				(at 240.538 94.234 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3626,7 +3636,7 @@
 			)
 			(table_cell "CHG_DOCK_5V_VOUT_2"
 				(exclude_from_sim no)
-				(at 249.428 99.314 0)
+				(at 248.158 94.234 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3643,7 +3653,7 @@
 			)
 			(table_cell "TP207"
 				(exclude_from_sim no)
-				(at 241.808 101.854 0)
+				(at 240.538 96.774 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3660,7 +3670,7 @@
 			)
 			(table_cell "CHG_DOCK_DET_2"
 				(exclude_from_sim no)
-				(at 249.428 101.854 0)
+				(at 248.158 96.774 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3677,7 +3687,7 @@
 			)
 			(table_cell "TP208"
 				(exclude_from_sim no)
-				(at 241.808 104.394 0)
+				(at 240.538 99.314 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3694,7 +3704,7 @@
 			)
 			(table_cell "CHG_DOCK_UART_RX_2"
 				(exclude_from_sim no)
-				(at 249.428 104.394 0)
+				(at 248.158 99.314 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3711,7 +3721,7 @@
 			)
 			(table_cell "TP209"
 				(exclude_from_sim no)
-				(at 241.808 106.934 0)
+				(at 240.538 101.854 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3728,7 +3738,7 @@
 			)
 			(table_cell "CHG_DOCK_EN_3"
 				(exclude_from_sim no)
-				(at 249.428 106.934 0)
+				(at 248.158 101.854 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3745,7 +3755,7 @@
 			)
 			(table_cell "TP210"
 				(exclude_from_sim no)
-				(at 241.808 109.474 0)
+				(at 240.538 104.394 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3762,7 +3772,7 @@
 			)
 			(table_cell "CHG_DOCK_5V_VOUT_3"
 				(exclude_from_sim no)
-				(at 249.428 109.474 0)
+				(at 248.158 104.394 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3779,7 +3789,7 @@
 			)
 			(table_cell "TP211"
 				(exclude_from_sim no)
-				(at 241.808 112.014 0)
+				(at 240.538 106.934 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3796,7 +3806,7 @@
 			)
 			(table_cell "CHG_DOCK_DET_3"
 				(exclude_from_sim no)
-				(at 249.428 112.014 0)
+				(at 248.158 106.934 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3813,7 +3823,7 @@
 			)
 			(table_cell "TP212"
 				(exclude_from_sim no)
-				(at 241.808 114.554 0)
+				(at 240.538 109.474 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3830,7 +3840,7 @@
 			)
 			(table_cell "CHG_DOCK_UART_RX_3"
 				(exclude_from_sim no)
-				(at 249.428 114.554 0)
+				(at 248.158 109.474 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3847,7 +3857,7 @@
 			)
 			(table_cell "TP213"
 				(exclude_from_sim no)
-				(at 241.808 117.094 0)
+				(at 240.538 112.014 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3864,7 +3874,7 @@
 			)
 			(table_cell "CHG_DOCK_EN_4"
 				(exclude_from_sim no)
-				(at 249.428 117.094 0)
+				(at 248.158 112.014 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3881,7 +3891,7 @@
 			)
 			(table_cell "TP214"
 				(exclude_from_sim no)
-				(at 241.808 119.634 0)
+				(at 240.538 114.554 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3898,7 +3908,7 @@
 			)
 			(table_cell "CHG_DOCK_5V_VOUT_4"
 				(exclude_from_sim no)
-				(at 249.428 119.634 0)
+				(at 248.158 114.554 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3915,7 +3925,7 @@
 			)
 			(table_cell "TP215"
 				(exclude_from_sim no)
-				(at 241.808 122.174 0)
+				(at 240.538 117.094 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3932,7 +3942,7 @@
 			)
 			(table_cell "CHG_DOCK_DET_4"
 				(exclude_from_sim no)
-				(at 249.428 122.174 0)
+				(at 248.158 117.094 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3949,7 +3959,7 @@
 			)
 			(table_cell "TP216"
 				(exclude_from_sim no)
-				(at 241.808 124.714 0)
+				(at 240.538 119.634 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3966,7 +3976,7 @@
 			)
 			(table_cell "CHG_DOCK_5V_VOUT_4"
 				(exclude_from_sim no)
-				(at 249.428 124.714 0)
+				(at 248.158 119.634 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3983,7 +3993,7 @@
 			)
 			(table_cell "TP301"
 				(exclude_from_sim no)
-				(at 241.808 127.254 0)
+				(at 240.538 122.174 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4000,7 +4010,7 @@
 			)
 			(table_cell "SWD_CLK"
 				(exclude_from_sim no)
-				(at 249.428 127.254 0)
+				(at 248.158 122.174 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4017,7 +4027,7 @@
 			)
 			(table_cell "TP302"
 				(exclude_from_sim no)
-				(at 241.808 129.794 0)
+				(at 240.538 124.714 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4034,7 +4044,7 @@
 			)
 			(table_cell "SWD_IO"
 				(exclude_from_sim no)
-				(at 249.428 129.794 0)
+				(at 248.158 124.714 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4051,7 +4061,7 @@
 			)
 			(table_cell "TP303"
 				(exclude_from_sim no)
-				(at 241.808 132.334 0)
+				(at 240.538 127.254 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4068,7 +4078,7 @@
 			)
 			(table_cell "SWD_RESET"
 				(exclude_from_sim no)
-				(at 249.428 132.334 0)
+				(at 248.158 127.254 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4085,7 +4095,7 @@
 			)
 			(table_cell "TP304"
 				(exclude_from_sim no)
-				(at 241.808 134.874 0)
+				(at 240.538 129.794 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4102,7 +4112,7 @@
 			)
 			(table_cell "SDIO_CMD"
 				(exclude_from_sim no)
-				(at 249.428 134.874 0)
+				(at 248.158 129.794 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4119,7 +4129,7 @@
 			)
 			(table_cell "TP305"
 				(exclude_from_sim no)
-				(at 241.808 137.414 0)
+				(at 240.538 132.334 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4136,7 +4146,7 @@
 			)
 			(table_cell "SDIO_CLK"
 				(exclude_from_sim no)
-				(at 249.428 137.414 0)
+				(at 248.158 132.334 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4153,7 +4163,7 @@
 			)
 			(table_cell "TP306"
 				(exclude_from_sim no)
-				(at 241.808 139.954 0)
+				(at 240.538 134.874 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4170,7 +4180,7 @@
 			)
 			(table_cell "SDIO_D0"
 				(exclude_from_sim no)
-				(at 249.428 139.954 0)
+				(at 248.158 134.874 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4187,7 +4197,7 @@
 			)
 			(table_cell "TP307"
 				(exclude_from_sim no)
-				(at 241.808 142.494 0)
+				(at 240.538 137.414 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4204,7 +4214,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 249.428 142.494 0)
+				(at 248.158 137.414 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4221,7 +4231,7 @@
 			)
 			(table_cell "TP308"
 				(exclude_from_sim no)
-				(at 241.808 145.034 0)
+				(at 240.538 139.954 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4238,7 +4248,7 @@
 			)
 			(table_cell "MUX_UART"
 				(exclude_from_sim no)
-				(at 249.428 145.034 0)
+				(at 248.158 139.954 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4255,7 +4265,7 @@
 			)
 			(table_cell "TP309"
 				(exclude_from_sim no)
-				(at 241.808 147.574 0)
+				(at 240.538 142.494 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4272,7 +4282,7 @@
 			)
 			(table_cell "I2C_SCL"
 				(exclude_from_sim no)
-				(at 249.428 147.574 0)
+				(at 248.158 142.494 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4289,7 +4299,7 @@
 			)
 			(table_cell "TP310"
 				(exclude_from_sim no)
-				(at 241.808 150.114 0)
+				(at 240.538 145.034 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4306,7 +4316,7 @@
 			)
 			(table_cell "I2C_SDA"
 				(exclude_from_sim no)
-				(at 249.428 150.114 0)
+				(at 248.158 145.034 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4323,7 +4333,7 @@
 			)
 			(table_cell "TP401"
 				(exclude_from_sim no)
-				(at 241.808 152.654 0)
+				(at 240.538 147.574 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4340,7 +4350,7 @@
 			)
 			(table_cell "TRIGGER_SIGNAL"
 				(exclude_from_sim no)
-				(at 249.428 152.654 0)
+				(at 248.158 147.574 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4357,7 +4367,7 @@
 			)
 			(table_cell "TP402"
 				(exclude_from_sim no)
-				(at 241.808 155.194 0)
+				(at 240.538 150.114 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4374,7 +4384,7 @@
 			)
 			(table_cell "TRIGGER_DIRECTION"
 				(exclude_from_sim no)
-				(at 249.428 155.194 0)
+				(at 248.158 150.114 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4391,7 +4401,7 @@
 			)
 			(table_cell "TP403"
 				(exclude_from_sim no)
-				(at 241.808 157.734 0)
+				(at 240.538 152.654 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4408,7 +4418,7 @@
 			)
 			(table_cell "TRIGGER_SIGNAL_AFTER_LS"
 				(exclude_from_sim no)
-				(at 249.428 157.734 0)
+				(at 248.158 152.654 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4425,7 +4435,7 @@
 			)
 			(table_cell "TP404"
 				(exclude_from_sim no)
-				(at 241.808 160.274 0)
+				(at 240.538 155.194 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4442,7 +4452,7 @@
 			)
 			(table_cell "NPM_SHPHLD_BUTTON"
 				(exclude_from_sim no)
-				(at 249.428 160.274 0)
+				(at 248.158 155.194 0)
 				(size 26.67 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4460,7 +4470,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 58.42)
+		(at 121.92 53.34)
 		(size 41.91 81.28)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4475,7 +4485,7 @@
 		)
 		(uuid "78aa9b3b-a0aa-4f46-bb62-a9f0af316175")
 		(property "Sheetname" "3_nRF Module & SDCard"
-			(at 116.586 57.404 0)
+			(at 121.666 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4494,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu+peripherals.kicad_sch"
-			(at 116.84 140.462 0)
+			(at 121.92 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4503,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 116.84 62.23 180)
+			(at 121.92 57.15 180)
 			(uuid "8b20d2f1-daef-4042-bd1d-09b64861f796")
 			(effects
 				(font
@@ -4503,7 +4513,7 @@
 			)
 		)
 		(pin "I2C_SCL" output
-			(at 116.84 64.77 180)
+			(at 121.92 59.69 180)
 			(uuid "fc555f49-4ac9-4ecf-a0b9-b4d497998b81")
 			(effects
 				(font
@@ -4513,7 +4523,7 @@
 			)
 		)
 		(pin "MCU_CURR_MON_COMP" input
-			(at 116.84 88.9 180)
+			(at 121.92 83.82 180)
 			(uuid "da819a82-7673-42e4-8829-a8815eb9a404")
 			(effects
 				(font
@@ -4523,7 +4533,7 @@
 			)
 		)
 		(pin "BOOST_EN" output
-			(at 116.84 85.09 180)
+			(at 121.92 80.01 180)
 			(uuid "fc421eb2-9bd2-4f51-954f-60833d2bedc0")
 			(effects
 				(font
@@ -4533,7 +4543,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_1" input
-			(at 158.75 127 0)
+			(at 163.83 121.92 0)
 			(uuid "672749aa-4e46-4070-ab51-3675bf123248")
 			(effects
 				(font
@@ -4543,7 +4553,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_2" input
-			(at 158.75 129.54 0)
+			(at 163.83 124.46 0)
 			(uuid "3c9b7393-8abd-47c3-8a0e-132c1ad23c28")
 			(effects
 				(font
@@ -4553,7 +4563,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_4" input
-			(at 158.75 134.62 0)
+			(at 163.83 129.54 0)
 			(uuid "4834214f-192c-419f-95ca-b9135acadf8b")
 			(effects
 				(font
@@ -4563,7 +4573,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_1" output
-			(at 158.75 104.14 0)
+			(at 163.83 99.06 0)
 			(uuid "a13a3de1-7d59-48fe-a05f-72dc48e932f1")
 			(effects
 				(font
@@ -4573,7 +4583,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_3" input
-			(at 158.75 120.65 0)
+			(at 163.83 115.57 0)
 			(uuid "5b5e5f39-087d-4915-8337-5f98f77ab794")
 			(effects
 				(font
@@ -4583,7 +4593,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_4" input
-			(at 158.75 123.19 0)
+			(at 163.83 118.11 0)
 			(uuid "f1335dec-7a76-4b35-a064-fccd7ca33502")
 			(effects
 				(font
@@ -4593,7 +4603,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_3" output
-			(at 158.75 109.22 0)
+			(at 163.83 104.14 0)
 			(uuid "23c339a7-264f-4e5c-bd00-409fe17fae26")
 			(effects
 				(font
@@ -4603,7 +4613,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_2" input
-			(at 158.75 118.11 0)
+			(at 163.83 113.03 0)
 			(uuid "0cf02ad0-7ee2-489c-b6e0-2e7901a0ef92")
 			(effects
 				(font
@@ -4613,7 +4623,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_4" output
-			(at 158.75 111.76 0)
+			(at 163.83 106.68 0)
 			(uuid "61ff6af9-f665-4e65-8724-7e94d556bfc2")
 			(effects
 				(font
@@ -4623,7 +4633,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_1" input
-			(at 158.75 115.57 0)
+			(at 163.83 110.49 0)
 			(uuid "926ada2b-5a43-492f-8159-9b04fe548e21")
 			(effects
 				(font
@@ -4633,7 +4643,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_3" input
-			(at 158.75 132.08 0)
+			(at 163.83 127 0)
 			(uuid "c83a618d-3ef7-4465-b185-ea81c87d9ee1")
 			(effects
 				(font
@@ -4643,7 +4653,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_2" output
-			(at 158.75 106.68 0)
+			(at 163.83 101.6 0)
 			(uuid "1f7d45cb-a24f-498c-ba90-25a740297cdc")
 			(effects
 				(font
@@ -4653,7 +4663,7 @@
 			)
 		)
 		(pin "CHG_DOCK_GLOBAL_FAULT" input
-			(at 158.75 100.33 0)
+			(at 163.83 95.25 0)
 			(uuid "cd566294-61b6-477c-a16d-89131fc9756a")
 			(effects
 				(font
@@ -4663,7 +4673,7 @@
 			)
 		)
 		(pin "JACK_DET" input
-			(at 116.84 129.54 180)
+			(at 121.92 127 180)
 			(uuid "55bc6ed4-2eb9-43a4-b981-4db7f01b566f")
 			(effects
 				(font
@@ -4673,7 +4683,7 @@
 			)
 		)
 		(pin "TRIGGER_SIGNAL" bidirectional
-			(at 116.84 134.62 180)
+			(at 121.92 132.08 180)
 			(uuid "b8df53fb-b8e4-4c49-bcbe-ef13b36755d3")
 			(effects
 				(font
@@ -4683,8 +4693,18 @@
 			)
 		)
 		(pin "TRIGGER_DIR" output
-			(at 116.84 132.08 180)
+			(at 121.92 129.54 180)
 			(uuid "5ce1a707-921c-4308-8459-3548a280dc24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LID_SENSE" output
+			(at 121.92 123.19 180)
+			(uuid "428fc6b7-212c-4e15-bb2d-946a76cd7c81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,8 +4721,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 120.65)
-		(size 29.21 19.05)
+		(at 69.85 115.57)
+		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4716,8 +4736,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bedc77cc-dda1-48b8-87d2-cdf0a97ca477")
-		(property "Sheetname" "4_5V_Jack, LEDs & Button"
-			(at 71.12 119.9384 0)
+		(property "Sheetname" "4_5V_Jack, Lid-Sensor, LEDs & Button"
+			(at 69.85 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4746,7 @@
 			)
 		)
 		(property "Sheetfile" "feedback+interaction.kicad_sch"
-			(at 71.12 140.2846 0)
+			(at 69.85 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4755,7 @@
 			)
 		)
 		(pin "NPM_SHPHLD" output
-			(at 100.33 124.46 0)
+			(at 101.6 119.38 0)
 			(uuid "902b03f4-7c65-4bf5-ba40-56429f22ebca")
 			(effects
 				(font
@@ -4745,7 +4765,7 @@
 			)
 		)
 		(pin "JACK_DET" output
-			(at 100.33 129.54 0)
+			(at 101.6 127 0)
 			(uuid "2e43d994-a2f4-44d9-885b-3f7461a696fd")
 			(effects
 				(font
@@ -4755,7 +4775,7 @@
 			)
 		)
 		(pin "TRIGGER_SIGNAL" bidirectional
-			(at 100.33 134.62 0)
+			(at 101.6 132.08 0)
 			(uuid "403a330c-f3d4-445c-a81e-8f78795a0bf1")
 			(effects
 				(font
@@ -4765,8 +4785,18 @@
 			)
 		)
 		(pin "TRIGGER_DIR" input
-			(at 100.33 132.08 0)
+			(at 101.6 129.54 0)
 			(uuid "2473f4b4-b11a-4353-b83a-c11f54009ad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LID_SENSE" output
+			(at 101.6 123.19 0)
+			(uuid "b4feeef3-14c2-48a3-abd5-68ec7ae38247")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,8 +4813,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 58.42)
-		(size 29.21 52.07)
+		(at 69.85 53.34)
+		(size 31.75 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4799,7 +4829,7 @@
 		)
 		(uuid "ecb55954-6122-4552-9eac-22683e31d0d4")
 		(property "Sheetname" "1_Power"
-			(at 71.12 57.7084 0)
+			(at 69.85 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4838,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 71.12 111.0746 0)
+			(at 69.85 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4847,7 @@
 			)
 		)
 		(pin "NPM_SHPHLD" input
-			(at 100.33 106.68 0)
+			(at 101.6 101.6 0)
 			(uuid "a6b6ad1b-c3cd-4e16-ae28-85f75b0b540a")
 			(effects
 				(font
@@ -4827,7 +4857,7 @@
 			)
 		)
 		(pin "NPM_SDA" bidirectional
-			(at 100.33 62.23 0)
+			(at 101.6 57.15 0)
 			(uuid "019e3ccc-58e6-471a-80db-c8cf4a5e8be2")
 			(effects
 				(font
@@ -4837,7 +4867,7 @@
 			)
 		)
 		(pin "NPM_SCL" input
-			(at 100.33 64.77 0)
+			(at 101.6 59.69 0)
 			(uuid "cc2148df-d76f-4774-aa29-98a70be9fb72")
 			(effects
 				(font
@@ -4847,7 +4877,7 @@
 			)
 		)
 		(pin "BOOST_EN" input
-			(at 100.33 85.09 0)
+			(at 101.6 80.01 0)
 			(uuid "51d76bfc-f7cb-4bcf-9cda-b2e2fbe07d6c")
 			(effects
 				(font
@@ -4857,7 +4887,7 @@
 			)
 		)
 		(pin "MCU_CURR_MON_COMP" output
-			(at 100.33 88.9 0)
+			(at 101.6 83.82 0)
 			(uuid "195315cb-8d2d-41a9-8f13-fda903ff3acc")
 			(effects
 				(font
@@ -4875,7 +4905,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 96.52)
+		(at 181.61 91.44)
 		(size 26.67 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4891,7 +4921,7 @@
 		)
 		(uuid "fc872315-af1b-4ebb-aa29-205d76340488")
 		(property "Sheetname" "2_Charging_Connections"
-			(at 176.53 95.8084 0)
+			(at 181.61 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4930,7 @@
 			)
 		)
 		(property "Sheetfile" "Charging_Connections.kicad_sch"
-			(at 176.53 140.2846 0)
+			(at 181.61 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4939,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_3" input
-			(at 176.53 109.22 180)
+			(at 181.61 104.14 180)
 			(uuid "1576bc93-d7ff-41b0-842d-61ced00619c2")
 			(effects
 				(font
@@ -4919,7 +4949,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_1" output
-			(at 176.53 127 180)
+			(at 181.61 121.92 180)
 			(uuid "0bf38431-ee6d-418c-9c7b-9fae38c8a143")
 			(effects
 				(font
@@ -4929,7 +4959,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_4" input
-			(at 176.53 111.76 180)
+			(at 181.61 106.68 180)
 			(uuid "94d7da96-1838-45e3-bd91-494d52d14c1a")
 			(effects
 				(font
@@ -4939,7 +4969,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_3" output
-			(at 176.53 132.08 180)
+			(at 181.61 127 180)
 			(uuid "1e203d32-3cda-48a6-8110-b41cc48426c1")
 			(effects
 				(font
@@ -4949,7 +4979,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_4" output
-			(at 176.53 123.19 180)
+			(at 181.61 118.11 180)
 			(uuid "f4a5d0aa-f474-46d5-9a65-cc216fdafa09")
 			(effects
 				(font
@@ -4959,7 +4989,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_2" output
-			(at 176.53 129.54 180)
+			(at 181.61 124.46 180)
 			(uuid "6cea6f1e-e87f-4402-88e5-320d0caeb768")
 			(effects
 				(font
@@ -4969,7 +4999,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_2" output
-			(at 176.53 118.11 180)
+			(at 181.61 113.03 180)
 			(uuid "146eaf7e-eb56-4071-92bd-63b11a489cbc")
 			(effects
 				(font
@@ -4979,7 +5009,7 @@
 			)
 		)
 		(pin "CHG_DOCK_GLOBAL_FAULT" input
-			(at 176.53 100.33 180)
+			(at 181.61 95.25 180)
 			(uuid "286d7d85-acbc-4432-b704-292d89ba3c7a")
 			(effects
 				(font
@@ -4989,7 +5019,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_1" input
-			(at 176.53 104.14 180)
+			(at 181.61 99.06 180)
 			(uuid "96c5dfda-f89c-433c-b191-e04c94c08051")
 			(effects
 				(font
@@ -4999,7 +5029,7 @@
 			)
 		)
 		(pin "CHG_DOCK_UART_RX_4" output
-			(at 176.53 134.62 180)
+			(at 181.61 129.54 180)
 			(uuid "afb5c8d9-28b8-4172-aac7-ea0902bf0667")
 			(effects
 				(font
@@ -5009,7 +5039,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_3" output
-			(at 176.53 120.65 180)
+			(at 181.61 115.57 180)
 			(uuid "f2a02402-cf76-4f27-a45d-63818dd945c7")
 			(effects
 				(font
@@ -5019,7 +5049,7 @@
 			)
 		)
 		(pin "CHG_DOCK_EN_2" input
-			(at 176.53 106.68 180)
+			(at 181.61 101.6 180)
 			(uuid "121a0449-8c63-4371-a63a-cc0f9a3873cb")
 			(effects
 				(font
@@ -5029,7 +5059,7 @@
 			)
 		)
 		(pin "CHG_DOCK_DET_1" output
-			(at 176.53 115.57 180)
+			(at 181.61 110.49 180)
 			(uuid "5f07a3c5-5570-4fe6-a06b-3a72d4c0b6d8")
 			(effects
 				(font

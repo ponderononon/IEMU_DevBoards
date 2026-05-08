@@ -5007,10 +5007,6 @@
 		(uuid "fdf704be-8850-4b8d-9d58-5725dbc18ebe")
 	)
 	(no_connect
-		(at 48.26 97.79)
-		(uuid "346cac7e-50fb-453b-84a3-779e19e435a2")
-	)
-	(no_connect
 		(at 48.26 100.33)
 		(uuid "4bcc8d3a-2a88-4e69-a264-67a8488fcba5")
 	)
@@ -5667,6 +5663,16 @@
 			(type default)
 		)
 		(uuid "5ecaa596-c8a9-4f0b-b719-7709328e8ae4")
+	)
+	(wire
+		(pts
+			(xy 39.37 97.79) (xy 48.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611079cb-421c-4580-96b5-8d3da22434a3")
 	)
 	(wire
 		(pts
@@ -6958,6 +6964,17 @@
 			(justify left)
 		)
 		(uuid "d3ab0cb2-6f92-447f-9f8c-3c518dc33cf4")
+	)
+	(hierarchical_label "LID_SENSE"
+		(shape output)
+		(at 39.37 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9362692-6335-40ed-8a10-644df29ba574")
 	)
 	(hierarchical_label "TRIGGER_DIR"
 		(shape output)
