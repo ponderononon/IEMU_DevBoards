@@ -226,7 +226,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1841500|355600|2bc0cedc-454a-4ff4-90a8-781b40e20cdc|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|508000|876300|7577df49-c026-49a1-8144-f0b0828ec937|00000000-0000-0000-0000-000000000000|||",
+        "intentional"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -424,7 +433,7 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
@@ -636,13 +645,13 @@
           "group_by": false,
           "label": "Distributor Link 1",
           "name": "Distributor Link 1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Distributor Link 2",
           "name": "Distributor Link 2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -654,7 +663,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

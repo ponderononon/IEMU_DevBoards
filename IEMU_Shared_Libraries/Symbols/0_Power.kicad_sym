@@ -2184,7 +2184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactuer_Name" "onsemi"
+		(property "Manufacturer_Name" "onsemi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2194,6 +2194,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NSR20F40NXT5G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/onsemi/NSR20F40NXT5G?qs=Tr3lMbyRyKlnDYqqgtCWgQ%3D%3D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/onsemi/NSR20F40NXT5G/4848728?s=N4IgTCBcDaIHIGUBKYAMAxALKuANAKgKwDiIAugL5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C153761"
 			(at 0 0 0)
 			(effects
 				(font

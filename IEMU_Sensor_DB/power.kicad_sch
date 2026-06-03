@@ -12,7 +12,7 @@
 		(comment 1 "SENSOR - IEMU Development Board - Open-source Inertial Sensor for Biomechanics")
 	)
 	(lib_symbols
-		(symbol "0_Connectors:DF13-4P-1.25H_75_"
+		(symbol "0_Connectors:DF13-4P-1.25H(21)"
 			(pin_names
 				(offset 1.016)
 			)
@@ -28,7 +28,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DF13-4P-1.25H_51_"
+			(property "Value" "DF13-4P-1.25H(21)"
 				(at -5.08 -7.62 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "0_Connectors:HRS_DF13-4P-1.25H_75_"
+			(property "Footprint" "0_Connectors:DF13-4P-1.25H(21)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
+			(property "Datasheet" "https://www.mouser.de/datasheet/3/731/1/DF13_Catalog_en_DF13_CAT.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Hirose Connector"
+			(property "Manufacturer_Name" "Hirose Electric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "DF13-4P-1.25H(51)"
+			(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21) "
 				(at 0 0 0)
 				(effects
 					(font
@@ -85,34 +85,37 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H51?qs=XQjbzJWzFPWwZhqyxYrKfQ%3D%3D"
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-51/3977727?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACkKQEoQBdAXyA"
+			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-21/444062?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACjCQEoQBdAXyA"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C17274158"
+			(property "LCSC" "C597872"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "DF13-4P-1.25H_75__0_0"
+			(symbol "DF13-4P-1.25H(21)_0_0"
 				(polyline
 					(pts
 						(xy -5.08 6.35) (xy -3.81 7.62)
@@ -315,213 +318,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_Connectors:RCLAMP3321P-N"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RCLAMP3321P-N"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-882"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "BORN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C5148485"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RCLAMP3321P-N_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RCLAMP3321P-N_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0_Connectors:USB4125-GF-A"
+		(symbol "0_Connectors:USB4125-GF-A_REVA2"
 			(pin_names
 				(offset 1.016)
 			)
@@ -556,7 +353,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://gct.co/connector/usb4125"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -574,7 +371,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "GCT"
+			(property "Manufacturer_Name" "Global Connector Technology"
 				(at 0 0 0)
 				(effects
 					(font
@@ -590,6 +387,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -599,6 +397,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -608,6 +407,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -617,10 +417,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "USB4125-GF-A_0_0"
+			(symbol "USB4125-GF-A_REVA2_0_0"
 				(rectangle
 					(start -7.62 -12.7)
 					(end 7.62 10.16)
@@ -846,7 +647,7 @@
 				)
 			)
 			(property "Footprint" "0_Feedback:LED_LTST-C19HE1WT"
-				(at 0 0 0)
+				(at -0.254 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -856,7 +657,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C19HE1WT.pdf"
-				(at 0 0 0)
+				(at -1.27 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -865,7 +666,7 @@
 				)
 			)
 			(property "Description" "Red, Green, Blue _RGB_ 624nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.1V Red, 3.35V Green, 3.35V Blue 0606 _1616 Metric_"
-				(at 0 0 0)
+				(at -4.318 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -874,7 +675,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Lite-On Inc."
-				(at 0 0 0)
+				(at -0.254 -18.796 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -884,7 +685,7 @@
 				)
 			)
 			(property "Manufacturer_Part_Number" "LTST-C19HE1WT "
-				(at 0 0 0)
+				(at 0 -19.304 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -893,8 +694,8 @@
 					(hide yes)
 				)
 			)
-			(property "Distributer Link 1" "https://www.mouser.de/ProductDetail/LITEON/LTST-C19HE1WT?qs=WAWaI72GHKxJLPArJA9%252BUw%3D%3D"
-				(at 0 0 0)
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/LITEON/LTST-C19HE1WT?qs=WAWaI72GHKxJLPArJA9%252BUw%3D%3D"
+				(at -0.254 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -904,7 +705,7 @@
 				)
 			)
 			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/liteon/LTST-C19HE1WT/3198710?s=N4IgTCBcDaIDIBUDKCC0BhAjATgBIFFMB1BEAXQF8g"
-				(at 0 0 0)
+				(at 0.762 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -914,7 +715,7 @@
 				)
 			)
 			(property "LCSC" "C458749"
-				(at 0 0 0)
+				(at 2.794 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1244,6 +1045,8 @@
 						)
 					)
 				)
+			)
+			(symbol "LTST-C19HE1WT_1_0"
 				(pin passive line
 					(at 10.16 0 180)
 					(length 5.08)
@@ -1260,6 +1063,19 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(symbol "LTST-C19HE1WT_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 5.715 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -5383,6 +5199,470 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_Power:ESD5Z5.0T1G"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.54 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD5Z5.0T1G"
+				(at 0.762 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523_1"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+150℃ 1 174W 18.6V 50nA 5V 6.2V 80pF 9.4A@8/20us ESD IEC 61000-4-2、IEC 61000-4-4 Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 2.032 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at -4.572 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESD5Z5.0T1G"
+				(at 0.254 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/onsemi/ESD5Z5.0T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D"
+				(at 3.556 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/onsemi/ESD5Z5-0T1G/1476609"
+				(at 0.762 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C82044"
+				(at -20.32 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*DPY0002A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD5Z5.0T1G_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD5Z5.0T1G_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_Power:ESD9L1P8"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.54 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9L1P8"
+				(at 0.762 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-882"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+				(at 2.032 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diotec Semiconductor"
+				(at -4.572 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESD9L1P8"
+				(at 0.254 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+				(at 3.556 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+				(at 0.762 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6244607"
+				(at -20.32 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*DPY0002A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9L1P8_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9L1P8_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_Power:INA216A2RSWR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6616,6 +6896,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_Power:TPD1E10B06DYAR"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.54 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD1E10B06DYAR"
+				(at 0.762 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tpd1e10b06.pdf?ts=1777972949387"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-40℃~+125℃ 1 100nA 12pF 14V 5.5V 6A@8/20us 6V 90W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOT-5X3 ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 2.032 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at -4.572 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPD1E10B06DYAR"
+				(at 0.254 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Texas-Instruments/TPD1E10B06DYAR?qs=Rp5uXu7WBW9%2F66n97S3Kgw%3D%3D"
+				(at 3.556 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/TPD1E10B06DYAR/15853876"
+				(at 0.762 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C3712135"
+				(at -20.32 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*DPY0002A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E10B06DYAR_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPD1E10B06DYAR_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -7078,214 +7614,6 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TPD1E10B06DYAR_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -2.54 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPD1E10B06DYAR"
-				(at 0.762 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 2.54 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tpd1e10b06.pdf?ts=1777972949387"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-40℃~+125℃ 1 100nA 12pF 14V 5.5V 6A@8/20us 6V 90W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOT-5X3 ESD and Surge Protection (TVS/ESD) ROHS"
-				(at 2.032 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at -4.572 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TPD1E10B06DYAR"
-				(at 0.254 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Texas-Instruments/TPD1E10B06DYAR?qs=Rp5uXu7WBW9%2F66n97S3Kgw%3D%3D"
-				(at 3.556 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/TPD1E10B06DYAR/15853876"
-				(at 0.762 -17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C3712135"
-				(at -20.32 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ESD protection USB 3.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Texas*DPY0002A*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPD1E10B06DYAR_1_0_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TPD1E10B06DYAR_1_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7815,7 +8143,7 @@
 	)
 	(text "BATTERY PROTECTION"
 		(exclude_from_sim no)
-		(at 37.338 178.054 0)
+		(at 45.974 183.642 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -8042,6 +8370,12 @@
 		(uuid "4baf93ca-c995-4421-a8a3-ff06ece2ff16")
 	)
 	(junction
+		(at 77.47 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f76d3a-0431-4996-bf83-e517d1289345")
+	)
+	(junction
 		(at 110.49 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8084,10 +8418,10 @@
 		(uuid "77789a30-bac7-4ae1-af4d-03c29ce315a9")
 	)
 	(junction
-		(at 78.74 62.23)
+		(at 77.47 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78709148-7d97-46ff-8563-d696096d1742")
+		(uuid "7caf34e1-6b6e-4563-98ea-efb7b47a73d7")
 	)
 	(junction
 		(at 215.9 76.2)
@@ -8106,6 +8440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ec0878c-b227-4cb0-beae-d183c7f2058c")
+	)
+	(junction
+		(at 29.21 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "974ef0de-0ed2-4c3f-a1b8-f3af877759f4")
 	)
 	(junction
 		(at 184.15 120.65)
@@ -8132,10 +8472,28 @@
 		(uuid "9fb05981-402e-4fb6-a116-cc6c9995285e")
 	)
 	(junction
+		(at 82.55 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1f74022-c3be-498d-b2b0-d20c7f02ce07")
+	)
+	(junction
 		(at 213.36 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6f34d0e-cf06-4ee6-a203-6b496ab1235f")
+	)
+	(junction
+		(at 71.12 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5cd675-c263-4e0a-b68d-ec76cddfc50d")
+	)
+	(junction
+		(at 82.55 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "addf0ed3-f2c8-4da3-ae6f-ea65f60992ab")
 	)
 	(junction
 		(at 62.23 62.23)
@@ -8294,6 +8652,12 @@
 		(uuid "f50ddcdf-6e3a-4558-b983-43ba919c133c")
 	)
 	(junction
+		(at 29.21 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9765e25-42d5-4124-b1f9-1819304fe643")
+	)
+	(junction
 		(at 106.68 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8348,6 +8712,16 @@
 			(type default)
 		)
 		(uuid "0116c4c7-a7c2-4080-9219-b76534e249ed")
+	)
+	(wire
+		(pts
+			(xy 34.29 119.38) (xy 34.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fbcc1f-f47a-4146-a9ca-f2eea30fd4e3")
 	)
 	(wire
 		(pts
@@ -8541,7 +8915,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 69.85) (xy 127 69.85)
+			(xy 50.8 69.85) (xy 82.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8611,6 +8985,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 62.23) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e52fb86-7804-4e50-8ccf-8bf458ee7a27")
+	)
+	(wire
+		(pts
 			(xy 91.44 62.23) (xy 96.52 62.23)
 		)
 		(stroke
@@ -8671,6 +9055,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 52.07) (xy 82.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ab60e5-b43b-4527-9caf-7e007312d9ed")
+	)
+	(wire
+		(pts
 			(xy 213.36 54.61) (xy 213.36 55.88)
 		)
 		(stroke
@@ -8701,13 +9095,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 127 67.31)
+			(xy 50.8 67.31) (xy 77.47 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2796fce1-673b-4286-b277-1850e8abd8e2")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d19dda-b69e-482f-8034-9c778c2f24d4")
 	)
 	(wire
 		(pts
@@ -8771,13 +9175,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 62.23) (xy 78.74 62.23)
+			(xy 62.23 62.23) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36f21aa6-b0d1-417b-9f04-45238961fac1")
+	)
+	(wire
+		(pts
+			(xy 82.55 52.07) (xy 82.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a51d37-8bef-4258-99fd-70bffc3fad1b")
 	)
 	(wire
 		(pts
@@ -8971,16 +9385,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 62.23) (xy 91.44 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50219bf8-aa9c-4586-8836-444608e6512f")
-	)
-	(wire
-		(pts
 			(xy 52.07 80.01) (xy 52.07 82.55)
 		)
 		(stroke
@@ -8988,6 +9392,16 @@
 			(type default)
 		)
 		(uuid "515008b6-0314-4ffb-a409-a4e15c013758")
+	)
+	(wire
+		(pts
+			(xy 82.55 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516c04d7-a1d4-4ffb-b499-a67162c8ded0")
 	)
 	(wire
 		(pts
@@ -9001,7 +9415,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 78.74 62.23)
+			(xy 71.12 60.96) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9138,6 +9552,16 @@
 			(type default)
 		)
 		(uuid "62f101cc-9e4f-4f85-86d2-37a7f4558168")
+	)
+	(wire
+		(pts
+			(xy 77.47 52.07) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cdedb2-18b8-4f22-82de-da7bbe608147")
 	)
 	(wire
 		(pts
@@ -9811,6 +10235,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 52.07) (xy 85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5109966-b100-490d-ab64-bdbab9fc91ba")
+	)
+	(wire
+		(pts
 			(xy 96.52 50.8) (xy 96.52 52.07)
 		)
 		(stroke
@@ -9841,7 +10275,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 52.07) (xy 78.74 53.34)
+			(xy 71.12 52.07) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9981,6 +10415,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 60.96) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba052de2-566c-43df-9a2b-d7db039ee77b")
+	)
+	(wire
+		(pts
 			(xy 40.64 158.75) (xy 40.64 170.18)
 		)
 		(stroke
@@ -9988,6 +10432,16 @@
 			(type default)
 		)
 		(uuid "bb8eb415-7373-4e45-9f03-b0118a9f689e")
+	)
+	(wire
+		(pts
+			(xy 82.55 60.96) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc25a63e-78df-48a6-851b-7fb63ecd4416")
 	)
 	(wire
 		(pts
@@ -10281,7 +10735,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 52.07) (xy 85.09 52.07)
+			(xy 71.12 52.07) (xy 77.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10548,6 +11002,26 @@
 			(type default)
 		)
 		(uuid "f3fabfae-8565-4c11-9a8e-ce19c31b62cf")
+	)
+	(wire
+		(pts
+			(xy 29.21 119.38) (xy 34.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b94e96-b58f-448e-9920-3b8c409411ac")
+	)
+	(wire
+		(pts
+			(xy 29.21 119.38) (xy 29.21 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52f46cb-5721-4d8d-9c51-f7bc38b3f68c")
 	)
 	(wire
 		(pts
@@ -11001,6 +11475,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 237.49 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 237.49 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09463f0b-77e7-4be8-ab44-f46ee0871bc5")
 		)
@@ -11142,121 +11634,6 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 125.73 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cf84ada-022d-4b8d-b0f1-5a5e57683b9e")
-		(property "Reference" "D104"
-			(at 125.222 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 124.714 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 130.175 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "04f10c1f-2b37-4715-ab35-7d1ae35c6f23")
-		)
-		(pin "1"
-			(uuid "6a7c2baf-0cec-45df-b327-88d9cab82fe0")
-		)
-		(instances
-			(project "IEMU"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -11450,6 +11827,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66371dfb-b9f1-41aa-9c9c-bd040b99558b")
 		)
@@ -11590,6 +11985,141 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD5Z5.0T1G")
+		(at 71.12 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a5ff655-524c-40f5-a3e7-67b920d67818")
+		(property "Reference" "D101"
+			(at 65.278 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5Z5.0T1G"
+			(at 61.468 56.642 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523_1"
+			(at 75.565 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 77.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 174W 18.6V 50nA 5V 6.2V 80pF 9.4A@8/20us ESD IEC 61000-4-2、IEC 61000-4-4 Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 65.786 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 76.2 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD5Z5.0T1G"
+			(at 63.5 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/onsemi/ESD5Z5.0T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D"
+			(at 61.722 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/onsemi/ESD5Z5-0T1G/1476609"
+			(at 88.392 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82044"
+			(at 70.612 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 71.12 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 71.12 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77f75520-b212-4bfa-a142-ff6b69b64a7c")
+		)
+		(pin "1"
+			(uuid "db50038b-a346-4616-9648-c9cc917af7de")
+		)
+		(instances
+			(project ""
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -11961,6 +12491,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8248428-9796-429c-abfe-74ae74501fbd")
 		)
@@ -12143,6 +12691,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a3fbe46-d510-4f19-b605-294ae96a108c")
 		)
@@ -12153,6 +12719,142 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD5Z5.0T1G")
+		(at 102.87 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26f7f366-5122-4360-b903-aaf98b0b8a52")
+		(property "Reference" "D106"
+			(at 93.218 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5Z5.0T1G"
+			(at 102.362 60.706 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523_1"
+			(at 100.33 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 174W 18.6V 50nA 5V 6.2V 80pF 9.4A@8/20us ESD IEC 61000-4-2、IEC 61000-4-4 Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 100.838 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 107.442 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD5Z5.0T1G"
+			(at 102.616 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/onsemi/ESD5Z5.0T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D"
+			(at 99.314 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/onsemi/ESD5Z5-0T1G/1476609"
+			(at 102.108 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82044"
+			(at 123.19 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35557516-0478-438c-a89f-7202294ef783")
+		)
+		(pin "1"
+			(uuid "31b770eb-71d0-40bb-a90a-9d6497412630")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D106")
 					(unit 1)
 				)
 			)
@@ -12213,6 +12915,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 29.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 29.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86d86816-a2e8-4f95-891a-a76c6840fbac")
 		)
@@ -12238,7 +12958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ba4b972-3d7e-4424-ac5f-11330b20da2e")
-		(property "Reference" "D106"
+		(property "Reference" "D104"
 			(at 98.7424 59.69 0)
 			(effects
 				(font
@@ -12329,6 +13049,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ed6451e-1b22-437b-bf36-1c7a41914ef6")
 		)
@@ -12338,7 +13076,7 @@
 		(instances
 			(project "IEMU_Sensor_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D106")
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -12405,6 +13143,141 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 118.11 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e9f7249-3214-42eb-ab29-b70dc17ada08")
+		(property "Reference" "D107"
+			(at 115.57 30.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 115.57 26.416 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 122.555 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 112.776 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 123.19 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 110.49 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 108.712 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 135.382 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 117.602 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 118.11 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 118.11 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "680a8f14-a45d-4f0a-9322-443f73a24c3b")
+		)
+		(pin "1"
+			(uuid "8d41bb04-c6bf-486c-bb9f-d4f9e44a67a2")
+		)
+		(instances
+			(project ""
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D107")
 					(unit 1)
 				)
 			)
@@ -12510,6 +13383,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 229.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 229.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03fc7d4a-1758-4a90-bd98-7c1794458b11")
 		)
@@ -12520,6 +13411,73 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30cf25f1-8c3e-4a40-b79f-3e83e7e04b9c")
+		(property "Reference" "#PWR0204"
+			(at 29.21 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5732125-2408-4b58-a4b5-ca73dfc76728")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -12573,6 +13531,24 @@
 		)
 		(property "Description" "test point"
 			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 184.15 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 184.15 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,6 +13735,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c28beb9-9ae9-4699-b24d-b167787d914f")
 		)
@@ -12873,6 +13867,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 99.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 99.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9789080-36e9-4b93-86a8-bc94ae708ae2")
 		)
@@ -12883,6 +13895,73 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3df83cc3-8a3e-4254-85d8-fd362ac25749")
+		(property "Reference" "#PWR0205"
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65f94eb1-58cf-4af2-8a3f-946cd9f8aaa0")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -13055,6 +14134,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 243.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 243.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a77b67c7-e909-499e-8a8c-6523718ed313")
 		)
@@ -13160,6 +14257,24 @@
 		)
 		(property "LCSC" "C2074826"
 			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 231.14 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 231.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,6 +14529,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2044340f-6985-4bea-8a0c-5e8507f8835e")
 		)
@@ -13476,6 +14609,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 245.11 100.33 0)
 			(effects
 				(font
@@ -13589,6 +14740,24 @@
 		)
 		(property "LCSC" "C26083"
 			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 68.58 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 68.58 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13711,6 +14880,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64c4e103-8436-47a6-8043-e8f2336f8611")
 		)
@@ -13788,6 +14975,142 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD5Z5.0T1G")
+		(at 77.47 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56d7f5d3-5ba9-4b1b-a7df-5f7af76a01df")
+		(property "Reference" "D102"
+			(at 72.136 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5Z5.0T1G"
+			(at 67.564 57.912 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523_1"
+			(at 81.915 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 174W 18.6V 50nA 5V 6.2V 80pF 9.4A@8/20us ESD IEC 61000-4-2、IEC 61000-4-4 Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 72.136 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 82.55 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD5Z5.0T1G"
+			(at 69.85 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/onsemi/ESD5Z5.0T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D"
+			(at 68.072 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/onsemi/ESD5Z5-0T1G/1476609"
+			(at 94.742 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82044"
+			(at 76.962 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 77.47 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 77.47 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ae4ba6d-4c8e-4dda-8f9e-9ca91d855af7")
+		)
+		(pin "1"
+			(uuid "3c673b1a-dda9-4720-84f5-6d0cedbfa7ff")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -13892,6 +15215,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 106.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 106.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9fe5660-e130-4e2d-9803-52b842a02c4c")
 		)
@@ -13902,6 +15243,149 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Connectors:DF13-4P-1.25H(21)")
+		(at 88.9 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5477dd-8e4b-4c43-baa9-6e7d0e9ba2ec")
+		(property "Reference" "J102"
+			(at 88.6023 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DF13-4P-1.25H(21)"
+			(at 88.6023 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_Connectors:DF13-4P-1.25H(21)"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/731/1/DF13_Catalog_en_DF13_CAT.pdf"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose Electric"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21) "
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-21/444062?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACjCQEoQBdAXyA"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597872"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "786baf20-4705-4066-bf95-e23bbe044cc4")
+		)
+		(pin "3"
+			(uuid "c8ab98dc-da16-4236-a4bb-f719639215ad")
+		)
+		(pin "2"
+			(uuid "ad301083-112f-41a8-abf4-9c9f80033f55")
+		)
+		(pin "1"
+			(uuid "c9bfa3ea-7716-4ff2-bc2f-650d888eaad0")
+		)
+		(instances
+			(project ""
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -13955,6 +15439,24 @@
 		)
 		(property "Description" "test point"
 			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 184.15 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 184.15 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14042,54 +15544,44 @@
 		)
 	)
 	(symbol
-		(lib_name "TPD1E10B06DYAR_1")
-		(lib_id "0_Power:TPD1E10B06DYAR")
-		(at 78.74 58.42 90)
+		(lib_id "0_Connectors:USB4125-GF-A_REVA2")
+		(at 38.1 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64a0216e-3fac-4067-96a4-3a3a057b00c2")
-		(property "Reference" "D101"
-			(at 83.82 57.912 90)
+		(fields_autoplaced yes)
+		(uuid "6403d9fa-916e-4cc7-a662-0c5668219938")
+		(property "Reference" "J101"
+			(at 38.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TPD1E10B06DYAR"
-			(at 90.932 52.07 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 83.185 55.88 0)
+		(property "Value" "USB4125-GF-A"
+			(at 38.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" "0_Connectors:GCT_USB4125-GF-A_REVA2"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tpd1e10b06.pdf?ts=1777972949387"
-			(at 85.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+125℃ 1 100nA 12pF 14V 5.5V 6A@8/20us 6V 90W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOT-5X3 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 73.406 56.388 0)
+		(property "Datasheet" ""
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14097,8 +15589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 83.82 62.992 0)
+		(property "Description" "USB Charge Only Connector Type C Horizontal Receptacle, 3.16mm profile, 6 Pins, Surface mount, Top mount, low cost"
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14106,8 +15598,58 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TPD1E10B06DYAR"
-			(at 71.12 58.166 0)
+		(property "Manufacturer_Name" "Global Connector Technology"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB4125-GF-A"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/GCT/USB4125-GF-A?qs=KUoIvG%2F9IlaIQ4zBJ6gLeA%3D%3D"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/gct/USB4125-GF-A/13547388"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3151650"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14115,8 +15657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Texas-Instruments/TPD1E10B06DYAR?qs=Rp5uXu7WBW9%2F66n97S3Kgw%3D%3D"
-			(at 69.342 54.864 0)
+		(property "Manufactuer_Name" ""
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14124,34 +15666,40 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/TPD1E10B06DYAR/15853876"
-			(at 96.012 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "A5"
+			(uuid "b015bcaa-2b4d-48b7-b47c-04a5d412b53c")
 		)
-		(property "LCSC" "C3712135"
-			(at 78.232 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "B5"
+			(uuid "eccd1fad-e09d-4c7a-ab9b-4ddfa064f1c4")
 		)
-		(pin "2"
-			(uuid "026c4e13-6eab-479c-8aad-3fd8682cb9ea")
+		(pin "S1"
+			(uuid "ce1d5bf4-0db9-45af-9c80-4dc32f35f789")
 		)
-		(pin "1"
-			(uuid "d19124d7-c124-49b0-af17-63d703392a94")
+		(pin "B12"
+			(uuid "c5237356-6f83-48bd-8ead-e4722abed03c")
+		)
+		(pin "A12"
+			(uuid "9b167a50-f792-48c8-a3b9-57f12d0176df")
+		)
+		(pin "S3"
+			(uuid "6860ae41-f9e7-4612-9645-7cb01ed6c23f")
+		)
+		(pin "S2"
+			(uuid "43dabc3d-26c5-44cb-9e0a-d4c7bd933058")
+		)
+		(pin "S4"
+			(uuid "64d6e44c-aa53-4b66-92bc-eeee8b647ee5")
+		)
+		(pin "A9"
+			(uuid "636b68b5-1ae1-459a-a4e1-52bcd434b0b9")
+		)
+		(pin "B9"
+			(uuid "75558a99-6277-46af-a2e2-e8d008df2350")
 		)
 		(instances
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D101")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -14411,6 +15959,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7081ef6-ae67-425f-9faf-01261289f8c5")
 		)
@@ -14546,6 +16112,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32261dc2-aa3c-4ab3-a7dc-7442bf1ab016")
 		)
@@ -14553,146 +16137,6 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "TP102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:USB4125-GF-A")
-		(at 38.1 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fba216c-7a7b-4022-8b14-ea7177754743")
-		(property "Reference" "J101"
-			(at 38.1 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB4125-GF-A"
-			(at 38.1 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_Connectors:GCT_USB4125-GF-A_REVA2"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/connector/usb4125"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Charge Only Connector Type C Horizontal Receptacle, 3.16mm profile, 6 Pins, Surface mount, Top mount, low cost"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "GCT"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USB4125-GF-A"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/GCT/USB4125-GF-A?qs=KUoIvG%2F9IlaIQ4zBJ6gLeA%3D%3D"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/gct/USB4125-GF-A/13547388"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3151650"
-			(at 38.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S2"
-			(uuid "12850b9f-8f49-45e4-8320-9314e230f69b")
-		)
-		(pin "A5"
-			(uuid "c5d73a7f-48e3-4bd0-94a9-7d5cef6b88a7")
-		)
-		(pin "B9"
-			(uuid "7b83021c-5ad6-4973-8dd4-144fb5bef599")
-		)
-		(pin "B5"
-			(uuid "f59df60d-6735-44e7-aa7c-fb813440a165")
-		)
-		(pin "A12"
-			(uuid "d4b99d41-4fee-4bca-91cb-7e99715ce557")
-		)
-		(pin "S1"
-			(uuid "e23fffa1-a39c-4d0a-8766-f6512e6cefed")
-		)
-		(pin "A9"
-			(uuid "3e8054f2-3d8c-4bfa-95ba-3f32def8916a")
-		)
-		(pin "B12"
-			(uuid "c794af57-ffc5-4e91-b3ca-25b0547f1590")
-		)
-		(pin "S3"
-			(uuid "ec8c6367-5800-4c15-80a3-4d957b8edc78")
-		)
-		(pin "S4"
-			(uuid "3a60ae3c-d468-4c32-ab98-7b89d3e64f7b")
-		)
-		(instances
-			(project ""
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -14753,6 +16197,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 252.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 252.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49f0d55b-d195-4eb5-9303-4d324101ba99")
 		)
@@ -14760,6 +16222,141 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "TP109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD5Z5.0T1G")
+		(at 29.21 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77da2077-f76d-4f3b-a1a1-53ec000c310a")
+		(property "Reference" "D110"
+			(at 32.258 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5Z5.0T1G"
+			(at 32.004 128.524 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523_1"
+			(at 33.655 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 35.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 174W 18.6V 50nA 5V 6.2V 80pF 9.4A@8/20us ESD IEC 61000-4-2、IEC 61000-4-4 Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 23.876 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 34.29 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD5Z5.0T1G"
+			(at 21.59 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/onsemi/ESD5Z5.0T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D"
+			(at 19.812 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/onsemi/ESD5Z5-0T1G/1476609"
+			(at 46.482 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82044"
+			(at 28.702 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 29.21 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 29.21 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6dc0dad-edd6-4924-a83f-9d963b833316")
+		)
+		(pin "1"
+			(uuid "ac4f0a2b-20a3-4f39-8b9e-9e6478ee7f3a")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D110")
 					(unit 1)
 				)
 			)
@@ -14812,6 +16409,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 137.16 34.29 0)
 			(effects
 				(font
@@ -15064,6 +16679,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "622f0c6e-2934-41db-b215-68eb06e09d1e")
 		)
@@ -15238,6 +16871,24 @@
 			)
 		)
 		(property "LCSC" "C2872632"
+			(at 59.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 59.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 59.69 153.67 0)
 			(effects
 				(font
@@ -15504,6 +17155,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aeffd33d-137c-44ab-b355-91d56a941995")
 		)
@@ -15566,6 +17235,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 91.44 62.23 0)
 			(effects
 				(font
@@ -15681,6 +17368,24 @@
 		)
 		(property "LCSC" "C2859948"
 			(at 251.714 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 237.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 237.49 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15847,123 +17552,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TPD1E10B06DYAR_1")
-		(lib_id "0_Power:TPD1E10B06DYAR")
-		(at 102.87 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a278a515-8c81-485a-bf1e-a3230ef17d28")
-		(property "Reference" "D102"
-			(at 92.964 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPD1E10B06DYAR"
-			(at 97.536 55.88 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 100.33 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tpd1e10b06.pdf?ts=1777972949387"
-			(at 100.33 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-40℃~+125℃ 1 100nA 12pF 14V 5.5V 6A@8/20us 6V 90W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOT-5X3 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 100.838 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 107.442 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPD1E10B06DYAR"
-			(at 102.616 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Texas-Instruments/TPD1E10B06DYAR?qs=Rp5uXu7WBW9%2F66n97S3Kgw%3D%3D"
-			(at 99.314 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/TPD1E10B06DYAR/15853876"
-			(at 102.108 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3712135"
-			(at 123.19 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1aa30534-1339-4374-8035-ea5fa49cdd12")
-		)
-		(pin "1"
-			(uuid "4945946b-aa7d-491a-b17e-3a9cb64b3133")
-		)
-		(instances
-			(project "IEMU_Sensor_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_Passives:R_5M1")
 		(at 68.58 161.29 0)
 		(mirror y)
@@ -16055,6 +17643,24 @@
 			)
 		)
 		(property "LCSC" "C137855"
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 68.58 161.29 0)
 			(effects
 				(font
@@ -16200,6 +17806,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 184.15 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 184.15 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a22dccb-c63c-4359-bc51-8a224b987dfe")
 		)
@@ -16312,6 +17936,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 53.34 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 53.34 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02d66c0f-fdd8-4791-a326-b7edc9c02690")
 		)
@@ -16322,120 +17964,6 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "R111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 118.11 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aacfefe4-1b6f-4241-8b2a-7c5c54aa4673")
-		(property "Reference" "D103"
-			(at 116.332 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 116.84 25.654 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 122.555 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 118.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 118.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 118.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 118.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 118.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 118.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 118.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "700124d5-31f9-4bf1-8b73-056a1a1787da")
-		)
-		(pin "1"
-			(uuid "3153e126-0ca4-48b3-92c5-22b3db1e2403")
-		)
-		(instances
-			(project "IEMU"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -16490,6 +18018,24 @@
 		)
 		(property "Description" "test point"
 			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 190.5 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 190.5 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16740,6 +18286,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 147.32 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 147.32 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f17025a-8750-4101-af4f-3b7194dda601")
 		)
@@ -16846,6 +18410,24 @@
 			)
 		)
 		(property "LCSC" "C96446"
+			(at 213.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 213.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 213.36 50.8 0)
 			(effects
 				(font
@@ -16961,6 +18543,24 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 137.16 49.53 0)
 			(effects
 				(font
@@ -17150,6 +18750,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95da48ef-07bc-4318-82f3-3b6b663399f7")
 		)
@@ -17257,6 +18875,24 @@
 			)
 		)
 		(property "LCSC" "C49448846"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -17608,6 +19244,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 40.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fc31269-6ddb-4827-9de5-79a39ea02fba")
 		)
@@ -17785,6 +19439,24 @@
 		)
 		(property "LCSC" "C2653823"
 			(at 231.394 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 217.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 217.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18067,6 +19739,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 97.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 97.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4476c5f8-b92a-4fd3-b027-9b30d7c820a6")
 		)
@@ -18200,6 +19890,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e34f4365-906e-4145-96d0-500811ed0f45")
 		)
@@ -18225,7 +19933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6736aed-6f1a-4b6c-8c6d-3a430eb555ff")
-		(property "Reference" "D105"
+		(property "Reference" "D109"
 			(at 88.9254 88.9 0)
 			(effects
 				(font
@@ -18242,7 +19950,7 @@
 			)
 		)
 		(property "Footprint" "0_Feedback:LED_LTST-C19HE1WT"
-			(at 91.44 101.6 0)
+			(at 91.694 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18252,7 +19960,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/3/281/1/LTST_C19HE1WT.pdf"
-			(at 91.44 101.6 0)
+			(at 92.71 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18261,7 +19969,7 @@
 			)
 		)
 		(property "Description" "Red, Green, Blue _RGB_ 624nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.1V Red, 3.35V Green, 3.35V Blue 0606 _1616 Metric_"
-			(at 91.44 101.6 0)
+			(at 95.758 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18270,7 +19978,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On Inc."
-			(at 91.44 101.6 0)
+			(at 91.694 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18280,17 +19988,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C19HE1WT "
-			(at 91.44 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" "https://www.mouser.de/ProductDetail/LITEON/LTST-C19HE1WT?qs=WAWaI72GHKxJLPArJA9%252BUw%3D%3D"
-			(at 91.44 101.6 0)
+			(at 91.44 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18300,7 +19998,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/liteon/LTST-C19HE1WT/3198710?s=N4IgTCBcDaIDIBUDKCC0BhAjATgBIFFMB1BEAXQF8g"
-			(at 91.44 101.6 0)
+			(at 90.678 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18310,6 +20008,34 @@
 			)
 		)
 		(property "LCSC" "C458749"
+			(at 88.646 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/LITEON/LTST-C19HE1WT?qs=WAWaI72GHKxJLPArJA9%252BUw%3D%3D"
+			(at 91.694 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 91.44 101.6 0)
 			(effects
 				(font
@@ -18333,7 +20059,7 @@
 		(instances
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D105")
+					(reference "D109")
 					(unit 1)
 				)
 			)
@@ -18386,6 +20112,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 248.92 76.2 0)
 			(effects
 				(font
@@ -18573,6 +20317,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65067270-dff9-49bd-8d76-da86f13e755a")
 		)
@@ -18583,6 +20345,278 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD5Z5.0T1G")
+		(at 82.55 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dede8b47-2c34-4be0-9641-b4aa2ae82da2")
+		(property "Reference" "D103"
+			(at 83.058 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5Z5.0T1G"
+			(at 72.644 57.912 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523_1"
+			(at 86.995 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 174W 18.6V 50nA 5V 6.2V 80pF 9.4A@8/20us ESD IEC 61000-4-2、IEC 61000-4-4 Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 77.216 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 87.63 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD5Z5.0T1G"
+			(at 74.93 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/onsemi/ESD5Z5.0T1G?qs=OSf9jACorvYw3fDx1S8P6A%3D%3D"
+			(at 73.152 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/onsemi/ESD5Z5-0T1G/1476609"
+			(at 99.822 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82044"
+			(at 82.042 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 82.55 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 82.55 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45b88532-70c0-4def-8bd0-39912937e530")
+		)
+		(pin "1"
+			(uuid "3b147006-38e0-4dab-a0b1-c674f1daa27d")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:TPD1E10B06DYAR")
+		(at 29.21 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2d94328-f381-43b8-afc0-9715fc927c2d")
+		(property "Reference" "D111"
+			(at 31.75 174.6249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E10B06DYAR"
+			(at 31.75 176.53 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 24.765 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tpd1e10b06.pdf?ts=1777972949387"
+			(at 22.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 1 100nA 12pF 14V 5.5V 6A@8/20us 6V 90W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOT-5X3 ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 34.544 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 24.13 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPD1E10B06DYAR"
+			(at 36.83 175.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Texas-Instruments/TPD1E10B06DYAR?qs=Rp5uXu7WBW9%2F66n97S3Kgw%3D%3D"
+			(at 38.608 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/TPD1E10B06DYAR/15853876"
+			(at 11.938 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3712135"
+			(at 29.718 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 29.21 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 29.21 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae9b32a7-9346-44c3-a708-169636521b1f")
+		)
+		(pin "2"
+			(uuid "7c979f75-c9c0-459b-bd31-0cb4d91b52e0")
+		)
+		(instances
+			(project ""
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D111")
 					(unit 1)
 				)
 			)
@@ -18680,6 +20714,24 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 271.78 52.07 0)
 			(effects
 				(font
@@ -18803,6 +20855,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 83.82 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0c87211-a182-404a-8e51-9b3f229a5432")
 		)
@@ -18918,6 +20988,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e363f248-309b-4bd2-96cb-03b455f2cdd5")
 		)
@@ -18942,7 +21030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f363e096-f450-430d-9365-696c136acfbf")
-		(property "Reference" "D107"
+		(property "Reference" "D105"
 			(at 109.22 54.2924 90)
 			(effects
 				(font
@@ -19032,6 +21120,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 106.68 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 106.68 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d89b8007-3b1c-43a3-8625-d13b68025ba0")
 		)
@@ -19041,7 +21147,7 @@
 		(instances
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D107")
+					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -19138,6 +21244,24 @@
 		)
 		(property "LCSC" "C11702"
 			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 147.32 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 147.32 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19259,6 +21383,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributer Link 1" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a8856413-369f-4b13-894c-1443da310037")
 		)
@@ -19269,128 +21411,6 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "R102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:DF13-4P-1.25H_75_")
-		(at 88.9 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f749dfc4-3efc-4328-b5ed-15f773ea4c5e")
-		(property "Reference" "J102"
-			(at 88.6023 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DF13-4P-1.25H_51_"
-			(at 88.6023 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_Connectors:HRS_DF13-4P-1.25H_75_"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Hirose Connector"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(51)"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H51?qs=XQjbzJWzFPWwZhqyxYrKfQ%3D%3D"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-51/3977727?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACkKQEoQBdAXyA"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17274158"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9bf89efd-a990-4942-acfd-c074fe755714")
-		)
-		(pin "3"
-			(uuid "d07acfb8-1152-40a9-9928-a820e5d542b6")
-		)
-		(pin "1"
-			(uuid "2b7b8e33-47b0-418a-a56a-7f369782f1b3")
-		)
-		(pin "4"
-			(uuid "5bda03ad-c273-40a0-8582-ec4b0f7c426c")
-		)
-		(instances
-			(project ""
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -19458,6 +21478,142 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 125.73 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f89bf4f5-cfae-4747-a78f-f4e46b41d6b2")
+		(property "Reference" "D108"
+			(at 131.826 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 123.19 29.5274 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 130.175 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 132.08 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 120.396 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 130.81 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 118.11 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 116.332 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 143.002 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 125.222 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 125.73 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 125.73 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a01b48d8-4eab-40e7-be25-3a574640dd8f")
+		)
+		(pin "1"
+			(uuid "ba7e4f7d-babf-4ecd-a611-87c4d7b5c4f3")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D108")
 					(unit 1)
 				)
 			)
@@ -19578,6 +21734,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
 			(at 130.81 36.83 0)
 			(effects
 				(font
