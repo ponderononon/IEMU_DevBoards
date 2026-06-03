@@ -355,7 +355,7 @@
 		)
 		(uuid "e7aecd3d-43db-48a7-9b77-2c96cf002981")
 	)
-	(text "5V Trigger for MoCap System"
+	(text "5V Trigger"
 		(exclude_from_sim no)
 		(at 42.418 120.142 0)
 		(effects
@@ -5008,16 +5008,6 @@
 				(justify left)
 			)
 		)
-		(pin "CHG_DOCK_GLOBAL_FAULT" input
-			(at 181.61 95.25 180)
-			(uuid "286d7d85-acbc-4432-b704-292d89ba3c7a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CHG_DOCK_EN_1" input
 			(at 181.61 99.06 180)
 			(uuid "96c5dfda-f89c-433c-b191-e04c94c08051")
@@ -5061,6 +5051,16 @@
 		(pin "CHG_DOCK_DET_1" output
 			(at 181.61 110.49 180)
 			(uuid "5f07a3c5-5570-4fe6-a06b-3a72d4c0b6d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG_DOCK_GLOBAL_FAULT" output
+			(at 181.61 95.25 180)
+			(uuid "7d1ca507-2785-4c69-bdec-b927a9487496")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -12,7 +12,7 @@
 		(comment 1 "BASE - IEMU Development Board - Open-source Inertial Sensor for Biomechanics")
 	)
 	(lib_symbols
-		(symbol "0_Connectors:DF13-4P-1.25H_75_"
+		(symbol "0_Connectors:DF13-4P-1.25H(21)"
 			(pin_names
 				(offset 1.016)
 			)
@@ -28,7 +28,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DF13-4P-1.25H_51_"
+			(property "Value" "DF13-4P-1.25H(21)"
 				(at -5.08 -7.62 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "0_Connectors:HRS_DF13-4P-1.25H_75_"
+			(property "Footprint" "0_Connectors:DF13-4P-1.25H(21)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
+			(property "Datasheet" "https://www.mouser.de/datasheet/3/731/1/DF13_Catalog_en_DF13_CAT.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Hirose Connector"
+			(property "Manufacturer_Name" "Hirose Electric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "DF13-4P-1.25H(51)"
+			(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21) "
 				(at 0 0 0)
 				(effects
 					(font
@@ -85,34 +85,37 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H51?qs=XQjbzJWzFPWwZhqyxYrKfQ%3D%3D"
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-51/3977727?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACkKQEoQBdAXyA"
+			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-21/444062?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACjCQEoQBdAXyA"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C17274158"
+			(property "LCSC" "C597872"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "DF13-4P-1.25H_75__0_0"
+			(symbol "DF13-4P-1.25H(21)_0_0"
 				(polyline
 					(pts
 						(xy -5.08 6.35) (xy -3.81 7.62)
@@ -308,212 +311,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0_Connectors:RCLAMP3321P-N"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RCLAMP3321P-N"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-882"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "BORN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C5148485"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RCLAMP3321P-N_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RCLAMP3321P-N_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1621,6 +1418,238 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_Power:ESD9L1P8"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.54 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9L1P8"
+				(at 0.762 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-882"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+				(at 2.032 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diotec Semiconductor"
+				(at -4.572 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESD9L1P8"
+				(at 0.254 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+				(at 3.556 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+				(at 0.762 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6244607"
+				(at -20.32 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*DPY0002A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9L1P8_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9L1P8_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4655,7 +4684,7 @@
 		(uuid "9184c83a-5307-4126-9a1f-14bb50347ab7")
 	)
 	(hierarchical_label "CHG_DOCK_GLOBAL_FAULT"
-		(shape input)
+		(shape output)
 		(at 52.07 43.18 0)
 		(effects
 			(font
@@ -4775,6 +4804,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e4ab33b-8359-4465-9d8c-58d4ae245360")
 		)
@@ -4878,6 +4925,24 @@
 		)
 		(property "LCSC" "C11702"
 			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 132.08 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 132.08 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,6 +5065,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f0b3343-8941-4ab5-9c35-e150d1736f1e")
 		)
@@ -5010,130 +5093,6 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "R209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:DF13-4P-1.25H_75_")
-		(at 186.69 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a72186b-f463-434c-b2b7-d1db952d15a1")
-		(property "Reference" "J204"
-			(at 194.31 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DF13-4P-1.25H_51_"
-			(at 194.31 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_Connectors:HRS_DF13-4P-1.25H_75_"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Hirose Connector"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(51)"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H51?qs=XQjbzJWzFPWwZhqyxYrKfQ%3D%3D"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-51/3977727?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACkKQEoQBdAXyA"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17274158"
-			(at 186.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1adcd902-c459-4ddb-a32a-566ca3ae5058")
-		)
-		(pin "3"
-			(uuid "e6240ce3-27e1-43ae-9ff4-c880831daf6c")
-		)
-		(pin "1"
-			(uuid "fb8db478-74e0-43f5-bf0b-f51edaa75fd7")
-		)
-		(pin "4"
-			(uuid "d0782558-66ca-4632-9722-d94297481f9e")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -5208,16 +5167,16 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 220.98 60.96 270)
+		(lib_id "0_Connectors:DF13-4P-1.25H(21)")
+		(at 186.69 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0cf84ada-022d-4b8d-b0f1-5a5e57683b9e")
-		(property "Reference" "D201"
-			(at 215.646 58.166 90)
+		(uuid "0e323209-0945-43fa-82fe-cc1f992a5e9a")
+		(property "Reference" "J204"
+			(at 182.118 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,18 +5184,27 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 221.996 64.77 90)
+		(property "Value" "DF13-4P-1.25H(21)"
+			(at 187.96 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Footprint" "0_Connectors:DF13-4P-1.25H(21)"
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 216.535 60.96 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/731/1/DF13_Catalog_en_DF13_CAT.pdf"
+			(at 186.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,8 +5212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 220.98 60.96 0)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
+			(at 186.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,184 +5221,81 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 220.98 60.96 0)
+		(property "Manufacturer_Name" "Hirose Electric"
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21) "
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-21/444062?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACjCQEoQBdAXyA"
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597872"
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 186.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "04f10c1f-2b37-4715-ab35-7d1ae35c6f23")
 		)
 		(pin "1"
-			(uuid "6a7c2baf-0cec-45df-b327-88d9cab82fe0")
+			(uuid "6f65214d-7231-4be8-9fc6-aea52a789b5b")
+		)
+		(pin "3"
+			(uuid "aa0284b3-7bee-421f-9955-fc3bca05cc3f")
+		)
+		(pin "2"
+			(uuid "f4451b23-f959-495e-892a-504dcd22dd6a")
+		)
+		(pin "4"
+			(uuid "2a9f0fba-c7fc-46d6-bb96-1864a1097ffe")
 		)
 		(instances
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 161.29 162.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e262546-abce-4023-9130-12aa57bf20a0")
-		(property "Reference" "D208"
-			(at 155.702 159.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 144.78 165.1 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 156.845 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 161.29 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6aa35267-2c5a-4444-be3d-1ccdde3d4af5")
-		)
-		(pin "1"
-			(uuid "88b958fe-149f-4da5-97a5-1f4102c70ed1")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D208")
+					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -5627,6 +5492,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f01c1ad1-9166-4519-a4ad-af0362f0a1bc")
 		)
@@ -5634,130 +5517,6 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "TP206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:DF13-4P-1.25H_75_")
-		(at 231.14 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2438ec82-9f38-4be1-81c4-a791c4f127a2")
-		(property "Reference" "J202"
-			(at 238.76 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DF13-4P-1.25H_51_"
-			(at 238.76 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_Connectors:HRS_DF13-4P-1.25H_75_"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Hirose Connector"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(51)"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H51?qs=XQjbzJWzFPWwZhqyxYrKfQ%3D%3D"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-51/3977727?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACkKQEoQBdAXyA"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17274158"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2334f4e9-c791-481e-bd34-a282cc58176b")
-		)
-		(pin "3"
-			(uuid "299ad7e1-4969-42fa-b71d-2ffd867ff05a")
-		)
-		(pin "1"
-			(uuid "714b97c1-7f08-4512-bd82-f59c775e83c2")
-		)
-		(pin "4"
-			(uuid "dc866f5b-8c88-484a-a1db-ad4f7e52b37d")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -5819,6 +5578,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 62.23 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 62.23 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d917922-4d00-4282-9422-c327eb968219")
 		)
@@ -5826,244 +5603,6 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "TP209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 182.88 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2579082e-497a-4dc4-a6b7-a5baf414d07c")
-		(property "Reference" "D206"
-			(at 177.292 126.492 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 166.37 132.08 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 178.435 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f43c337-5229-45d2-a3c4-afee220c24a6")
-		)
-		(pin "1"
-			(uuid "775afaaa-5f4a-4a6b-b8ef-b143563289cd")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:DF13-4P-1.25H_75_")
-		(at 208.28 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26ea9a0f-2f49-435a-8dea-20258241da52")
-		(property "Reference" "J203"
-			(at 215.9 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DF13-4P-1.25H_51_"
-			(at 215.9 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_Connectors:HRS_DF13-4P-1.25H_75_"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Hirose Connector"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(51)"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H51?qs=XQjbzJWzFPWwZhqyxYrKfQ%3D%3D"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-51/3977727?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACkKQEoQBdAXyA"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17274158"
-			(at 208.28 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17318f61-35c4-4dbd-9936-a2d3ba5e467a")
-		)
-		(pin "3"
-			(uuid "27a1d79d-d01f-44fa-b2a0-92aa707263ec")
-		)
-		(pin "1"
-			(uuid "7b7b2eed-9969-483d-bca6-a25e3e54ef0a")
-		)
-		(pin "4"
-			(uuid "dae22356-8217-4761-8630-ef322146bdf3")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -6161,6 +5700,24 @@
 			)
 		)
 		(property "LCSC" "C25792"
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 142.24 144.78 0)
 			(effects
 				(font
@@ -6352,6 +5909,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2968e679-906d-4a5e-8e37-3aac30ae7294")
 		)
@@ -6362,6 +5937,141 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "R201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Connectors:DF13-4P-1.25H(21)")
+		(at 208.28 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3082695a-d389-4de4-abc4-ccc5b43c4b41")
+		(property "Reference" "J203"
+			(at 203.708 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DF13-4P-1.25H(21)"
+			(at 209.55 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_Connectors:DF13-4P-1.25H(21)"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/731/1/DF13_Catalog_en_DF13_CAT.pdf"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose Electric"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21) "
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-21/444062?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACjCQEoQBdAXyA"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597872"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0968857-942c-4d19-9a30-2d38bd80c36b")
+		)
+		(pin "3"
+			(uuid "219c7fce-aea2-4595-908d-f00fd01446fb")
+		)
+		(pin "2"
+			(uuid "de1c82a1-9652-4da1-a05c-04a83dde81a5")
+		)
+		(pin "4"
+			(uuid "256852dc-2dfe-4aa0-9fc4-65cf1ba8a03a")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -6467,6 +6177,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e228296c-c02a-49fe-81da-730131587538")
 		)
@@ -6477,6 +6205,141 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Connectors:DF13-4P-1.25H(21)")
+		(at 254 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "382b5c0c-7b30-4d9b-896e-af04f9290f05")
+		(property "Reference" "J201"
+			(at 249.428 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DF13-4P-1.25H(21)"
+			(at 255.27 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_Connectors:DF13-4P-1.25H(21)"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/731/1/DF13_Catalog_en_DF13_CAT.pdf"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose Electric"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21) "
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-21/444062?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACjCQEoQBdAXyA"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597872"
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed52117e-16e3-4586-952f-f3048f5ebdf8")
+		)
+		(pin "3"
+			(uuid "fc696f1d-06c9-41c9-a93c-1c632ca8cbad")
+		)
+		(pin "2"
+			(uuid "d391e800-7b25-47ce-9f3e-c5414818b01a")
+		)
+		(pin "4"
+			(uuid "70be30d7-7823-43fd-b051-3f5349cd3916")
+		)
+		(instances
+			(project ""
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -6597,6 +6460,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 166.37 90.17 0)
 			(effects
 				(font
@@ -6808,6 +6689,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18d2d0e1-718b-42b3-b702-2b3b8369b043")
 		)
@@ -6985,6 +6884,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1949d2e-e432-4af2-b3d8-da4e2aa64139")
 		)
@@ -6995,6 +6912,134 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 161.29 161.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5540339e-a297-4942-a4e3-b870122d0fc2")
+		(property "Reference" "D208"
+			(at 159.512 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 158.75 163.5124 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 165.735 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 167.64 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 155.956 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 166.37 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 153.67 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 151.892 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 178.562 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 160.782 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 161.29 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "980ed2f7-76d3-425f-9d45-6fabffaa6e6b")
+		)
+		(pin "1"
+			(uuid "d8aa4b03-db8d-4353-9d6b-38db6a021938")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "D208")
 					(unit 1)
 				)
 			)
@@ -7100,6 +7145,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65de2144-c736-49ad-8965-30b0692f3ddf")
 		)
@@ -7110,121 +7173,6 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 153.67 162.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61454ce9-1638-473b-b8eb-e32d862fdab1")
-		(property "Reference" "D207"
-			(at 148.336 159.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 154.686 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 149.225 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f4725ec-4995-4734-8a5f-18ca55743bc7")
-		)
-		(pin "1"
-			(uuid "2857a902-4934-45de-93f9-007735de8f3a")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D207")
 					(unit 1)
 				)
 			)
@@ -7395,6 +7343,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f3e6687-e06b-4cc8-86b1-9ee270a6c029")
 		)
@@ -7538,120 +7504,6 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "#PWR0319")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 205.74 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d94b4aa-a586-4598-bec1-6923a64057b7")
-		(property "Reference" "D204"
-			(at 200.152 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 189.23 97.79 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 201.295 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "59b06a70-2474-41b1-8992-5bbb240b00ac")
-		)
-		(pin "1"
-			(uuid "5d482fa1-e404-412d-9496-aefc25b74910")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -7822,6 +7674,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a38450f3-9d56-44a3-b954-159763a7c4ef")
 		)
@@ -7930,6 +7800,24 @@
 		)
 		(property "LCSC" "C2871420"
 			(at 107.188 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 128.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 128.27 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,6 +7955,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3031582c-c32d-4431-9142-519c9a7375fb")
 		)
@@ -8151,121 +8057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 198.12 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7de5eaa9-6fe1-40c9-a08f-53e57d5b7f38")
-		(property "Reference" "D203"
-			(at 192.786 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 199.136 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 193.675 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b7252a9-ef0f-440e-8ec5-3447e4940a53")
-		)
-		(pin "1"
-			(uuid "5812c3f5-80db-4a2a-81f4-92d53b7604f5")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 189.23 57.15 180)
 		(unit 1)
@@ -8312,6 +8103,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 189.23 57.15 0)
 			(effects
 				(font
@@ -8495,6 +8304,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 153.67 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 153.67 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f25a5782-2d5c-4776-b8c3-6346a0c56f8e")
 		)
@@ -8505,6 +8332,133 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 153.67 161.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ac339f1-989d-46ce-94ca-807bb2120118")
+		(property "Reference" "D207"
+			(at 151.892 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 151.13 163.5124 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 158.115 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 148.336 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 158.75 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 146.05 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 144.272 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 170.942 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 153.162 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 153.67 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56a5abd8-42bc-4763-9e49-0c9b4ee4625f")
+		)
+		(pin "1"
+			(uuid "f3b720bf-618c-47de-ae20-096cbf97c620")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "D207")
 					(unit 1)
 				)
 			)
@@ -8676,6 +8630,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "84bb99c5-9a9f-4e2d-9e5d-42eb04f53eae")
 		)
@@ -8806,6 +8778,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 166.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 166.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea34003f-7ae3-4aba-b0dc-330a08de8383")
 		)
@@ -8921,6 +8911,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "614f2ea5-8626-48cf-b309-e2b84db133ba")
 		)
@@ -8931,6 +8939,133 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 175.26 128.27 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "962f6860-fc3a-409a-a2cd-8bd274ec9121")
+		(property "Reference" "D205"
+			(at 173.482 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 172.72 130.4924 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 179.705 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 169.926 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 180.34 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 167.64 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 165.862 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 192.532 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 174.752 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 175.26 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f275e066-775d-4a43-a5f2-fa9949e81d2a")
+		)
+		(pin "1"
+			(uuid "77b43f1f-33c0-4c36-acbf-6f1d30835330")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -9260,6 +9395,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37d80b3f-2202-4beb-bc5f-dd153e6cd9fa")
 		)
@@ -9438,6 +9591,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b6caccb-6a08-4071-b0b5-53f99af0bf0c")
 		)
@@ -9546,6 +9717,24 @@
 		)
 		(property "LCSC" "C2871420"
 			(at 39.878 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 60.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 60.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,6 +9872,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7bc15028-0639-4fa7-ae13-cd4e9339aeaa")
 		)
@@ -9708,120 +9915,6 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "U203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 228.6 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aacfefe4-1b6f-4241-8b2a-7c5c54aa4673")
-		(property "Reference" "D202"
-			(at 223.012 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 212.09 63.5 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 224.155 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BORN"
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" ""
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 228.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "700124d5-31f9-4bf1-8b73-056a1a1787da")
-		)
-		(pin "1"
-			(uuid "3153e126-0ca4-48b3-92c5-22b3db1e2403")
-		)
-		(instances
-			(project "IEMU_Base_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -9876,6 +9969,24 @@
 		)
 		(property "Description" "test point"
 			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 107.95 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 107.95 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,6 +10172,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 153.67 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 153.67 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0435537c-57d8-4edb-8fab-88e2e5cac9f3")
 		)
@@ -10168,6 +10297,24 @@
 			)
 		)
 		(property "LCSC" "C26083"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -10291,6 +10438,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df80d1e8-37e8-4382-a3d8-cdc6e76c0729")
 		)
@@ -10353,6 +10518,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 121.92 149.86 0)
 			(effects
 				(font
@@ -10428,6 +10611,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82c65ff0-4f36-4e37-bdc8-7d14f471304d")
 		)
@@ -10435,6 +10636,134 @@
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
 					(reference "TP211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 205.74 93.98 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b689d0e2-0bc4-4fa9-a01a-aec4e72ecbc1")
+		(property "Reference" "D204"
+			(at 203.962 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 203.2 96.2024 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 210.185 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 200.406 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 210.82 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 198.12 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 196.342 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 223.012 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 205.232 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 205.74 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3c21e37-e79a-4ac5-b9db-226c920bd014")
+		)
+		(pin "1"
+			(uuid "2e25c5cd-7c6c-4225-9a92-627edae27e0f")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -10489,6 +10818,24 @@
 		)
 		(property "Description" "test point"
 			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 40.64 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 40.64 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,6 +10952,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6b2ea5a-2494-40fd-a94a-a3788731beb6")
 		)
@@ -10687,6 +11052,134 @@
 		)
 	)
 	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 228.6 59.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb6d53e4-2ce0-4fe8-8a5e-b62ad87d6e87")
+		(property "Reference" "D202"
+			(at 226.822 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 226.06 61.9124 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 233.045 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 234.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 223.266 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 233.68 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 220.98 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 219.202 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 245.872 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 228.092 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 228.6 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c090ab9-ace7-49a3-9c44-fde5405daa84")
+		)
+		(pin "1"
+			(uuid "b6a327c0-e331-403a-b655-94839b7f93ed")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 143.51 125.73 180)
 		(unit 1)
@@ -10696,7 +11189,7 @@
 		(dnp no)
 		(uuid "bc41b0a1-d00e-4332-80f2-475f814865c7")
 		(property "Reference" "TP212"
-			(at 145.288 131.064 0)
+			(at 147.32 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,6 +11226,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -10851,6 +11362,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 199.39 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 199.39 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38e911f0-7e81-48e3-901e-5c430124f0c0")
 		)
@@ -10913,6 +11442,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 189.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 189.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 189.23 48.26 0)
 			(effects
 				(font
@@ -11033,6 +11580,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56fbcfd5-8557-455d-9c3e-5a149a35aaf4")
 		)
@@ -11138,6 +11703,24 @@
 		)
 		(property "LCSC" "C11702"
 			(at 132.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 132.08 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 132.08 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,6 +11911,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0244cfed-21ab-46ca-992a-34632621d403")
 		)
@@ -11506,6 +12107,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 176.53 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 176.53 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ca7a9d5-5d9b-4ecc-97cb-3feacf9ce000")
 		)
@@ -11570,6 +12189,24 @@
 		)
 		(property "Description" "test point"
 			(at 85.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 85.09 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 85.09 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11679,6 +12316,24 @@
 		)
 		(property "LCSC" "C11702"
 			(at 199.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 199.39 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 199.39 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11869,6 +12524,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dcc20832-23a1-4ce6-b6f8-04acb9552ca6")
 		)
@@ -11885,16 +12558,17 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Connectors:DF13-4P-1.25H_75_")
-		(at 254 53.34 0)
+		(lib_id "0_Power:ESD9L1P8")
+		(at 198.12 93.98 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f749dfc4-3efc-4328-b5ed-15f773ea4c5e")
-		(property "Reference" "J201"
-			(at 249.174 60.452 0)
+		(uuid "f3e7f300-49f7-4129-96ed-80046d90ebd1")
+		(property "Reference" "D203"
+			(at 196.342 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11902,27 +12576,38 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DF13-4P-1.25H_51_"
-			(at 248.92 62.738 0)
+		(property "Value" "ESD9L1P8"
+			(at 195.58 96.2024 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 202.565 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "0_Connectors:HRS_DF13-4P-1.25H_75_"
-			(at 254 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
-			(at 254 53.34 0)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 192.786 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11930,8 +12615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
-			(at 254 53.34 0)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 203.2 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11939,28 +12624,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Hirose Connector"
-			(at 254 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(51)"
-			(at 254 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H51?qs=XQjbzJWzFPWwZhqyxYrKfQ%3D%3D"
-			(at 254 53.34 0)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 190.5 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,8 +12633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-51/3977727?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACkKQEoQBdAXyA"
-			(at 254 53.34 0)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 188.722 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11977,8 +12642,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17274158"
-			(at 254 53.34 0)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 215.392 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 197.612 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 198.12 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,21 +12670,278 @@
 			)
 		)
 		(pin "2"
-			(uuid "9bf89efd-a990-4942-acfd-c074fe755714")
-		)
-		(pin "3"
-			(uuid "d07acfb8-1152-40a9-9928-a820e5d542b6")
+			(uuid "17014b93-1acd-4534-a7f5-772cb8a163c9")
 		)
 		(pin "1"
-			(uuid "2b7b8e33-47b0-418a-a56a-7f369782f1b3")
-		)
-		(pin "4"
-			(uuid "5bda03ad-c273-40a0-8582-ec4b0f7c426c")
+			(uuid "cf0988bd-bc11-44b2-b566-ec69266369fb")
 		)
 		(instances
 			(project "IEMU_Base_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "J201")
+					(reference "D203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:ESD9L1P8")
+		(at 182.88 128.27 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f519a8e5-62b9-4066-8a7e-7f0dfbf8a99c")
+		(property "Reference" "D206"
+			(at 181.102 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD9L1P8"
+			(at 180.34 130.4924 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 187.325 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 177.546 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 187.96 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 175.26 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 173.482 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 200.152 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6244607"
+			(at 182.372 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 182.88 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4baf367c-ee06-436a-9066-ad67b6e41113")
+		)
+		(pin "1"
+			(uuid "67335cc4-1092-4ab3-b0cc-36a88ae7bade")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "D206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Connectors:DF13-4P-1.25H(21)")
+		(at 231.14 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f65242fa-d89c-4027-ae59-ba34312ea2bb")
+		(property "Reference" "J202"
+			(at 226.568 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DF13-4P-1.25H(21)"
+			(at 232.41 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_Connectors:DF13-4P-1.25H(21)"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/731/1/DF13_Catalog_en_DF13_CAT.pdf"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount, Right Angle 4 position 0.049 (1.25mm)"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose Electric"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21) "
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/DF13-4P-1-25H-21/444062?s=N4IgTCBcDaICIDECMBmAtAFgApqQOjAFYAJACjCQEoQBdAXyA"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C597872"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb1474c8-8786-4ba8-9249-d00c64cf14b2")
+		)
+		(pin "3"
+			(uuid "6ab1e5e9-59e1-4554-8061-8f524aa2d5ca")
+		)
+		(pin "2"
+			(uuid "92eb6d0f-86f7-4789-9651-8e9c3ef92267")
+		)
+		(pin "4"
+			(uuid "7270d29c-1763-4d0e-b184-b6cea31407af")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -12130,6 +13070,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactuer_Name" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ce44009-536b-4e28-baaa-d9149c56c6e3")
 		)
@@ -12143,16 +13101,17 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Connectors:RCLAMP3321P-N")
-		(at 175.26 129.54 270)
+		(lib_id "0_Power:ESD9L1P8")
+		(at 220.98 59.69 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc323a72-dfeb-4e09-bd7e-fd5632a6aded")
-		(property "Reference" "D205"
-			(at 169.926 126.746 90)
+		(uuid "fe55fc39-b3a7-4125-adbf-12d773076c8c")
+		(property "Reference" "D201"
+			(at 219.202 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12160,18 +13119,38 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RCLAMP3321P-N"
-			(at 176.276 133.35 90)
+		(property "Value" "ESD9L1P8"
+			(at 218.44 61.9124 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 170.815 129.54 0)
+			(at 225.425 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(at 227.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(at 215.646 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,8 +13158,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209051730_BORN-RCLAMP3321P-N_C5148485.pdf"
-			(at 175.26 129.54 0)
+		(property "Manufacturer_Name" "Diotec Semiconductor"
+			(at 226.06 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12188,8 +13167,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.4pF 1 19V 3.3V 3.5A@8/20us 500nA 60W@8/20us 7.5V Bidirectional IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 175.26 129.54 0)
+		(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(at 213.36 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12197,8 +13176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "BORN"
-			(at 175.26 129.54 0)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(at 211.582 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12206,8 +13185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RCLAMP3321P-N"
-			(at 175.26 129.54 0)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(at 238.252 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12215,8 +13194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
-			(at 175.26 129.54 0)
+		(property "LCSC" "C6244607"
+			(at 220.472 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12224,17 +13203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" ""
-			(at 175.26 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5148485"
-			(at 175.26 129.54 0)
+		(property "Distributer Link 1" ""
+			(at 220.98 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,15 +13213,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a2fbcfd5-b89d-420e-90c0-9aa6ca03ebc8")
+			(uuid "ad266722-5c64-41e5-9dc2-629cd9e7fffa")
 		)
 		(pin "1"
-			(uuid "7e541f35-0a94-4ba1-ab77-6f33cb81068c")
+			(uuid "5ca9aa44-d4eb-4d67-8b8c-148c8884b93f")
 		)
 		(instances
-			(project "IEMU_Base_DB"
+			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/fc872315-af1b-4ebb-aa29-205d76340488"
-					(reference "D205")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -12304,6 +13274,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
 			(at 184.15 57.15 0)
 			(effects
 				(font

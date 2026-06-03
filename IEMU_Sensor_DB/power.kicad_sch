@@ -14500,7 +14500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e1597f5-2993-4200-92cd-3928aec6d412")
-		(property "Reference" "TP101"
+		(property "Reference" "TP102"
 			(at 88.646 81.026 0)
 			(effects
 				(font
@@ -14552,7 +14552,7 @@
 		(instances
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "TP101")
+					(reference "TP102")
 					(unit 1)
 				)
 			)
