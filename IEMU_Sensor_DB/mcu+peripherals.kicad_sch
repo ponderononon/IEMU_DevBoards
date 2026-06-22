@@ -208,22 +208,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 64.77 7.62 0)
+			(property "Reference" "U201"
+				(at 12.3033 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "Ezurio BL54L15"
-				(at 64.77 5.08 0)
+				(at 12.3033 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" "0_MCU:BL54L15"
@@ -275,16 +275,6 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.75"
-				(at 64.77 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
 			(property "Distributor Link 1" "https://mouser.com/ProductDetail/Ezurio/453-00001C?qs=a2MtRaTmNOR8OxAR96ozSQ%3D%3D"
 				(at 64.77 -494.92 0)
 				(effects
@@ -306,6 +296,34 @@
 				)
 			)
 			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 64.77 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Distributer Link 1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufactuer_Name" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -581,14 +599,14 @@
 				(pin passive line
 					(at 0 -63.5 0)
 					(length 5.08)
-					(name "P0.03/CLK"
+					(name "P1.10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -977,14 +995,14 @@
 				(pin passive line
 					(at 68.58 -73.66 180)
 					(length 5.08)
-					(name "P1.10"
+					(name "P0.03/CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4732,10 +4750,6 @@
 		(uuid "fdf704be-8850-4b8d-9d58-5725dbc18ebe")
 	)
 	(no_connect
-		(at 48.26 106.68)
-		(uuid "13f62fab-1790-46d8-8ead-d75936b1fa0d")
-	)
-	(no_connect
 		(at 167.64 142.24)
 		(uuid "24ac5406-825b-4e0e-87e0-58aaa7ca3092")
 	)
@@ -4748,20 +4762,16 @@
 		(uuid "468376b6-03bf-4f7f-953a-afe24913af2c")
 	)
 	(no_connect
-		(at 48.26 68.58)
-		(uuid "64870600-5444-48bb-bed3-21c90011f427")
-	)
-	(no_connect
 		(at 48.26 73.66)
 		(uuid "6d862117-7c15-402b-b133-9fcfa1eaea43")
 	)
 	(no_connect
-		(at 48.26 66.04)
-		(uuid "a0dd574c-a1ef-4ca2-85dd-568e377aff4a")
-	)
-	(no_connect
 		(at 48.26 71.12)
 		(uuid "a5148af0-0201-4b1e-b7a5-c95144cb0c75")
+	)
+	(no_connect
+		(at 48.26 104.14)
+		(uuid "a525b48e-47db-4154-a85b-9cc07c1e41db")
 	)
 	(no_connect
 		(at 203.2 138.43)
@@ -4769,7 +4779,15 @@
 	)
 	(no_connect
 		(at 48.26 109.22)
-		(uuid "bc4c11ab-dbfb-49d0-bb23-3eb1fb916f83")
+		(uuid "d762413d-f556-4a73-8f4f-1efe2fb22766")
+	)
+	(no_connect
+		(at 48.26 106.68)
+		(uuid "da242a09-a0c6-4c6b-a3d2-7d8e2d19fa5e")
+	)
+	(no_connect
+		(at 48.26 114.3)
+		(uuid "e6f04239-c8f8-4818-805c-2e9562b7372c")
 	)
 	(wire
 		(pts
@@ -5193,6 +5211,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 83.82) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec8fc97-f17b-4075-9dfd-2703302ad80f")
+	)
+	(wire
+		(pts
 			(xy 39.37 60.96) (xy 48.26 60.96)
 		)
 		(stroke
@@ -5280,6 +5308,16 @@
 			(type default)
 		)
 		(uuid "474cfb51-3fb0-43d5-8c06-e37b8f64a974")
+	)
+	(wire
+		(pts
+			(xy 39.37 68.58) (xy 48.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4885c852-b59c-42e8-af71-e9a972a0ce2d")
 	)
 	(wire
 		(pts
@@ -5643,16 +5681,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 114.3) (xy 48.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890f57f0-ad10-416a-80c5-7a51cf53ebff")
-	)
-	(wire
-		(pts
 			(xy 171.45 52.07) (xy 171.45 50.8)
 		)
 		(stroke
@@ -5983,7 +6011,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 168.91 83.82)
+			(xy 125.73 83.82) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6233,7 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 104.14) (xy 48.26 104.14)
+			(xy 39.37 111.76) (xy 48.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6340,16 +6368,6 @@
 			(type default)
 		)
 		(uuid "e655c905-9498-4b62-a996-d240457ac784")
-	)
-	(wire
-		(pts
-			(xy 39.37 111.76) (xy 48.26 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9229f19-f6bf-46af-b318-0ee51a819ede")
 	)
 	(wire
 		(pts
@@ -6493,6 +6511,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 66.04) (xy 48.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc72c1c7-1a40-45f1-b0c2-7e4ddeea5562")
+	)
+	(wire
+		(pts
 			(xy 186.69 22.86) (xy 186.69 24.13)
 		)
 		(stroke
@@ -6540,6 +6568,16 @@
 			(justify left bottom)
 		)
 		(uuid "13736edf-5cf1-4413-bdb8-b2bd1217f99b")
+	)
+	(label "SWD_RESET_MCU"
+		(at 116.84 63.5 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a2c550-e2f4-4d36-8c28-219a5e81e840")
 	)
 	(label "SWD_CLK"
 		(at 123.19 55.88 0)
@@ -6590,6 +6628,16 @@
 			(justify left bottom)
 		)
 		(uuid "5c78979d-19bb-4351-ae54-3fbf4dabdbf8")
+	)
+	(label "QSPI_CLK"
+		(at 116.84 83.82 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eb3ad97-42c5-45c7-a2ce-fe90e99889c1")
 	)
 	(label "SPI_CLK_IMU"
 		(at 119.38 115.57 0)
@@ -6651,7 +6699,7 @@
 		)
 		(uuid "afe64090-60cc-4897-87c4-f06bcd8cd63d")
 	)
-	(label "SWD_RESET"
+	(label "SWD_RESET_TAG"
 		(at 130.81 63.5 0)
 		(effects
 			(font
@@ -6691,6 +6739,17 @@
 		)
 		(uuid "f7aa4430-ed01-434c-adc1-71ed07b87929")
 	)
+	(hierarchical_label "ACTUATOR_LOCAL_EN"
+		(shape output)
+		(at 39.37 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01d8852a-5650-4ae5-8f45-fc2835d8caf3")
+	)
 	(hierarchical_label "CHG_DOCK_DET_LPCOMP"
 		(shape input)
 		(at 39.37 83.82 180)
@@ -6726,17 +6785,6 @@
 		)
 		(uuid "4c0f3cf9-3998-486f-bc5c-4493cf5aaa4f")
 	)
-	(hierarchical_label "ACTUATOR_EXTERNAL_EN"
-		(shape output)
-		(at 39.37 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71b68803-099c-48bf-9e01-8bd5a0407094")
-	)
 	(hierarchical_label "CHG_DOCK_UART_TX"
 		(shape output)
 		(at 39.37 81.28 180)
@@ -6750,7 +6798,7 @@
 	)
 	(hierarchical_label "5V_CHG_DET"
 		(shape input)
-		(at 39.37 104.14 180)
+		(at 39.37 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6770,17 +6818,6 @@
 		)
 		(uuid "b1710e6c-7973-4e5b-b663-7b41b911ddfb")
 	)
-	(hierarchical_label "ACTUATOR_LOCAL_EN"
-		(shape output)
-		(at 39.37 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd6bdcf5-9270-41e6-9406-94ec7f4e3b39")
-	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 111.76 148.59 180)
@@ -6793,6 +6830,17 @@
 			(justify right)
 		)
 		(uuid "d3ab0cb2-6f92-447f-9f8c-3c518dc33cf4")
+	)
+	(hierarchical_label "ACTUATOR_EXTERNAL_EN"
+		(shape output)
+		(at 39.37 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7a5ed5b-c9e2-49f7-bd53-76e4b670626c")
 	)
 	(hierarchical_label "MCU_CURR_MON_COMP"
 		(shape input)
@@ -9025,7 +9073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -9111,7 +9159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 144.78 139.7 0)
 			(effects
 				(font
@@ -10168,7 +10216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 134.62 111.76 0)
 			(effects
 				(font
@@ -10387,7 +10435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 125.73 29.21 0)
 			(effects
 				(font
@@ -10473,7 +10521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 124.46 111.76 0)
 			(effects
 				(font
@@ -10559,7 +10607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -10778,7 +10826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 130.81 29.21 0)
 			(effects
 				(font
@@ -10864,7 +10912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 148.59 0)
 			(effects
 				(font
@@ -10949,7 +10997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 144.78 0)
 			(effects
 				(font
@@ -11673,7 +11721,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:R_22")
-		(at 120.65 83.82 90)
+		(at 121.92 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11681,7 +11729,7 @@
 		(dnp no)
 		(uuid "f0259d0c-630b-42c6-a43e-17a872101390")
 		(property "Reference" "R202"
-			(at 126.238 82.55 90)
+			(at 127.508 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +11737,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 125.476 85.09 90)
+			(at 126.746 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11745,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 85.598 90)
+			(at 121.92 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11754,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
-			(at 134.112 83.82 0)
+			(at 135.382 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +11763,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 22Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 126.238 78.232 0)
+			(at 127.508 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11772,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
-			(at 128.778 83.82 0)
+			(at 130.048 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11781,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0603WAF220JT5E"
-			(at 131.572 83.058 0)
+			(at 132.842 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +11790,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Royalohm/0603WAF220JT5E?qs=e8oIoAS2J1QaFtl9BkMMvg%3D%3D"
-			(at 130.81 81.026 0)
+			(at 132.08 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,7 +11799,7 @@
 			)
 		)
 		(property "Distributor Link 2" ""
-			(at 120.65 83.82 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,7 +11808,7 @@
 			)
 		)
 		(property "LCSC" "C23345"
-			(at 140.462 81.026 0)
+			(at 141.732 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11769,7 +11817,7 @@
 			)
 		)
 		(property "Distributer Link 1" ""
-			(at 120.65 83.82 90)
+			(at 121.92 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11778,7 +11826,7 @@
 			)
 		)
 		(property "Manufactuer_Name" ""
-			(at 120.65 83.82 90)
+			(at 121.92 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)

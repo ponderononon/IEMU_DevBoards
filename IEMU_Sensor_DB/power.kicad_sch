@@ -4745,6 +4745,27 @@
 					)
 				)
 			)
+			(symbol "BQ29702DSER_1_0"
+				(pin power_in line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "0_Power:CSD85301Q2"
@@ -6677,22 +6698,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 4.318 0)
+			(property "Reference" "U103"
+				(at 13.97 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TLV75530PDRVR"
-				(at 5.842 -8.128 0)
+				(at 13.97 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias"
@@ -6769,6 +6788,27 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(symbol "TLV75530PDRVR_1_0"
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
 			(symbol "TLV75530PDRVR_1_1"
@@ -8412,6 +8452,12 @@
 		(uuid "738ef98b-b36a-4a87-80c3-275161539067")
 	)
 	(junction
+		(at 59.69 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7443b78d-a05e-4b5d-9392-af90e7f93940")
+	)
+	(junction
 		(at 86.36 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8628,12 +8674,6 @@
 		(uuid "eb2526b7-6b7d-486c-8c86-2eebfea8885b")
 	)
 	(junction
-		(at 60.96 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef353351-9408-4115-bdb2-cf65ea68f31d")
-	)
-	(junction
 		(at 252.73 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8775,7 +8815,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 60.96 41.91)
+			(xy 57.15 41.91) (xy 59.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8905,16 +8945,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 48.26) (xy 58.42 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "121f26d4-25ea-4370-8175-f6c7c5c1b8e2")
-	)
-	(wire
-		(pts
 			(xy 50.8 69.85) (xy 82.55 69.85)
 		)
 		(stroke
@@ -8942,16 +8972,6 @@
 			(type default)
 		)
 		(uuid "167bf6fa-0320-4b33-8041-b3b4fafac91e")
-	)
-	(wire
-		(pts
-			(xy 60.96 41.91) (xy 64.77 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "193e9a8a-05ec-4656-8f1a-22efb41305c1")
 	)
 	(wire
 		(pts
@@ -9515,16 +9535,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 46.99) (xy 57.15 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623a0af9-1b5d-48f9-b6b9-3f22f339bf6c")
-	)
-	(wire
-		(pts
 			(xy 246.38 83.82) (xy 246.38 76.2)
 		)
 		(stroke
@@ -10075,16 +10085,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 41.91) (xy 60.96 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93c5b749-c0db-46d9-82e8-336cb53b36da")
-	)
-	(wire
-		(pts
 			(xy 237.49 60.96) (xy 237.49 64.77)
 		)
 		(stroke
@@ -10375,6 +10375,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 41.91) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2786ddf-4ad5-4b97-800c-3500b045d411")
+	)
+	(wire
+		(pts
 			(xy 68.58 156.21) (xy 73.66 156.21)
 		)
 		(stroke
@@ -10482,6 +10492,16 @@
 			(type default)
 		)
 		(uuid "c18293de-bfde-46c8-8162-9adfd271a132")
+	)
+	(wire
+		(pts
+			(xy 59.69 41.91) (xy 64.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b108f1-91b5-4e09-8a88-51f172af519d")
 	)
 	(wire
 		(pts
@@ -10875,16 +10895,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 57.15 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7f8384-a4ac-41a6-82bc-a1e1557f5486")
-	)
-	(wire
-		(pts
 			(xy 83.82 113.03) (xy 127 113.03)
 		)
 		(stroke
@@ -11113,7 +11123,7 @@
 		)
 		(uuid "0d410be5-08e8-4e90-a7b9-2ba0aa6870b1")
 	)
-	(label "NPM_SW1"
+	(label "NPM_SW2"
 		(at 184.15 110.49 0)
 		(effects
 			(font
@@ -11203,6 +11213,16 @@
 		)
 		(uuid "8b7fb20a-fcdb-4c04-8414-d3380844d5a4")
 	)
+	(label "+VBUS_OUT"
+		(at 182.88 62.23 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "905058a6-83a0-406c-b32f-f3e997e10e60")
+	)
 	(label "NPM_LED2"
 		(at 114.3 104.14 0)
 		(effects
@@ -11232,6 +11252,26 @@
 			(justify left bottom)
 		)
 		(uuid "a4d1e7d8-f9a4-4ee7-84f7-75f6aafdf172")
+	)
+	(label "CHG_DOCK_DET_CONN"
+		(at 104.14 36.83 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9e992da-503a-4ee2-9137-8f91bd449afb")
+	)
+	(label "CHG_DOCK_UART_CONN"
+		(at 104.14 34.29 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "da94392c-fcdb-47cd-9410-8d0b467fc61c")
 	)
 	(label "BAT_P_COUT"
 		(at 74.93 147.32 0)
@@ -11276,7 +11316,7 @@
 	)
 	(hierarchical_label "5V_CHG_DET"
 		(shape output)
-		(at 58.42 48.26 0)
+		(at 59.69 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11448,7 +11488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 237.49 66.04 0)
 			(effects
 				(font
@@ -11800,7 +11840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 62.23 170.18 0)
 			(effects
 				(font
@@ -13511,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 184.15 128.27 0)
 			(effects
 				(font
@@ -14590,7 +14630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 250.19 100.33 0)
 			(effects
 				(font
@@ -15419,7 +15459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -15932,7 +15972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 273.05 46.99 0)
 			(effects
 				(font
@@ -16085,7 +16125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 95.25 74.93 0)
 			(effects
 				(font
@@ -16170,7 +16210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 257.81 88.9 0)
 			(effects
 				(font
@@ -16390,7 +16430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 142.24 34.29 0)
 			(effects
 				(font
@@ -16879,24 +16919,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link 1" ""
-			(at 59.69 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 59.69 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "bb1ddf1c-1ef1-400d-91f1-95a934b6cc9e")
 		)
@@ -16911,6 +16933,9 @@
 		)
 		(pin "5"
 			(uuid "c9078211-658d-4a62-b6c6-2e6af3544fbf")
+		)
+		(pin "1"
+			(uuid "6282e628-6bcc-4c03-a4e4-1cf0f3105a0d")
 		)
 		(instances
 			(project ""
@@ -17216,7 +17241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -17375,24 +17400,6 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link 1" ""
-			(at 237.49 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 237.49 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "d9b336eb-13a1-4d64-ad82-efa0895f673e")
 		)
@@ -17410,6 +17417,9 @@
 		)
 		(pin "4"
 			(uuid "4a0dc1d4-7484-4e85-be4a-07ca7f3daa28")
+		)
+		(pin "7"
+			(uuid "d8dd9e55-8e22-4065-a323-c5247a77f336")
 		)
 		(instances
 			(project ""
@@ -17779,7 +17789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -17998,7 +18008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 190.5 62.23 0)
 			(effects
 				(font
@@ -20093,7 +20103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 254 76.2 0)
 			(effects
 				(font
@@ -21715,7 +21725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 135.89 36.83 0)
 			(effects
 				(font

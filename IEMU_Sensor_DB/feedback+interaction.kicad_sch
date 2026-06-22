@@ -3140,6 +3140,12 @@
 		(uuid "e2b6186d-0ce2-41de-a491-73e9f8184502")
 	)
 	(junction
+		(at 90.17 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05c6f18b-a8e0-4379-b033-9c799054b459")
+	)
+	(junction
 		(at 261.62 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3168,12 +3174,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e775c68-4d4f-4bea-82d2-b2a70d51ac24")
-	)
-	(junction
-		(at 90.17 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f9ac735-24c1-4a71-9dda-84a840bf0577")
 	)
 	(junction
 		(at 50.8 101.6)
@@ -3371,7 +3371,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 111.76) (xy 92.71 111.76)
+			(xy 87.63 111.76) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3681,16 +3681,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 111.76) (xy 90.17 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca321bf7-9be0-4b8e-acd0-21891935a708")
-	)
-	(wire
-		(pts
 			(xy 237.49 80.01) (xy 237.49 83.82)
 		)
 		(stroke
@@ -3768,6 +3758,16 @@
 			(type default)
 		)
 		(uuid "eabbb288-6750-4152-b4f0-706e2ef7b854")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec21d28a-814a-4cd7-b5a2-03489b500161")
 	)
 	(wire
 		(pts
@@ -4112,6 +4112,73 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 246.38 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "18eefaa2-272f-4eaf-80ac-57997a342162")
+		(property "Reference" "MH302"
+			(at 244.475 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 247.6499 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7140d8c1-60de-4574-ba42-73f4036b8f7b")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
+					(reference "MH302")
 					(unit 1)
 				)
 			)
@@ -5244,6 +5311,92 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 90.17 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "507a5d2e-e0c0-4a5d-8005-d705fcbc0f6b")
+		(property "Reference" "TP302"
+			(at 91.694 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 94.742 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributer Link 1" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer_Name" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a0aba63-6192-4935-a5ff-8ab956b2ad55")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
+					(reference "TP302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 104.14 160.02 0)
 		(mirror x)
 		(unit 1)
@@ -5271,7 +5424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 160.02 0)
 			(effects
 				(font
@@ -5389,6 +5542,73 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 254 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c771065-3adb-4a3c-9c8f-45f9a769841e")
+		(property "Reference" "MH303"
+			(at 252.095 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 255.2699 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4b7134-521a-4918-a66f-e69507ca46bf")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
+					(reference "MH303")
 					(unit 1)
 				)
 			)
@@ -5558,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 57.15 161.29 0)
 			(effects
 				(font
@@ -5610,91 +5830,6 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
 					(reference "TP303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 246.38 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "728bea1d-cfff-48e5-a879-4906fd10e07d")
-		(property "Reference" "MH302"
-			(at 244.475 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 247.6499 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "332f7b09-2bbc-486d-a8b9-b9f6f81a5bac")
-		)
-		(instances
-			(project "IEMU"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
-					(reference "MH302")
 					(unit 1)
 				)
 			)
@@ -5833,91 +5968,6 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
 					(reference "M401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 254 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "75e3d3d1-a781-44ae-a7bc-bbde83685e5a")
-		(property "Reference" "MH303"
-			(at 252.349 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 255.2699 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 254 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 254 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 254 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "593c3345-5ecc-4d71-b827-38ca06fe98b0")
-		)
-		(instances
-			(project "IEMU"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
-					(reference "MH303")
 					(unit 1)
 				)
 			)
@@ -6324,92 +6374,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 90.17 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ebf86ed-0920-476f-9ee2-09c762076969")
-		(property "Reference" "TP302"
-			(at 91.694 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 94.742 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 85.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 90.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 90.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2d34398-eac3-4c18-a5b2-9baf23a433af")
-		)
-		(instances
-			(project "IEMU_Sensor_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
-					(reference "TP302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_Feedback:LTST-C191KRKT")
 		(at 215.9 77.47 0)
 		(unit 1)
@@ -6573,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -6592,24 +6556,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 238.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 238.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -6985,91 +6931,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 261.62 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a57e25bb-14a0-463c-af48-27ddaa04b5cb")
-		(property "Reference" "MH304"
-			(at 259.715 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 262.8899 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62f482ad-8c69-49a8-af50-57ac4b445b6a")
-		)
-		(instances
-			(project "IEMU"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
-					(reference "MH304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 38.1 111.76 0)
 		(mirror y)
@@ -7098,7 +6959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 33.02 111.76 0)
 			(effects
 				(font
@@ -7150,6 +7011,73 @@
 			(project "IEMU_Sensor_DB"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
 					(reference "TP301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 261.62 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b432e3cc-03a6-454b-b078-c012977e7ba7")
+		(property "Reference" "MH304"
+			(at 259.715 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.8899 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb54e356-ee07-48ef-b703-f310a8a42824")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/bedc77cc-dda1-48b8-87d2-cdf0a97ca477"
+					(reference "MH304")
 					(unit 1)
 				)
 			)
