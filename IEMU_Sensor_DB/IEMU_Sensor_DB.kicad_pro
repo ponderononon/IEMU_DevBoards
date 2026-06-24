@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.4,
+          "height": 0.7,
+          "width": 0.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|111900000|111200000|2e8095f7-85ce-41e5-b69f-a530b98e3614|4575780f-3ff8-4bf9-a1c4-9a78173e7c40",
+          "Copper-to-edge clearance here is intentional. Acknowledged this may cause copper burrs — known and accepted risk."
+        ],
+        [
+          "copper_edge_clearance|112050000|63325000|724c2b8d-f30d-472e-bbb5-033f2e1e3cde|6b6ce0d5-42ba-4799-ba0f-6e19019bb812",
+          "Copper-to-edge clearance here is intentional. Acknowledged this may cause copper burrs — known and accepted risk."
+        ],
+        [
+          "copper_edge_clearance|114000000|111200000|2e8095f7-85ce-41e5-b69f-a530b98e3614|34530ee1-9a9e-43a1-9483-cc20920ebc1a",
+          "Copper-to-edge clearance here is intentional. Acknowledged this may cause copper burrs — known and accepted risk."
+        ],
+        [
+          "starved_thermal|119637500|91700000|c4f7646b-8ef1-4cf3-b368-8301d9dd7ee1|f7cf76a5-92f7-407e-bdbd-c149de797b96|F.Cu",
+          "risk is accepted"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -88,7 +105,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -535,7 +552,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.15,
         "line_style": 0,

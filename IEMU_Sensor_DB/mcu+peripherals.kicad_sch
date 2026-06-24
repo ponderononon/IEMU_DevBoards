@@ -6629,7 +6629,7 @@
 		)
 		(uuid "5c78979d-19bb-4351-ae54-3fbf4dabdbf8")
 	)
-	(label "QSPI_CLK"
+	(label "QSPI_CLK_MCU"
 		(at 116.84 83.82 0)
 		(effects
 			(font

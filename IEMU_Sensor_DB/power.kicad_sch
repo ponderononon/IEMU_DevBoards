@@ -11293,6 +11293,16 @@
 		)
 		(uuid "e673644f-bef5-4a12-b120-02bbfb50fcb0")
 	)
+	(label "BAT_FET"
+		(at 82.55 182.88 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "e89b7358-7798-4f0c-bbbf-8dc151f6527d")
+	)
 	(label "BAT-"
 		(at 50.8 170.18 0)
 		(effects
