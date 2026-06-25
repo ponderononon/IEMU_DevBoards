@@ -5125,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 71.12 87.63 0)
 			(effects
 				(font
@@ -5413,7 +5413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 53.34 87.63 0)
 			(effects
 				(font
@@ -7106,7 +7106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 55.88 173.99 0)
 			(effects
 				(font
@@ -11207,7 +11207,7 @@
 		(dnp no)
 		(uuid "fb2a7df3-d6ab-443b-b149-d0af93c40a77")
 		(property "Reference" "TP401"
-			(at 41.402 92.964 0)
+			(at 39.116 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 50.8 87.63 0)
 			(effects
 				(font
