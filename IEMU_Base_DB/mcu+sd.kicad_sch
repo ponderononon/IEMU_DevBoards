@@ -5995,7 +5995,7 @@
 		)
 		(uuid "23467b6a-7a37-4b34-92ad-c804bae795c6")
 	)
-	(label "SDIO_D0_SD"
+	(label "SPI_SD_MISO_MCU"
 		(at 222.25 110.49 0)
 		(effects
 			(font
@@ -6005,7 +6005,7 @@
 		)
 		(uuid "312087de-5740-47cc-add0-ddad7c095945")
 	)
-	(label "SDIO_D1_SD"
+	(label "SPI_SD_D2_CONN"
 		(at 222.25 113.03 0)
 		(effects
 			(font
@@ -6055,7 +6055,7 @@
 		)
 		(uuid "7a39ef14-5d3c-4c1a-9910-d2788f13470a")
 	)
-	(label "SDIO_D2_SD"
+	(label "SPI_SD_D2_CONN"
 		(at 222.25 100.33 0)
 		(effects
 			(font
@@ -6095,7 +6095,7 @@
 		)
 		(uuid "8d21735b-c581-44ce-8e94-9e692d8cf7b0")
 	)
-	(label "SDIO_D3_SD"
+	(label "SPI_SD_CS_CONN"
 		(at 222.25 102.87 0)
 		(effects
 			(font
@@ -6125,7 +6125,7 @@
 		)
 		(uuid "b1f16d6d-1048-484a-a480-8d6ff8af559d")
 	)
-	(label "SDIO_CLK_SD"
+	(label "SPI_SD_CLK_CONN"
 		(at 222.25 107.95 0)
 		(effects
 			(font
@@ -6165,7 +6165,7 @@
 		)
 		(uuid "f3fbac6a-7940-4a1a-938d-1ccecfb66905")
 	)
-	(label "SDIO_CMD_SD"
+	(label "SPI_SD_MOSI_CONN"
 		(at 222.25 105.41 0)
 		(effects
 			(font

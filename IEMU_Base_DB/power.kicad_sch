@@ -12,6 +12,158 @@
 		(comment 1 "BASE - IEMU Development Board - Open-source Inertial Sensor for Biomechanics")
 	)
 	(lib_symbols
+		(symbol "0_Connectors:MTSW-101-X-X-D-X"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "0_Connectors:SAMTEC_MTSW-101-X-X-D-X"
+				(at -2.794 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/3/85/1/mtsw.pdf"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Header pin, 2.54mm pitch"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Samtec"
+				(at -5.588 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MTSW-101-07-T-D-240 "
+				(at 0 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Samtec/MTSW-101-07-T-D-240?qs=rU5fayqh%252BE3di2bgKGhLZg%3D%3D"
+				(at 0 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MTSW-101-X-X-D-X_0_0"
+				(rectangle
+					(start -3.81 3.175)
+					(end 0.635 -3.175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -8.89 1.27 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_Connectors:USB4125-GF-A_REVA2"
 			(pin_names
 				(offset 1.016)
@@ -7138,7 +7290,7 @@
 	)
 	(text "1\n"
 		(exclude_from_sim no)
-		(at 202.184 91.44 0)
+		(at 205.994 91.44 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7150,7 +7302,7 @@
 	)
 	(text "BUCK1:\nPowering the nRF Module"
 		(exclude_from_sim no)
-		(at 251.46 80.01 0)
+		(at 255.27 80.01 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -7309,7 +7461,7 @@
 	)
 	(text "CM\n"
 		(exclude_from_sim no)
-		(at 199.39 92.964 0)
+		(at 203.2 92.964 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7356,7 +7508,7 @@
 		(uuid "0ed546f4-9227-4714-ae25-5032be259380")
 	)
 	(junction
-		(at 234.95 88.9)
+		(at 238.76 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "135797d3-8234-4626-a3d7-2002fd8809a7")
@@ -7368,13 +7520,19 @@
 		(uuid "15682992-329c-4f13-a330-df2866aea720")
 	)
 	(junction
+		(at 246.38 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b500992-71d9-46c7-9c29-e2cfb1b0d92f")
+	)
+	(junction
 		(at 166.37 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "233dfbb4-dac5-4b6b-8486-a071966ac339")
 	)
 	(junction
-		(at 187.96 88.9)
+		(at 191.77 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24a0fae6-fb6c-44b5-810a-a50f3b4b59ef")
@@ -7398,7 +7556,7 @@
 		(uuid "2f3b34d3-915e-4556-9f83-3db45ced452e")
 	)
 	(junction
-		(at 228.6 76.2)
+		(at 232.41 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "314f2096-e656-4b7a-8ff2-f56c25edde0b")
@@ -7458,6 +7616,12 @@
 		(uuid "5c473c29-234d-4441-a4b2-87f33fd55bc6")
 	)
 	(junction
+		(at 184.15 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6960ca4e-f09d-4d8d-a23b-3ccdacf1cd53")
+	)
+	(junction
 		(at 256.54 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7494,7 +7658,7 @@
 		(uuid "7d3b9b35-9f65-4c2c-8c71-86d545fe0c68")
 	)
 	(junction
-		(at 198.12 76.2)
+		(at 201.93 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "804c0b15-c804-4385-a1cd-21adaa3e51d0")
@@ -7510,12 +7674,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99fa2ff6-bc45-4002-964f-0a206491936d")
-	)
-	(junction
-		(at 240.03 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9af29d2b-3f4b-49a7-b44a-427074f9e4f8")
 	)
 	(junction
 		(at 90.17 74.93)
@@ -7668,19 +7826,13 @@
 		(uuid "dc04d1a0-fa0c-4880-91c0-a18144818241")
 	)
 	(junction
-		(at 184.15 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e15ab684-6843-447e-be7f-3f1d943e674c")
-	)
-	(junction
 		(at 177.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1feba73-3ef3-4e93-999c-3ed456c4ab7b")
 	)
 	(junction
-		(at 246.38 76.2)
+		(at 250.19 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4200104-fb1c-42d1-bd01-5a5907395bb0")
@@ -7732,7 +7884,7 @@
 		(uuid "6b1ce52f-6a90-4c2f-97bb-0d7c23d3ab14")
 	)
 	(no_connect
-		(at 199.39 86.36)
+		(at 203.2 86.36)
 		(uuid "84dfc1bc-963e-4c2e-a653-4f93c482a9b8")
 	)
 	(no_connect
@@ -7777,16 +7929,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 208.28 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030771fd-98ae-4bda-b31b-9bdbf9abdae8")
-	)
-	(wire
-		(pts
 			(xy 29.21 129.54) (xy 29.21 130.81)
 		)
 		(stroke
@@ -7807,7 +7949,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 88.9) (xy 238.76 88.9)
+			(xy 238.76 88.9) (xy 242.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7867,17 +8009,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 184.15 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3c93c8-1034-4cb3-bfec-dd39a66a56ca")
-	)
-	(wire
-		(pts
-			(xy 227.33 88.9) (xy 234.95 88.9)
+			(xy 231.14 88.9) (xy 238.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7957,6 +8089,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 100.33) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f740fe-9c66-4073-a12e-983fb2e09a7f")
+	)
+	(wire
+		(pts
 			(xy 271.78 34.29) (xy 271.78 35.56)
 		)
 		(stroke
@@ -7967,7 +8109,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 105.41) (xy 240.03 105.41)
+			(xy 199.39 105.41) (xy 240.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8087,7 +8229,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 83.82) (xy 198.12 83.82)
+			(xy 203.2 83.82) (xy 201.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8117,7 +8259,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 187.96 88.9)
+			(xy 184.15 88.9) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8174,6 +8316,16 @@
 			(type default)
 		)
 		(uuid "2896b564-805c-4cc6-b4e1-81c8d3225cbb")
+	)
+	(wire
+		(pts
+			(xy 184.15 100.33) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2924fa17-83cf-4a1d-aab5-5b33a9365538")
 	)
 	(wire
 		(pts
@@ -8247,16 +8399,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 196.85 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3190dddc-27c4-4dc5-8f3a-9e1b8d2d0c0c")
-	)
-	(wire
-		(pts
 			(xy 264.16 34.29) (xy 264.16 35.56)
 		)
 		(stroke
@@ -8304,6 +8446,16 @@
 			(type default)
 		)
 		(uuid "392a35b6-9ab8-4adc-a271-b88e494cc0a4")
+	)
+	(wire
+		(pts
+			(xy 274.32 31.75) (xy 274.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a21092c-a892-4327-99d8-57603b3d006d")
 	)
 	(wire
 		(pts
@@ -8367,7 +8519,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 76.2) (xy 251.46 76.2)
+			(xy 250.19 76.2) (xy 255.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8437,7 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 198.12 76.2)
+			(xy 201.93 83.82) (xy 201.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8484,16 +8636,6 @@
 			(type default)
 		)
 		(uuid "51900b52-6547-4d4e-8c77-4183c587ddac")
-	)
-	(wire
-		(pts
-			(xy 196.85 100.33) (xy 196.85 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51caf714-c3eb-46c3-a445-16afaf879672")
 	)
 	(wire
 		(pts
@@ -8557,7 +8699,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 83.82) (xy 228.6 76.2)
+			(xy 232.41 83.82) (xy 232.41 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8737,7 +8879,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 76.2) (xy 198.12 76.2)
+			(xy 184.15 76.2) (xy 196.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8937,7 +9079,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 88.9) (xy 199.39 88.9)
+			(xy 191.77 88.9) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8974,6 +9116,16 @@
 			(type default)
 		)
 		(uuid "8a1f3d11-32f0-4789-ac0a-41aa180d0b90")
+	)
+	(wire
+		(pts
+			(xy 201.93 76.2) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3dbd2c-e2ad-40b4-838d-1914472861a9")
 	)
 	(wire
 		(pts
@@ -9024,6 +9176,16 @@
 			(type default)
 		)
 		(uuid "8e0e1052-2df9-4866-a18d-7109c4065fdf")
+	)
+	(wire
+		(pts
+			(xy 276.86 34.29) (xy 280.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e530971-00b3-418e-99a8-1089592c9879")
 	)
 	(wire
 		(pts
@@ -9104,16 +9266,6 @@
 			(type default)
 		)
 		(uuid "928dde4c-f183-437a-ae29-fd7af56bccfe")
-	)
-	(wire
-		(pts
-			(xy 271.78 34.29) (xy 276.86 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952b1022-51e2-42fd-9bb8-39f6ecd069a9")
 	)
 	(wire
 		(pts
@@ -9207,6 +9359,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 76.2) (xy 250.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed540ef-3acc-43e4-86c4-3fbe1b6cddee")
+	)
+	(wire
+		(pts
 			(xy 184.15 76.2) (xy 173.99 76.2)
 		)
 		(stroke
@@ -9237,7 +9399,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 88.9) (xy 187.96 90.17)
+			(xy 191.77 88.9) (xy 191.77 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9294,16 +9456,6 @@
 			(type default)
 		)
 		(uuid "ab383d10-ddde-46a3-8d38-1fe3c13c1edd")
-	)
-	(wire
-		(pts
-			(xy 240.03 76.2) (xy 246.38 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5e0c49-186a-4967-a267-11afdbb758e0")
 	)
 	(wire
 		(pts
@@ -9457,6 +9609,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 105.41) (xy 193.04 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9083609-242c-4973-aa54-93c9ca07e4e9")
+	)
+	(wire
+		(pts
 			(xy 71.12 46.99) (xy 71.12 45.72)
 		)
 		(stroke
@@ -9547,13 +9709,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 76.2) (xy 228.6 76.2)
+			(xy 222.25 76.2) (xy 232.41 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db3ebbd7-8e92-410b-ac5e-154159dfa883")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.41) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8063a2-e4d9-4042-9b9f-2b4d4c4112e9")
 	)
 	(wire
 		(pts
@@ -9564,6 +9736,16 @@
 			(type default)
 		)
 		(uuid "dff5dc5a-3baf-41ec-9f47-65822335476d")
+	)
+	(wire
+		(pts
+			(xy 274.32 34.29) (xy 271.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ae0429-6d78-419c-87d2-1bdf131c0b90")
 	)
 	(wire
 		(pts
@@ -9647,7 +9829,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 83.82) (xy 228.6 83.82)
+			(xy 231.14 83.82) (xy 232.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9777,7 +9959,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 76.2) (xy 251.46 72.39)
+			(xy 255.27 76.2) (xy 255.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9797,7 +9979,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 240.03 76.2)
+			(xy 232.41 76.2) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9824,6 +10006,26 @@
 			(type default)
 		)
 		(uuid "f9e6edc5-0f55-481b-815b-2f949dcc541a")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.2) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa451599-3122-4c2c-8feb-670211b55b00")
+	)
+	(wire
+		(pts
+			(xy 276.86 31.75) (xy 276.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe495153-0542-4e24-811b-79cc69c3fa96")
 	)
 	(wire
 		(pts
@@ -9864,6 +10066,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d410be5-08e8-4e90-a7b9-2ba0aa6870b1")
+	)
+	(label "Header_Shunt_CM"
+		(at 200.66 76.2 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "20a175c1-0788-468e-9edd-52b784a85973")
 	)
 	(label "NPM_LED1"
 		(at 96.52 101.6 0)
@@ -9914,6 +10126,16 @@
 			(justify left bottom)
 		)
 		(uuid "68689b19-a837-412b-97fe-b8a9ef6be91a")
+	)
+	(label "NPM_VSET2"
+		(at 96.52 113.03 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e9bcbc6-8e62-4704-b3af-3f3ebe6cf76c")
 	)
 	(label "NPM_VOUT2"
 		(at 165.1 100.33 0)
@@ -10069,7 +10291,7 @@
 	)
 	(hierarchical_label "MCU_CURR_MON_COMP"
 		(shape output)
-		(at 238.76 88.9 0)
+		(at 242.57 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10100,6 +10322,124 @@
 			(justify right)
 		)
 		(uuid "f956b401-f216-4ecf-84cd-77d9481eafa7")
+	)
+	(symbol
+		(lib_id "0_Connectors:MTSW-101-X-X-D-X")
+		(at 198.12 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "027f35a3-5d0c-407f-a4d8-636d1a710d5a")
+		(property "Reference" "J104"
+			(at 189.738 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Connectors:SAMTEC_MTSW-101-X-X-D-X"
+			(at 189.992 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/85/1/mtsw.pdf"
+			(at 192.532 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header pin, 2.54mm pitch"
+			(at 188.976 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samtec"
+			(at 192.278 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MTSW-101-07-T-D-240 "
+			(at 182.372 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Samtec/MTSW-101-07-T-D-240?qs=rU5fayqh%252BE3di2bgKGhLZg%3D%3D"
+			(at 177.038 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "8f9969d2-fb73-4bbc-8081-a745a94cfebf")
+		)
+		(pin "02"
+			(uuid "18457ff2-78e8-4aec-9d66-74e4f0c150e6")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10170,7 +10510,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 246.38 76.2 0)
+		(at 250.19 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10179,7 +10519,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bba6f26-9602-48f8-8075-2111195855b8")
 		(property "Reference" "#FLG04"
-			(at 246.38 74.295 0)
+			(at 250.19 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +10528,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 246.38 71.12 0)
+			(at 250.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 76.2 0)
+			(at 250.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 76.2 0)
+			(at 250.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +10555,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 246.38 76.2 0)
+			(at 250.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +11125,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 90.17 0)
+		(at 191.77 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10794,7 +11134,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ef63297-ead6-4a10-a7ab-5dc27ae22e6a")
 		(property "Reference" "#PWR016"
-			(at 187.96 96.52 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +11143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 93.98 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +11152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 90.17 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +11161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 90.17 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +11170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 90.17 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11250,10 +11590,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2545484d-d8da-44d9-945e-a50274f4dcf2")
 		(property "Reference" "C112"
-			(at 187.96 80.0099 0)
+			(at 185.166 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,7 +11601,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 187.96 82.5499 0)
+			(at 185.166 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +12127,7 @@
 	)
 	(symbol
 		(lib_id "0_Power:+5V0")
-		(at 276.86 34.29 0)
+		(at 280.67 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11797,7 +12136,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e71bcc4-79fb-465d-90e0-0b881f57f614")
 		(property "Reference" "#PWR0207"
-			(at 276.86 38.1 0)
+			(at 280.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +12145,7 @@
 			)
 		)
 		(property "Value" "+5V0"
-			(at 276.86 29.21 0)
+			(at 280.67 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11814,7 +12153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 34.29 0)
+			(at 280.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11823,7 +12162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 34.29 0)
+			(at 280.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11832,7 +12171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V0\"; It is the rail that charges the plugged in sensors"
-			(at 276.86 34.29 0)
+			(at 280.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11921,7 +12260,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:R_Shunt_1R")
-		(at 213.36 76.2 90)
+		(at 217.17 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11929,7 +12268,7 @@
 		(dnp no)
 		(uuid "4348caa6-6ae9-4a2e-ba1a-275849cbd361")
 		(property "Reference" "R110"
-			(at 213.36 69.85 90)
+			(at 217.17 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +12276,7 @@
 			)
 		)
 		(property "Value" "R_Shunt_1R"
-			(at 213.36 72.39 90)
+			(at 217.17 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11945,7 +12284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 213.36 77.978 90)
+			(at 217.17 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11954,7 +12293,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773269&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=4-2176058-1"
-			(at 213.36 76.2 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11963,7 +12302,7 @@
 			)
 		)
 		(property "Description" "1.56A 125mW 1Ω Current Sense Resistor SMD ±1% ±200ppm/℃ 0402 Current Sense Resistors / Shunt Resistors ROHS"
-			(at 213.36 76.2 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,7 +12311,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TE Connectivity"
-			(at 213.36 76.2 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +12320,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RLP73K1E1R0FTDF"
-			(at 213.36 76.2 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +12329,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/RLP73K1E1R0FTDF?qs=IXkKOuu5vnFNzz%2F%252B4nHoQw%3D%3D"
-			(at 213.36 76.2 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12338,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RLP73K1E1R0FTDF/4031931"
-			(at 213.36 76.2 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +12347,7 @@
 			)
 		)
 		(property "LCSC" "C2074826"
-			(at 213.36 76.2 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,7 +12356,7 @@
 			)
 		)
 		(property "Manufactuer_Name" ""
-			(at 213.36 76.2 90)
+			(at 217.17 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12365,7 @@
 			)
 		)
 		(property "Distributer Link 1" ""
-			(at 213.36 76.2 90)
+			(at 217.17 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13354,7 +13693,7 @@
 		(dnp no)
 		(uuid "6b6161a8-ee6d-463d-a0c6-04a42a0e8d41")
 		(property "Reference" "TP107"
-			(at 266.446 28.956 0)
+			(at 260.858 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13718,7 +14057,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 234.95 88.9 0)
+		(at 238.76 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13726,7 +14065,7 @@
 		(dnp no)
 		(uuid "71ed3a2f-4fdd-428a-8dfd-42b25888da94")
 		(property "Reference" "TP109"
-			(at 233.934 83.566 0)
+			(at 237.744 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13735,7 +14074,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 230.378 83.058 0)
+			(at 234.188 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13745,7 +14084,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 240.03 88.9 0)
+			(at 243.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13754,7 +14093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 88.9 0)
+			(at 243.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,7 +14102,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 234.95 88.9 0)
+			(at 238.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13772,7 +14111,7 @@
 			)
 		)
 		(property "Manufactuer_Name" ""
-			(at 234.95 88.9 0)
+			(at 238.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,7 +14120,7 @@
 			)
 		)
 		(property "Distributer Link 1" ""
-			(at 234.95 88.9 0)
+			(at 238.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15485,7 +15824,7 @@
 	)
 	(symbol
 		(lib_id "0_Power:+1V8_MCU")
-		(at 251.46 72.39 0)
+		(at 255.27 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15493,7 +15832,7 @@
 		(dnp no)
 		(uuid "a1736767-a915-410f-a6a5-27dcbe98d358")
 		(property "Reference" "#PWR018"
-			(at 251.46 76.2 0)
+			(at 255.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15502,7 +15841,7 @@
 			)
 		)
 		(property "Value" "+1V8_MCU"
-			(at 251.46 68.58 0)
+			(at 255.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15510,7 +15849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 72.39 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15519,7 +15858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 72.39 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15528,7 +15867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8_MCU\"; It is the rail that sources the nRF54 Module and only the Module to be observed for power consumption."
-			(at 251.46 72.39 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16386,6 +16725,124 @@
 		)
 	)
 	(symbol
+		(lib_id "0_Connectors:MTSW-101-X-X-D-X")
+		(at 198.12 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57d71b0-2851-4d17-a694-e00cd63eb8cb")
+		(property "Reference" "J103"
+			(at 189.738 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Connectors:SAMTEC_MTSW-101-X-X-D-X"
+			(at 189.992 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/85/1/mtsw.pdf"
+			(at 192.532 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header pin, 2.54mm pitch"
+			(at 188.976 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samtec"
+			(at 192.278 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MTSW-101-07-T-D-240 "
+			(at 182.372 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Samtec/MTSW-101-07-T-D-240?qs=rU5fayqh%252BE3di2bgKGhLZg%3D%3D"
+			(at 177.038 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "ebd1b572-672d-4e56-9204-67d1651216a8")
+		)
+		(pin "02"
+			(uuid "d7488e85-b98b-464b-b585-38305c20fbb9")
+		)
+		(instances
+			(project "IEMU_Base_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 123.19 0)
 		(unit 1)
@@ -17064,7 +17521,7 @@
 	)
 	(symbol
 		(lib_id "0_Power:INA216A2RSWR")
-		(at 199.39 83.82 0)
+		(at 203.2 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17072,7 +17529,7 @@
 		(dnp no)
 		(uuid "cefa0a07-c4c3-44fd-892e-d77d64bdb49d")
 		(property "Reference" "U104"
-			(at 206.502 80.264 0)
+			(at 210.312 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17080,7 +17537,7 @@
 			)
 		)
 		(property "Value" "INA216A2RSWR"
-			(at 213.868 92.71 0)
+			(at 217.678 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17088,7 +17545,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_RSW0010A_UQFN-10_1.4x1.8mm_P0.4mm"
-			(at 223.52 178.74 0)
+			(at 227.33 178.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17098,7 +17555,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina216.pdf"
-			(at 223.52 278.74 0)
+			(at 227.33 278.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,7 +17565,7 @@
 			)
 		)
 		(property "Description" "Current Monitor Regulator High-Side 10-UQFN (1.8x1.4)"
-			(at 215.646 108.204 0)
+			(at 219.456 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17117,7 +17574,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 223.52 778.74 0)
+			(at 227.33 778.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17127,7 +17584,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA216A2RSWR"
-			(at 223.52 878.74 0)
+			(at 227.33 878.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17137,7 +17594,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Texas-Instruments/INA216A2RSWR?qs=NUb82WqeCyoQa96oQgyXng%3D%3D"
-			(at 205.232 115.57 0)
+			(at 209.042 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17146,7 +17603,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/INA216A2RSWR/2782696?s=N4IgTCBcDaIJIDkCCYCMA2FAlAygdSxAF0BfIA"
-			(at 201.93 113.03 0)
+			(at 205.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17155,7 +17612,7 @@
 			)
 		)
 		(property "LCSC" "C2653823"
-			(at 213.614 111.252 0)
+			(at 217.424 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17164,7 +17621,7 @@
 			)
 		)
 		(property "Manufactuer_Name" ""
-			(at 199.39 83.82 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17173,7 +17630,7 @@
 			)
 		)
 		(property "Distributer Link 1" ""
-			(at 199.39 83.82 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17448,10 +17905,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d303b9a9-52a4-4f16-b788-e9fd5931d13a")
 		(property "Reference" "C113"
-			(at 187.96 104.1399 0)
+			(at 184.912 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,7 +17916,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 187.96 106.6799 0)
+			(at 185.42 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17775,7 +18231,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 240.03 76.2 0)
+		(at 246.38 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17783,7 +18239,7 @@
 		(dnp no)
 		(uuid "d8546808-4090-4acf-8dc3-f192ff7ee942")
 		(property "Reference" "TP105"
-			(at 236.982 71.12 0)
+			(at 243.332 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17792,7 +18248,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 235.458 70.358 0)
+			(at 241.808 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17802,7 +18258,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 76.2 0)
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17811,7 +18267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 76.2 0)
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17820,7 +18276,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 240.03 76.2 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17829,7 +18285,7 @@
 			)
 		)
 		(property "Manufactuer_Name" ""
-			(at 240.03 76.2 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17838,7 +18294,7 @@
 			)
 		)
 		(property "Distributer Link 1" ""
-			(at 240.03 76.2 0)
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18053,6 +18509,124 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Connectors:MTSW-101-X-X-D-X")
+		(at 275.59 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e54a99b5-ae45-4994-b990-27f5084a2b5e")
+		(property "Reference" "J105"
+			(at 267.208 23.876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 280.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Connectors:SAMTEC_MTSW-101-X-X-D-X"
+			(at 267.462 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/85/1/mtsw.pdf"
+			(at 270.002 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Header pin, 2.54mm pitch"
+			(at 266.446 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samtec"
+			(at 269.748 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MTSW-101-07-T-D-240 "
+			(at 259.842 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Samtec/MTSW-101-07-T-D-240?qs=rU5fayqh%252BE3di2bgKGhLZg%3D%3D"
+			(at 254.508 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 275.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 275.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "43d76df8-dd45-4cc5-97c8-8b22a8390865")
+		)
+		(pin "02"
+			(uuid "13dde894-1585-4494-b0d0-c21faf88c0a8")
+		)
+		(instances
+			(project ""
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "J105")
 					(unit 1)
 				)
 			)
