@@ -4702,22 +4702,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.3828 13.4927 0)
+			(property "Reference" "U102"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "BQ29702DSER"
-				(at -6.858 -3.556 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
@@ -4901,7 +4899,6 @@
 				(pin power_in line
 					(at 10.16 10.16 180)
 					(length 2.54)
-					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -5177,7 +5174,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_Power:D_Schottky_PMEG3010ESBYL"
+		(symbol "0_Power:D_Schottky_CTS05S30"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5196,7 +5193,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky_PMEG3010ESBYL"
+			(property "Value" "D_Schottky_CTS05S30"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -5204,7 +5201,7 @@
 					)
 				)
 			)
-			(property "Footprint" "0_Power:DIODFN100X60X30-2N"
+			(property "Footprint" "Diode_SMD:D_SOD-882"
 				(at 0.254 9.398 0)
 				(effects
 					(font
@@ -5213,7 +5210,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010ESB.pdf"
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/CTS05S30_datasheet_en_20140404.pdf?did=13982&prodName=CTS05S30"
 				(at 1.016 -11.684 0)
 				(effects
 					(font
@@ -5222,7 +5219,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1 Independent 1.4A 10A 30V 365mV@1A 45uA@30V SOD-993 Schottky Diodes ROHS"
+			(property "Description" "DIODE SCHOTTKY 30V 500MA CST2"
 				(at 0.508 7.874 0)
 				(effects
 					(font
@@ -5231,7 +5228,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Nexperia"
+			(property "Manufacturer_Name" "Toshiba"
 				(at -6.604 2.794 0)
 				(effects
 					(font
@@ -5240,35 +5237,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "PMEG3010ESBYL"
+			(property "Manufacturer_Part_Number" "CTS05S30"
 				(at -0.254 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Nexperia/PMEG3010ESBYL?qs=bel5lzaZNxQfmakdfxrTkg%3D%3D"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG3010ESBYL/5981362?s=N4IgTCBcDaIAoFkCiBxAzABgIwaQZQCEBNAGRAF0BfIA"
-				(at 0 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C458181"
-				(at 7.62 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5294,7 +5264,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_PMEG3010ESBYL_0_1"
+			(symbol "D_Schottky_CTS05S30_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -5332,7 +5302,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_PMEG3010ESBYL_1_1"
+			(symbol "D_Schottky_CTS05S30_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5565,238 +5535,6 @@
 				)
 			)
 			(symbol "ESD5Z5.0T1G_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0_Power:ESD9L1P8"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -2.54 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD9L1P8"
-				(at 0.762 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-882"
-				(at 2.54 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-				(at 2.032 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diotec Semiconductor"
-				(at -4.572 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ESD9L1P8"
-				(at 0.254 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-				(at 3.556 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-				(at 0.762 -17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C6244607"
-				(at -20.32 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ESD protection USB 3.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Texas*DPY0002A*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD9L1P8_0_1"
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD9L1P8_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
@@ -6846,6 +6584,238 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_Power:RCLAMP01811PW.C"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.54 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RCLAMP01811PW.C"
+				(at 0.762 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+				(at 2.032 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Semtech Corporation"
+				(at -4.572 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+				(at 0.254 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" ""
+				(at 3.556 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+				(at 0.762 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at -20.32 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*DPY0002A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RCLAMP01811PW.C_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RCLAMP01811PW.C_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_Power:TLV75530PDRVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7451,201 +7421,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "D_Schottky_PMEG3010ESBYL_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky_PMEG3010ESBYL"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "0_Power:DIODFN100X60X30-2N"
-				(at 0.254 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010ESB.pdf"
-				(at 1.016 -11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1 Independent 1.4A 10A 30V 365mV@1A 45uA@30V SOD-993 Schottky Diodes ROHS"
-				(at 0.508 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at -6.604 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PMEG3010ESBYL"
-				(at -0.254 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Nexperia/PMEG3010ESBYL?qs=bel5lzaZNxQfmakdfxrTkg%3D%3D"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG3010ESBYL/5981362?s=N4IgTCBcDaIAoFkCiBxAzABgIwaQZQCEBNAGRAF0BfIA"
-				(at 0 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C458181"
-				(at 7.62 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_PMEG3010ESBYL_1_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_PMEG3010ESBYL_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -8198,7 +7973,7 @@
 		)
 		(uuid "1ebd2c6e-9b73-4748-b2b7-aa669591238e")
 	)
-	(text "Schottkey Diodes to prevent leakage of 5v \ninto connector that is unused.\n5V - 0.365V -> 4.635V still enough for PMIC"
+	(text "Schottkey Diodes to prevent leakage of 5v \ninto connector that is unused.\n5V - 0.36V -> 4.64V still enough for PMIC"
 		(exclude_from_sim no)
 		(at 102.108 64.77 0)
 		(effects
@@ -8550,6 +8325,12 @@
 		(uuid "4091dacf-f57f-45c7-a32b-a4d7389cb02f")
 	)
 	(junction
+		(at 252.73 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444c9936-681f-4a42-824e-fb71b306790b")
+	)
+	(junction
 		(at 201.93 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8894,6 +8675,10 @@
 	(no_connect
 		(at 127 83.82)
 		(uuid "cf800c92-fc5e-4cc8-9183-58966f72b351")
+	)
+	(no_connect
+		(at 49.53 143.51)
+		(uuid "e65e3f14-0790-4d74-b48a-75524efef00b")
 	)
 	(wire
 		(pts
@@ -9337,6 +9122,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 100.33) (xy 256.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332f0389-4a29-49f2-b418-11cfe8dd7962")
+	)
+	(wire
+		(pts
 			(xy 114.3 140.97) (xy 114.3 142.24)
 		)
 		(stroke
@@ -9504,6 +9299,16 @@
 			(type default)
 		)
 		(uuid "47048c60-ddaf-4630-9a09-593e4cbdb1c4")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4820be0f-e3bf-4af6-ad60-b532c24807fe")
 	)
 	(wire
 		(pts
@@ -10247,16 +10052,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 59.69) (xy 106.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938d8c72-13c5-4512-a236-6b50a857eba6")
-	)
-	(wire
-		(pts
 			(xy 237.49 60.96) (xy 237.49 64.77)
 		)
 		(stroke
@@ -10467,7 +10262,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 100.33) (xy 256.54 100.33)
+			(xy 245.11 100.33) (xy 252.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10527,7 +10322,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 106.68 52.07)
+			(xy 106.68 50.8) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11315,6 +11110,16 @@
 		)
 		(uuid "13d22162-c70c-4065-894d-6481e33548d3")
 	)
+	(label "Shunt_CM_Header"
+		(at 217.17 76.2 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "238daca9-dca7-4214-8d59-1f25c68b5dd9")
+	)
 	(label "NPM_LED1"
 		(at 114.3 101.6 0)
 		(effects
@@ -11445,6 +11250,16 @@
 		)
 		(uuid "b9e992da-503a-4ee2-9137-8f91bd449afb")
 	)
+	(label "NPM_VOUT2"
+		(at 186.69 100.33 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "c24b709f-1608-4901-bc93-3169a82da2cc")
+	)
 	(label "CHG_DOCK_UART_CONN"
 		(at 104.14 34.29 0)
 		(effects
@@ -11484,6 +11299,16 @@
 			(justify left bottom)
 		)
 		(uuid "e89b7358-7798-4f0c-bbbf-8dc151f6527d")
+	)
+	(label "LDO_OUT"
+		(at 265.43 46.99 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "f127cc65-801d-4951-af5f-a54f1923b3ef")
 	)
 	(label "BAT-"
 		(at 50.8 170.18 0)
@@ -12202,6 +12027,123 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "TP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:RCLAMP01811PW.C")
+		(at 118.11 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11189505-0519-4850-af5b-1bb5e61b2971")
+		(property "Reference" "D107"
+			(at 115.57 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCLAMP01811PW.C"
+			(at 116.078 27.178 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+			(at 122.555 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+			(at 112.776 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Semtech Corporation"
+			(at 123.19 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+			(at 110.49 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" ""
+			(at 108.712 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+			(at 135.382 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 117.602 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed993dd9-ffcc-4e51-9523-b1cc42492f42")
+		)
+		(pin "2"
+			(uuid "16edc421-52ba-47d4-b23c-ac7d47ed437e")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D107")
 					(unit 1)
 				)
 			)
@@ -13298,140 +13240,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D_Schottky_PMEG3010ESBYL_1")
-		(lib_id "0_Power:D_Schottky_PMEG3010ESBYL")
-		(at 100.33 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ba4b972-3d7e-4424-ac5f-11330b20da2e")
-		(property "Reference" "D104"
-			(at 98.7424 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMEG3010ESBYL"
-			(at 101.346 59.944 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "0_Power:DIODFN100X60X30-2N"
-			(at 100.584 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010ESB.pdf"
-			(at 101.346 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 Independent 1.4A 10A 30V 365mV@1A 45uA@30V SOD-993 Schottky Diodes ROHS"
-			(at 100.838 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 93.726 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PMEG3010ESBYL"
-			(at 100.076 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Nexperia/PMEG3010ESBYL?qs=bel5lzaZNxQfmakdfxrTkg%3D%3D"
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG3010ESBYL/5981362?s=N4IgTCBcDaIAoFkCiBxAzABgIwaQZQCEBNAGRAF0BfIA"
-			(at 100.33 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C458181"
-			(at 107.95 58.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 100.33 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 100.33 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ed6451e-1b22-437b-bf36-1c7a41914ef6")
-		)
-		(pin "1"
-			(uuid "3c133a42-a409-447a-ae59-a8dbb889acce")
-		)
-		(instances
-			(project "IEMU_Sensor_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_Power:+VSYS")
 		(at 73.66 97.79 0)
 		(unit 1)
@@ -13492,141 +13300,6 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Power:ESD9L1P8")
-		(at 118.11 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e9f7249-3214-42eb-ab29-b70dc17ada08")
-		(property "Reference" "D107"
-			(at 115.57 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9L1P8"
-			(at 115.57 26.416 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 122.555 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-			(at 124.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-			(at 112.776 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 123.19 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD9L1P8"
-			(at 110.49 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-			(at 108.712 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-			(at 135.382 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6244607"
-			(at 117.602 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 118.11 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 118.11 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "680a8f14-a45d-4f0a-9322-443f73a24c3b")
-		)
-		(pin "1"
-			(uuid "8d41bb04-c6bf-486c-bb9f-d4f9e44a67a2")
-		)
-		(instances
-			(project ""
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D107")
 					(unit 1)
 				)
 			)
@@ -15741,6 +15414,124 @@
 		)
 	)
 	(symbol
+		(lib_id "0_Power:RCLAMP01811PW.C")
+		(at 125.73 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61335cf3-64dd-4a74-b4a8-6971a32bc1bf")
+		(property "Reference" "D108"
+			(at 132.08 30.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCLAMP01811PW.C"
+			(at 123.19 26.9876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+			(at 130.175 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+			(at 132.08 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+			(at 120.396 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Semtech Corporation"
+			(at 130.81 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+			(at 118.11 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" ""
+			(at 116.332 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+			(at 143.002 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 125.222 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54c2cc90-4f8a-4e0f-954c-bc86ca6fa1e0")
+		)
+		(pin "2"
+			(uuid "8ffb5924-5fde-476e-9c0f-1ca859f787cb")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 184.15 119.38 270)
 		(unit 1)
@@ -16181,6 +15972,91 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:D_Schottky_CTS05S30")
+		(at 106.68 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67b16ab9-90e9-46c9-8147-8ca2b70190a6")
+		(property "Reference" "D105"
+			(at 110.236 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTS05S30"
+			(at 110.998 57.658 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 116.078 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CTS05S30_datasheet_en_20140404.pdf?did=13982&prodName=CTS05S30"
+			(at 94.996 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 30V 500MA CST2"
+			(at 114.554 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 109.474 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CTS05S30"
+			(at 112.014 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac0faac-4eaa-4bc1-8b95-71a163a1cfd9")
+		)
+		(pin "2"
+			(uuid "891e60dc-7a09-4b1e-a1b6-bd0b77da13d7")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -17136,7 +17012,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ede2678-3172-4402-85a2-550558544ebc")
 		(property "Reference" "U102"
 			(at 59.69 135.89 0)
@@ -17250,6 +17125,73 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "U102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 252.73 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9113716a-6e76-4d03-8ffb-a31abfb4fa30")
+		(property "Reference" "#FLG0204"
+			(at 252.73 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 252.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b5565db-9d3a-44c7-97e4-967821b77a0e")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "#FLG0204")
 					(unit 1)
 				)
 			)
@@ -17800,6 +17742,91 @@
 			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:D_Schottky_CTS05S30")
+		(at 100.33 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d6b884f-369c-46f3-bf01-cd3802a44077")
+		(property "Reference" "D104"
+			(at 100.076 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTS05S30"
+			(at 97.79 64.516 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 100.584 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CTS05S30_datasheet_en_20140404.pdf?did=13982&prodName=CTS05S30"
+			(at 101.346 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 30V 500MA CST2"
+			(at 100.838 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 93.726 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CTS05S30"
+			(at 100.076 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b44886-7bbc-4783-83d1-1f670764cf2a")
+		)
+		(pin "2"
+			(uuid "e8c9b38d-8ee2-4918-bd23-70e767bc4809")
+		)
+		(instances
+			(project ""
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -19600,7 +19627,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 43.18 142.2399 0)
 			(effects
 				(font
@@ -21577,138 +21604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Power:D_Schottky_PMEG3010ESBYL")
-		(at 106.68 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f363e096-f450-430d-9365-696c136acfbf")
-		(property "Reference" "D105"
-			(at 109.22 54.2924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMEG3010ESBYL"
-			(at 108.966 56.896 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_Power:DIODFN100X60X30-2N"
-			(at 116.078 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010ESB.pdf"
-			(at 94.996 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 Independent 1.4A 10A 30V 365mV@1A 45uA@30V SOD-993 Schottky Diodes ROHS"
-			(at 114.554 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 109.474 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PMEG3010ESBYL"
-			(at 112.014 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Nexperia/PMEG3010ESBYL?qs=bel5lzaZNxQfmakdfxrTkg%3D%3D"
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG3010ESBYL/5981362?s=N4IgTCBcDaIAoFkCiBxAzABgIwaQZQCEBNAGRAF0BfIA"
-			(at 100.076 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C458181"
-			(at 109.982 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 106.68 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 106.68 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d89b8007-3b1c-43a3-8625-d13b68025ba0")
-		)
-		(pin "1"
-			(uuid "1e5c8318-1a61-4f93-9ac3-71b7fd4c3e8c")
-		)
-		(instances
-			(project ""
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_Passives:R_1k_0402")
 		(at 147.32 36.83 90)
 		(mirror x)
@@ -22033,142 +21928,6 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Power:ESD9L1P8")
-		(at 125.73 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f89bf4f5-cfae-4747-a78f-f4e46b41d6b2")
-		(property "Reference" "D108"
-			(at 131.826 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9L1P8"
-			(at 123.19 29.5274 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 130.175 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-			(at 132.08 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-			(at 120.396 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 130.81 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD9L1P8"
-			(at 118.11 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-			(at 116.332 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-			(at 143.002 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6244607"
-			(at 125.222 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 125.73 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 125.73 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a01b48d8-4eab-40e7-be25-3a574640dd8f")
-		)
-		(pin "1"
-			(uuid "ba7e4f7d-babf-4ecd-a611-87c4d7b5c4f3")
-		)
-		(instances
-			(project "IEMU_Sensor_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/ecb55954-6122-4552-9eac-22683e31d0d4"
-					(reference "D108")
 					(unit 1)
 				)
 			)

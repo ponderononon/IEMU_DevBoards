@@ -3377,7 +3377,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_Power:ESD9L1P8"
+		(symbol "0_Power:RCLAMP01811PW.C"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3393,7 +3393,7 @@
 					)
 				)
 			)
-			(property "Value" "ESD9L1P8"
+			(property "Value" "RCLAMP01811PW.C"
 				(at 0.762 2.794 0)
 				(effects
 					(font
@@ -3402,7 +3402,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-882"
+			(property "Footprint" "0_Power:DIODFN100X60X55-2N"
 				(at 2.54 -4.445 0)
 				(effects
 					(font
@@ -3413,7 +3413,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
+			(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
 				(at 2.54 -6.35 0)
 				(effects
 					(font
@@ -3423,7 +3423,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
+			(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
 				(at 2.032 5.334 0)
 				(effects
 					(font
@@ -3432,7 +3432,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Diotec Semiconductor"
+			(property "Manufacturer_Name" "Semtech Corporation"
 				(at -4.572 -5.08 0)
 				(effects
 					(font
@@ -3441,7 +3441,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ESD9L1P8"
+			(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
 				(at 0.254 7.62 0)
 				(effects
 					(font
@@ -3450,7 +3450,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
+			(property "Distributor Link 1" ""
 				(at 3.556 9.398 0)
 				(effects
 					(font
@@ -3459,7 +3459,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
+			(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
 				(at 0.762 -17.272 0)
 				(effects
 					(font
@@ -3468,7 +3468,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C6244607"
+			(property "LCSC" ""
 				(at -20.32 0.508 0)
 				(effects
 					(font
@@ -3495,7 +3495,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESD9L1P8_0_1"
+			(symbol "RCLAMP01811PW.C_0_1"
 				(polyline
 					(pts
 						(xy -0.635 1.27) (xy 0 1.27)
@@ -3569,7 +3569,7 @@
 					)
 				)
 			)
-			(symbol "ESD9L1P8_1_1"
+			(symbol "RCLAMP01811PW.C_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
@@ -6988,6 +6988,124 @@
 		)
 	)
 	(symbol
+		(lib_id "0_Power:RCLAMP01811PW.C")
+		(at 171.45 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0624d642-b739-45bb-a021-dc3de48c3310")
+		(property "Reference" "D204"
+			(at 172.466 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCLAMP01811PW.C"
+			(at 173.99 47.9424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+			(at 167.005 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+			(at 176.784 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Semtech Corporation"
+			(at 166.37 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+			(at 179.07 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" ""
+			(at 180.848 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+			(at 154.178 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 171.958 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7facbeda-4501-41a0-b97b-9ec73db512e5")
+		)
+		(pin "2"
+			(uuid "3540e8bb-bbd7-4e23-9c01-95580a47918f")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
+					(reference "D204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_Passives:R_47k")
 		(at 152.4 76.2 0)
 		(unit 1)
@@ -7114,142 +7232,6 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
 					(reference "R203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Power:ESD9L1P8")
-		(at 171.45 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1501421c-efc0-44e8-8e7f-24f0f520050e")
-		(property "Reference" "D204"
-			(at 172.212 44.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9L1P8"
-			(at 173.99 47.9424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 167.005 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-			(at 165.1 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-			(at 176.784 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 166.37 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD9L1P8"
-			(at 179.07 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-			(at 180.848 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-			(at 154.178 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6244607"
-			(at 171.958 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 171.45 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 171.45 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a29fd9a3-05f2-4b1c-81af-13bf0d639990")
-		)
-		(pin "2"
-			(uuid "a086f217-114d-4b3a-bad4-3f78f1d2dba3")
-		)
-		(instances
-			(project "IEMU_Sensor_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
-					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -7845,6 +7827,124 @@
 		)
 	)
 	(symbol
+		(lib_id "0_Power:RCLAMP01811PW.C")
+		(at 163.83 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ab70531-f7a4-422e-959d-84260c9e6a1d")
+		(property "Reference" "D203"
+			(at 164.846 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCLAMP01811PW.C"
+			(at 166.37 47.9424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+			(at 159.385 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+			(at 169.164 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Semtech Corporation"
+			(at 158.75 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+			(at 171.45 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" ""
+			(at 173.228 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+			(at 146.558 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 164.338 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39bfcff5-7693-4d21-83d5-30729c68e684")
+		)
+		(pin "2"
+			(uuid "fe11b8f2-3d7e-4f62-ba9d-5198572a9c1f")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_Connectors:Conn_ARM_SWD_TagConnect_TC2030-NL")
 		(at 184.15 35.56 0)
 		(mirror y)
@@ -7939,6 +8039,124 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
 					(reference "J201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_Power:RCLAMP01811PW.C")
+		(at 156.21 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d9778ff-11af-4804-960a-7af8b264d541")
+		(property "Reference" "D202"
+			(at 157.226 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCLAMP01811PW.C"
+			(at 158.75 47.9424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+			(at 151.765 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+			(at 161.544 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Semtech Corporation"
+			(at 151.13 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+			(at 163.83 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" ""
+			(at 165.608 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+			(at 138.938 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 156.718 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6771794-f647-4e56-b4aa-b7827ed68d38")
+		)
+		(pin "2"
+			(uuid "1154df79-007e-4a6d-a1f5-afaf03c3a56e")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -8751,142 +8969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Power:ESD9L1P8")
-		(at 148.59 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f6af50f-19c1-4250-b2ce-66f105f811be")
-		(property "Reference" "D201"
-			(at 149.352 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9L1P8"
-			(at 151.13 47.9424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 144.145 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-			(at 153.924 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 143.51 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD9L1P8"
-			(at 156.21 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-			(at 157.988 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-			(at 131.318 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6244607"
-			(at 149.098 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 148.59 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 148.59 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ec6f496-9d47-49fa-a981-77f9511d1bc0")
-		)
-		(pin "2"
-			(uuid "07f047eb-2ef0-4328-814e-3468bda68dda")
-		)
-		(instances
-			(project ""
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
-					(reference "D201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_Memory:W25N02JWZEIF")
 		(at 186.69 87.63 0)
 		(mirror y)
@@ -9284,6 +9366,124 @@
 		)
 	)
 	(symbol
+		(lib_id "0_Power:RCLAMP01811PW.C")
+		(at 194.31 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b00c11b-619c-45bc-b104-7b19df091f27")
+		(property "Reference" "D205"
+			(at 195.326 32.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RCLAMP01811PW.C"
+			(at 196.85 36.5124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+			(at 189.865 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+			(at 199.644 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Semtech Corporation"
+			(at 189.23 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+			(at 201.93 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" ""
+			(at 203.708 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+			(at 177.038 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 194.818 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07df5873-a5f1-4c2d-88af-0ccfc64b4360")
+		)
+		(pin "2"
+			(uuid "48a02c5c-3706-44b1-a3cb-72fcfbc89479")
+		)
+		(instances
+			(project "IEMU_Sensor_DB"
+				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
+					(reference "D205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_Sensors:LSM6DSV320XTR")
 		(at 185.42 138.43 0)
 		(unit 1)
@@ -9453,142 +9653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Power:ESD9L1P8")
-		(at 156.21 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "930c223d-e7de-46d9-b25a-77f55ab5c7c2")
-		(property "Reference" "D202"
-			(at 156.972 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9L1P8"
-			(at 158.75 47.9424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 151.765 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-			(at 149.86 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-			(at 161.544 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 151.13 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD9L1P8"
-			(at 163.83 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-			(at 165.608 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-			(at 138.938 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6244607"
-			(at 156.718 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 156.21 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 156.21 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "003bbee2-ada1-48a9-a88b-6b45076abf55")
-		)
-		(pin "2"
-			(uuid "344d763b-266d-4853-b235-e6b46158f483")
-		)
-		(instances
-			(project "IEMU_Sensor_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
-					(reference "D202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 154.94 0)
 		(unit 1)
@@ -9650,142 +9714,6 @@
 			(project "IEMU"
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Power:ESD9L1P8")
-		(at 163.83 45.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97f220a4-4b93-4f55-ae8a-9ce26cf32373")
-		(property "Reference" "D203"
-			(at 164.846 43.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9L1P8"
-			(at 166.37 47.9424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 159.385 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-			(at 157.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-			(at 169.164 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 158.75 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESD9L1P8"
-			(at 171.45 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-			(at 173.228 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-			(at 146.558 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6244607"
-			(at 164.338 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 163.83 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 163.83 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "782edcfa-b269-4586-aa24-dfd0241af06e")
-		)
-		(pin "2"
-			(uuid "9d9f8720-2559-40b4-9bd5-34a01c10f6e7")
-		)
-		(instances
-			(project "IEMU_Sensor_DB"
-				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
-					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -11584,16 +11512,16 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Power:ESD9L1P8")
-		(at 194.31 34.29 270)
+		(lib_id "0_Power:RCLAMP01811PW.C")
+		(at 148.59 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e9eb3a1d-66ac-4010-9325-acb66a65c8ff")
-		(property "Reference" "D205"
-			(at 195.072 32.766 90)
+		(uuid "e9e8c347-3d66-46a2-b50b-8a098e5d051c")
+		(property "Reference" "D201"
+			(at 149.606 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,8 +11529,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD9L1P8"
-			(at 196.85 36.5124 90)
+		(property "Value" "RCLAMP01811PW.C"
+			(at 151.13 47.9424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11611,8 +11539,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 189.865 36.83 0)
+		(property "Footprint" "0_Power:DIODFN100X60X55-2N"
+			(at 144.145 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,8 +11550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd9l1p8.pdf"
-			(at 187.96 36.83 0)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/3n000000qRGP/yrY3TB2.aHyQ8RtgmOK7PEWBk8.y_My93bjKfszMCAs"
+			(at 142.24 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,8 +11560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Protection Diodes / TVS Diodes ESD Diode, DFN1006-2, 125C, 80W, Unidir, 1.8V Working Voltage, 2.2V Breakdown + 7.5V Clamping Voltage, 50nA"
-			(at 199.644 36.322 0)
+		(property "Description" "5,8V Klemme 8 A (8/20µs) Ipp TVS - Dioden Oberflächenmontage 2-DFN (1x0,6)"
+			(at 153.924 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,8 +11569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diotec Semiconductor"
-			(at 189.23 29.718 0)
+		(property "Manufacturer_Name" "Semtech Corporation"
+			(at 143.51 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,8 +11578,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD9L1P8"
-			(at 201.93 34.544 0)
+		(property "Manufacturer_Part_Number" "RCLAMP01811PW.C"
+			(at 156.21 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,8 +11587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Diotec-Semiconductor/ESD9L1P8?qs=Wj%2FVkw3K%252BMA0y9lWemTHNw%3D%3D"
-			(at 203.708 37.846 0)
+		(property "Distributor Link 1" ""
+			(at 157.988 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,8 +11596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/diotec-semiconductor/ESD9L1P8/22192876?s=N4IgTCBcDaIKIGUAiBOAMgRgAoA4QF0BfIA"
-			(at 177.038 35.052 0)
+		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/semtech-corporation/RCLAMP01811PW-C/21371829"
+			(at 131.318 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11677,26 +11605,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6244607"
-			(at 194.818 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributer Link 1" ""
-			(at 194.31 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactuer_Name" ""
-			(at 194.31 34.29 90)
+		(property "LCSC" ""
+			(at 149.098 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11705,15 +11615,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b87f821-70fb-4389-ab0e-24edea9cd251")
+			(uuid "2f14aaa0-8a65-49d8-a212-ea7cb87263d9")
 		)
 		(pin "2"
-			(uuid "8d40d078-af4e-459c-8dcd-6edc1139b912")
+			(uuid "707c293f-a932-4be5-b1aa-d829d3d7b5f2")
 		)
 		(instances
-			(project "IEMU_Sensor_DB"
+			(project ""
 				(path "/114b31f2-6a4f-42ef-aa97-5a200e091126/78aa9b3b-a0aa-4f46-bb62-a9f0af316175"
-					(reference "D205")
+					(reference "D201")
 					(unit 1)
 				)
 			)

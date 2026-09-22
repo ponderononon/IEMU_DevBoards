@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4,
-          "height": 0.7,
-          "width": 0.7
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.62
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -755,13 +755,13 @@
           "group_by": false,
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -785,7 +785,7 @@
           "group_by": false,
           "label": "Manufactuer_Name",
           "name": "Manufactuer_Name",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
