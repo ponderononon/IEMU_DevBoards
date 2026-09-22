@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.62,
-          "width": 0.62
+          "height": 0.15,
+          "width": 0.38
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,8 +64,8 @@
           "Copper-to-edge clearance here is intentional. Acknowledged this may cause copper burrs — known and accepted risk."
         ],
         [
-          "copper_edge_clearance|112050000|63325000|724c2b8d-f30d-472e-bbb5-033f2e1e3cde|6b6ce0d5-42ba-4799-ba0f-6e19019bb812",
-          "Copper-to-edge clearance here is intentional. Acknowledged this may cause copper burrs — known and accepted risk."
+          "copper_edge_clearance|112050000|61325000|724c2b8d-f30d-472e-bbb5-033f2e1e3cde|6b6ce0d5-42ba-4799-ba0f-6e19019bb812",
+          ""
         ],
         [
           "copper_edge_clearance|114000000|111200000|2e8095f7-85ce-41e5-b69f-a530b98e3614|34530ee1-9a9e-43a1-9483-cc20920ebc1a",
