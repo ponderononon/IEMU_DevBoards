@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c50b89d0-321e-4f33-9bfd-33e077bb192d")
 	(paper "A4")
+	(title_block
+		(title "Vibration-Motor Evaluation-Board")
+		(date "2026-10-10")
+		(rev "0.1")
+		(company "Mustafa Acar")
+	)
 	(lib_symbols
 		(symbol "0_Feedback:VG0832012"
 			(pin_names
@@ -411,6 +417,175 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0_Passives:R_510k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "510k"
+				(at 3.302 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706282724544512"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 100mW 510kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 5.588 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0603WAF5103T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.mouser.de/ProductDetail/Royalohm/0603WAF5103T5E?qs=e8oIoAS2J1SG1joTiM6RHg%3D%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C23192"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_510k_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_510k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -2126,6 +2301,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "H-bridge; mcu switches it via PWM"
+		(exclude_from_sim no)
+		(at 220.472 104.902 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "145bc724-defe-4875-9661-2bfc8e8ede43")
+	)
+	(text "LRA vibration motor"
+		(exclude_from_sim no)
+		(at 198.882 129.286 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "2ee38e9c-f90e-472b-a041-2a76867e2d48")
+	)
+	(text "decouples the motor's current peaks\n from the battery and protects the nRF's supply"
+		(exclude_from_sim no)
+		(at 96.52 99.822 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "8e5ba741-ae93-45d5-bd3f-00468cc4ae78")
+	)
+	(text "caps act as energy buffer for the LRA,\nas the coin cell can't supply the peak currents"
+		(exclude_from_sim no)
+		(at 130.302 125.476 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "cf54e667-6d85-4034-8541-195b60b041fa")
+	)
+	(junction
+		(at 59.69 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ee04107-ff34-455e-8515-5e6574ccf175")
+	)
+	(junction
+		(at 118.11 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445d0ef1-0f92-4fb1-a497-b4ef0ed43864")
 	)
 	(junction
 		(at 121.92 109.22)
@@ -2152,10 +2480,22 @@
 		(uuid "be3c7339-aa78-44b9-b8ff-16772f3a08e4")
 	)
 	(junction
+		(at 59.69 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee037618-95c4-482a-a15e-b4546b21822e")
+	)
+	(junction
 		(at 109.22 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f12e0cba-ff52-4d27-9b8b-902909e88725")
+	)
+	(junction
+		(at 173.99 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f721505b-820d-45e2-be5e-ee7261ccba2f")
 	)
 	(no_connect
 		(at 144.78 57.15)
@@ -2279,13 +2619,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 109.22) (xy 62.23 109.22)
+			(xy 57.15 109.22) (xy 59.69 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08383ee6-cd17-4bfe-beac-f1f3aa8bd3e3")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 72.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d46397-076f-4423-bc29-f50f7536d187")
 	)
 	(wire
 		(pts
@@ -2329,6 +2679,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 109.22) (xy 62.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343a20a8-48a1-41c0-8f36-abd603d55a15")
+	)
+	(wire
+		(pts
 			(xy 184.15 99.06) (xy 184.15 95.25)
 		)
 		(stroke
@@ -2359,7 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 49.53) (xy 115.57 49.53)
+			(xy 132.08 49.53) (xy 118.11 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2429,6 +2789,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 114.3) (xy 59.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c8d2c7-f329-464b-86d0-7d388e63ac9e")
+	)
+	(wire
+		(pts
+			(xy 59.69 123.19) (xy 59.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a25cdd0-6f2c-43dd-8269-72ee2296ecd9")
+	)
+	(wire
+		(pts
 			(xy 128.27 62.23) (xy 132.08 62.23)
 		)
 		(stroke
@@ -2449,7 +2829,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 114.3) (xy 62.23 114.3)
+			(xy 59.69 114.3) (xy 62.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9683db5c-6703-4016-a90f-358934862087")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 59.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2466,6 +2856,16 @@
 			(type default)
 		)
 		(uuid "ae236785-f8a7-4fd5-af17-bdf6cc91039d")
+	)
+	(wire
+		(pts
+			(xy 118.11 49.53) (xy 115.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8917372-87fc-414b-8ce2-888d374b059f")
 	)
 	(wire
 		(pts
@@ -2529,7 +2929,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 109.22) (xy 176.53 109.22)
+			(xy 173.99 109.22) (xy 176.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6e1325-eeb0-4224-b8d1-bfcfedaa1b01")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.22) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2978,7 @@
 		(uuid "16e8d00a-a983-4893-b641-c06598986b8c")
 	)
 	(label "VIB_EN"
-		(at 58.42 114.3 180)
+		(at 57.15 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +3048,7 @@
 		(uuid "8cb16b5e-182f-4694-b258-a7f8ebc360ae")
 	)
 	(label "+V_IN"
-		(at 58.42 109.22 180)
+		(at 57.15 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2714,7 +3124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SEMS/SEMS-S-A0008384515/SEMS-S-A0008872921-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 170.18 115.57 0)
 			(effects
 				(font
@@ -2724,6 +3134,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://de.farnell.com/samsung-electro-mechanics/cl05b104ko5nnnc/kondensator-0-1uf-16v-mlcc-0402/dp/3013349"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 170.18 115.57 0)
 			(effects
 				(font
@@ -2824,7 +3261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11a7acbe-1104-4884-8a69-be4114d47867")
-		(property "Reference" "R101"
+		(property "Reference" "R2"
 			(at 95.25 102.87 90)
 			(effects
 				(font
@@ -2849,7 +3286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
 			(at 95.25 109.22 0)
 			(effects
 				(font
@@ -2867,6 +3304,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 1" "https://de.farnell.com/vishay/rca0805100rfkea/dickschichtwiderstand-100r-1-0805/dp/2616591"
+			(at 95.25 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " VISHAY"
+			(at 95.25 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCA0805100RFKEA"
+			(at 95.25 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c02f10f-671a-4198-9ae1-9274c7dab086")
 		)
@@ -2876,7 +3340,141 @@
 		(instances
 			(project "IEMU_Vib_Eval"
 				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
-					(reference "R101")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "156e852b-7408-40f5-a3b2-3b8f8709443d")
+		(property "Reference" "#PWR0103"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a384cf59-6be5-4371-a7c0-9ad1b930dfd9")
+		)
+		(instances
+			(project "IEMU_Vib_Eval"
+				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 118.11 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3f0622-a4ae-46c2-bcfd-12966d066545")
+		(property "Reference" "#FLG0102"
+			(at 118.11 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80053270-2a88-4f69-b007-5039a3bb8a1b")
+		)
+		(instances
+			(project "IEMU_Vib_Eval"
+				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -3279,8 +3877,104 @@
 		)
 	)
 	(symbol
+		(lib_id "0_Passives:R_510k")
+		(at 59.69 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e950727-2880-4908-8885-384db3c7dca5")
+		(property "Reference" "R1"
+			(at 57.15 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510k"
+			(at 57.15 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 57.912 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07510KL"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chipwiderstand, Oberflächenmontage, 510 kohm, ± 1%, 100 mW, 0603 [Metrisch 1608]"
+			(at 65.278 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07510KL"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://de.farnell.com/yageo/rc0603fr-07510kl/dickschichtwiderstand-510k-1-0/dp/3495868"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec54775-a908-4f57-a5d3-f4d86a292249")
+		)
+		(pin "2"
+			(uuid "6e10bb5f-f97d-46c1-9ee7-c04111a3d486")
+		)
+		(instances
+			(project "IEMU_Vib_Eval"
+				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 72.39 119.38 0)
+		(at 72.39 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3289,7 +3983,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ab2a9a5-dcaf-4b8a-8000-e7915e6ca732")
 		(property "Reference" "#PWR0112"
-			(at 72.39 125.73 0)
+			(at 72.39 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3992,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 123.19 0)
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +4001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 119.38 0)
+			(at 72.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +4010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 119.38 0)
+			(at 72.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +4019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 119.38 0)
+			(at 72.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,6 +4198,73 @@
 			(project "IEMU_Vib_Eval"
 				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 173.99 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f01981-bb54-4529-b813-a1d3318b6682")
+		(property "Reference" "#FLG0103"
+			(at 173.99 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f44e6e65-6c18-4188-8f53-f00e3bfd96e3")
+		)
+		(instances
+			(project "IEMU_Vib_Eval"
+				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -3775,7 +4536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2945533.pdf"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -3785,6 +4546,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://de.farnell.com/multicomp-pro/mc34735/stecker-1-reih-vert-14kont/dp/1593421"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MULTICOMP PRO"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MC34735"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -4189,6 +4977,73 @@
 			(project "IEMU_Vib_Eval"
 				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 59.69 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea2d1804-57c1-4bab-91dc-bab3bf0c6372")
+		(property "Reference" "#FLG0101"
+			(at 59.69 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cc6236a-741f-443a-af49-385db2f0a11c")
+		)
+		(instances
+			(project ""
+				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)

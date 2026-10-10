@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "dae61458-e360-4acd-924e-64127ec8b9e4")
 	(paper "A4")
+	(title_block
+		(title "IEMU Sensor - Evaluation Board")
+		(date "2026-10-09")
+		(rev "0.1")
+		(company "Mustafa Acar")
+	)
 	(lib_symbols
 		(symbol "0_Connectors:HU2032-LF"
 			(pin_numbers
@@ -5394,7 +5400,7 @@
 		)
 		(uuid "fdf02400-a9ac-4941-8af2-e9e2e2a417d8")
 	)
-	(label "ANI_2"
+	(label "AIN_2"
 		(at 254 100.33 180)
 		(effects
 			(font
@@ -5864,7 +5870,7 @@
 		)
 		(uuid "a87dc400-6879-412f-9a46-04afabb9482c")
 	)
-	(label "ANI_1"
+	(label "AIN_1"
 		(at 128.27 66.04 180)
 		(effects
 			(font
@@ -5994,7 +6000,7 @@
 		)
 		(uuid "ec88a08d-9141-4744-8943-62d946067ab1")
 	)
-	(label "ANI_1"
+	(label "AIN_1"
 		(at 254 97.79 180)
 		(effects
 			(font
@@ -6004,7 +6010,7 @@
 		)
 		(uuid "f8575015-6aa2-4840-86d2-ce609292419b")
 	)
-	(label "ANI_2"
+	(label "AIN_2"
 		(at 128.27 62.23 180)
 		(effects
 			(font
