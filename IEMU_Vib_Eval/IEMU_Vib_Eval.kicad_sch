@@ -5207,7 +5207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "effa11ae-2c6e-4d32-bc2d-2fdab5c0c090")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0101"
 			(at 115.57 85.09 0)
 			(effects
 				(font
@@ -5258,7 +5258,7 @@
 		(instances
 			(project "IEMU_Vib_Eval"
 				(path "/c50b89d0-321e-4f33-9bfd-33e077bb192d"
-					(reference "#PWR0102")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

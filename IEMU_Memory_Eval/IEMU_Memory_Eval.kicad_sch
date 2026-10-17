@@ -5423,7 +5423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1525.pdf"
+		(property "Datasheet" "https://www.farnell.com/datasheets/4520405.pdf"
 			(at 104.648 89.154 0)
 			(effects
 				(font
@@ -5432,7 +5432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "Keramikvielschichtkondensator, SMD, 4.7 µF, 10 V, 0402 [Metrisch 1005], ± 10%, X5R"
 			(at 105.41 78.994 0)
 			(effects
 				(font
@@ -5441,7 +5441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" "TDK"
 			(at 103.124 83.82 0)
 			(effects
 				(font
@@ -5450,7 +5450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+		(property "Manufacturer_Part_Number" "C1005X5R1A475K050BC"
 			(at 104.394 99.314 0)
 			(effects
 				(font
@@ -5459,26 +5459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://de.farnell.com/samsung-electro-mechanics/cl05b104ko5nnnc/kondensator-0-1uf-16v-mlcc-0402/dp/3013349"
-			(at 107.95 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?s=N4IgTCBcDaIMIBkAMBWAQgRiQFgNIHkUA5EuEAXQF8g"
-			(at 108.458 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 107.442 72.136 0)
+		(property "Distributor Link 1" "https://de.farnell.com/tdk/c1005x5r1a475k050bc/kondensator-4-7-f-10v-10-x5r-0402/dp/2528756"
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5171,7 +5171,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PWM_IN2"
+	(gr_text "PWM_IN1"
 		(at 198.35 98.95 270)
 		(layer "F.SilkS" knockout)
 		(uuid "15b6fae3-9458-4058-a5de-a624c91d1a45")
@@ -5195,7 +5195,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PWM_IN1"
+	(gr_text "PWM_IN2"
 		(at 195.85 98.95 270)
 		(layer "F.SilkS" knockout)
 		(uuid "5ee3e20c-a117-4846-bac0-81ce862670a3")
