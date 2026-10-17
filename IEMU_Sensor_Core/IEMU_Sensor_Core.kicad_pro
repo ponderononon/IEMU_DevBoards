@@ -645,7 +645,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "sensor-core_mfr/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
